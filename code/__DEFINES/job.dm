@@ -14,34 +14,38 @@
 #define SQUAD_CBRN "CBRN"
 #define SQUAD_FORECON "FORECON"
 #define SQUAD_SOLAR "Solar Devils"
+#define SQUAD_ARMY "US Army"
 #define SQUAD_UPP "Red Dawn"
+#define SQUAD_PMCPLT "AZURE-15"
 #define SQUAD_LRRP "Snake Eaters"
 #define SQUAD_MRR "Void Seekers"
 
 // Job name defines
 #define JOB_SQUAD_MARINE "Rifleman"
 #define JOB_SQUAD_LEADER "Section Sergeant"
-#define JOB_SQUAD_ENGI "Combat Technician"
+#define JOB_SQUAD_ENGI "Combat Engineer"
 #define JOB_SQUAD_MEDIC "Corpsman"
 #define JOB_SQUAD_SPECIALIST "Weapons Specialist"
+#define JOB_SQUAD_SPOTTER "Spotter"
+#define JOB_SQUAD_LOADER "Weapons Loader"
 #define JOB_SQUAD_TEAM_LEADER "Squad Leader"
 #define JOB_SQUAD_SMARTGUN "Smartgunner"
 #define JOB_SQUAD_ROLES /datum/timelock/squad
 #define JOB_SQUAD_ROLES_LIST list(JOB_SQUAD_MARINE, JOB_SQUAD_LEADER, JOB_SQUAD_ENGI, JOB_SQUAD_MEDIC, JOB_SQUAD_SPECIALIST, JOB_SQUAD_SMARTGUN, JOB_SQUAD_TEAM_LEADER)
 
-#define JOB_SQUAD_MARINE_UPP "UPP Rifleman"
-#define JOB_SQUAD_LEADER_UPP "UPP Platoon Sergeant"
-#define JOB_SQUAD_MEDIC_UPP "UPP Sanitar"
-#define JOB_SQUAD_TEAM_LEADER_UPP "UPP Squad Sergeant"
-#define JOB_SQUAD_SMARTGUN_UPP "UPP Machinegunner"
+#define JOB_SQUAD_MARINE_UPP "Infantryman"
+#define JOB_SQUAD_LEADER_UPP "Platoon Sergeant"
+#define JOB_SQUAD_MEDIC_UPP "Platoon Sanitar"
+#define JOB_SQUAD_TEAM_LEADER_UPP "Squad Sergeant"
+#define JOB_SQUAD_SMARTGUN_UPP "Machinegunner"
 #define JOB_SO_UPP "UPP Platoon Commander"
 
-#define JOB_SQUAD_TEAM_LEADER_FORECON "FORECON Assistant Squad Leader"
-#define JOB_SQUAD_LEADER_FORECON  "FORECON Squad Leader"
-#define JOB_SQUAD_MEDIC_FORECON "FORECON Squad Corpsman"
-#define JOB_SQUAD_RTO "Radio Telephone Operator"
-#define JOB_SQUAD_MARINE_FORECON "FORECON Rifleman"
-#define JOB_SQUAD_SMARTGUN_FORECON "FORECON Smartgunner"
+#define JOB_SQUAD_TEAM_LEADER_FORECON "Assistant Recon Squad Leader"
+#define JOB_SQUAD_LEADER_FORECON  "Recon Squad Leader"
+#define JOB_SQUAD_MEDIC_FORECON "Recon Corpsman"
+#define JOB_SQUAD_RTO "Recon Radio Telephone Operator"
+#define JOB_SQUAD_MARINE_FORECON "Recon Rifleman"
+#define JOB_SQUAD_SMARTGUN_FORECON "Recon Smartgunner"
 
 #define JOB_SQUAD_ELEMENT_LEADER_MARSOC "MARSOC Element Lead"
 #define JOB_SQUAD_ASSISTANT_ELEMENT_LEAD_MARSOC "MARSOC Assistant Element Lead"
@@ -118,7 +122,7 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_POLICE_ROLES /datum/timelock/mp
 #define JOB_POLICE_ROLES_LIST    list(JOB_POLICE, JOB_WARDEN, JOB_CHIEF_POLICE)
 
-#define JOB_SEA "Senior Enlisted Advisor"
+#define JOB_DI "Drill Instructor"
 
 #define JOB_CHIEF_ENGINEER "Chief Engineer"
 #define JOB_MAINT_TECH "Maintenance Technician"
@@ -126,8 +130,10 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_ENGINEER_ROLES   /datum/timelock/engineer
 #define JOB_ENGINEER_ROLES_LIST  list(JOB_SQUAD_ENGI, JOB_MAINT_TECH, JOB_ORDNANCE_TECH, JOB_CHIEF_ENGINEER)
 
-#define JOB_CHIEF_REQUISITION "Quartermaster"
-#define JOB_CARGO_TECH "Cargo Technician"
+#define JOB_CHIEF_REQUISITION "Logistics Officer"
+#define JOB_CARGO_CHIEF "Logistics Chief"
+#define JOB_ARMORER "Armorer"
+#define JOB_CARGO_TECH "Logistics Specialist"
 #define JOB_REQUISITION_ROLES    /datum/timelock/requisition
 #define JOB_REQUISITION_ROLES_LIST   list(JOB_CHIEF_REQUISITION, JOB_CARGO_TECH)
 
@@ -152,7 +158,7 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_CMC "Commandant of the Marine Corps"
 #define JOB_PLT_MED "Platoon Corpsman"
 #define JOB_PLT_SL "Platoon Squad Leader"
-#define JOB_SQUAD_TECH "Reconnaissance Support Technician"
+#define JOB_SQUAD_TECH "Support Technician"
 
 // Used to add a timelock to a job. Will be passed onto derivatives
 #define AddTimelock(Path, timelockList) \
@@ -211,12 +217,15 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_ARMY_ATFIRE "Army AT Gunner"
 #define JOB_ARMY_ENGI "Army Combat Engineering Technician"
 #define JOB_ARMY_MT "Army Technical Engineer"
+#define JOB_ARMY_CT "Army Logistics Specialist"
 #define JOB_ARMY_MEDIC "Army Combat Medical Technician"
+#define JOB_ARMY_TANK_CREW "Army Vehicle Crewman"
 #define JOB_ARMY_NCO "Army Fireteam Lead"
 #define JOB_ARMY_SNCO "Army Squad Leader"
 #define JOB_ARMY_LT "Army Lieutenant"
 #define JOB_ARMY_INTEL "Army Intelligence Officer"
 #define JOB_ARMY_RESEARCHER "Army Science Officer"
+#define JOB_ARMY_QM "Army Logistics Officer"
 
 //-------- USASF --------//
 #define JOB_NAVY_CREWMAN "USASF Crewman"
@@ -226,6 +235,7 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_NAVY_JTAC "USASF Orbital Fire-Support Liason Officer"
 #define JOB_NAVY_PARA_TECH "USASF Para-Rescue Support Technician"
 #define JOB_NAVY_SYNTH "USASF Support Synthetic"
+#define JOB_NAVY_PILOT "USASF Pilot"
 #define JOB_NAVY_CHIEF_ENGINEER "USASF Engineering Duty Officer"
 #define JOB_NAVY_FLIGHT_BOSS "USASF Flight-Deck Officer"
 #define JOB_NAVY_SO "USASF Duty Officer"
@@ -276,6 +286,16 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 
 #define ROLES_WY_GOONS list(JOB_WY_GOON_LEAD, JOB_WY_GOON_TECH, JOB_WY_GOON)
 
+////-------- PMC PLATOON --------//
+
+#define JOB_PMCPLAT_OW "Overwatch Operator"
+#define JOB_PMCPLAT_LEADER "Operations Leader"
+#define JOB_PMCPLAT_FTL "Team Leader"
+#define JOB_PMCPLAT_SG "Heavy Weapons Specialist"
+#define JOB_PMCPLAT_STANDARD "Tactical Unit"
+#define JOB_PMCPLAT_MEDIC "Medical Specialist"
+
+
 //---- Contractors ----//
 #define JOB_CONTRACTOR "VAIPO Mercenary"
 #define JOB_CONTRACTOR_ST "VAIPO Mercenary"
@@ -295,8 +315,8 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define CONTRACTOR_JOB_LIST list(JOB_CONTRACTOR, JOB_CONTRACTOR_ST, JOB_CONTRACTOR_MEDIC, JOB_CONTRACTOR_ENGI, JOB_CONTRACTOR_MG, JOB_CONTRACTOR_TL, JOB_CONTRACTOR_COV, JOB_CONTRACTOR_COVST, JOB_CONTRACTOR_COVMED, JOB_CONTRACTOR_COVENG, JOB_CONTRACTOR_COVTL)
 
 //-------- CMB --------//
-#define JOB_CMB "CMB Deputy"
-#define JOB_CMB_TL "CMB Marshal"
+#define JOB_CMB "Office of Colonial Marshals Deputy"
+#define JOB_CMB_TL "Colonial Marshal"
 #define JOB_CMB_SYN "CMB Investigative Synthetic"
 #define JOB_CMB_ICC "Interstellar Commerce Commission Liaison"
 #define JOB_CMB_OBS "Interstellar Human Rights Observer"
@@ -315,23 +335,23 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_FORECON_SMARTGUNNER "Reconnaissance Smartgunner"
 
 //-------- UPP --------//
-#define JOB_UPP "Rifleman"
-#define JOB_UPP_ENGI "Sapper"
-#define JOB_UPP_MEDIC "Sanitar"
-#define JOB_UPP_SPECIALIST "Serzhant"
-#define JOB_UPP_SNIPER "Marksman"
-#define JOB_UPP_LEADER "Master Serzhant"
+#define JOB_UPP "Naval Infantry Rifleman"
+#define JOB_UPP_ENGI "Naval Infantry Sapper"
+#define JOB_UPP_MEDIC "Naval Infantry Sanitar"
+#define JOB_UPP_SPECIALIST "Naval Infantry Sergeant"
+#define JOB_UPP_SNIPER "Naval Infantry Marksman"
+#define JOB_UPP_LEADER "Naval Infantry Platoon Sergeant"
 #define JOB_UPP_POLICE "Politsiya"
 #define JOB_UPP_SUPPLY "Logistics Technician"
-#define JOB_UPP_LT_OFFICER "Leytenant"
-#define JOB_UPP_LT_DOKTOR "Leytenant Doktor"
-#define JOB_UPP_SRLT_OFFICER "Senior Leytenant"
-#define JOB_UPP_KPT_OFFICER "Kapitan"
-#define JOB_UPP_MAY_OFFICER "Mayjor"
-#define JOB_UPP_LTKOL_OFFICER "Leytenant Kolonel"
-#define JOB_UPP_KOL_OFFICER "Kolonel"
-#define JOB_UPP_MAY_GENERAL "Mayjor General"
-#define JOB_UPP_LT_GENERAL "Leytenant General"
+#define JOB_UPP_LT_OFFICER "Junior Lieutenant"
+#define JOB_UPP_LT_DOKTOR "Lieutenant Doctor"
+#define JOB_UPP_SRLT_OFFICER "Senior Lieutenant"
+#define JOB_UPP_KPT_OFFICER "Captain"
+#define JOB_UPP_MAY_OFFICER "Major"
+#define JOB_UPP_LTKOL_OFFICER "Lieutenant Colonel"
+#define JOB_UPP_KOL_OFFICER "Colonel"
+#define JOB_UPP_MAY_GENERAL "Major General"
+#define JOB_UPP_LT_GENERAL "Lieutenant General"
 #define JOB_UPP_GENERAL "General"
 
 #define JOB_UPP_COMBAT_SYNTH "Combat Synthetic"
@@ -407,11 +427,19 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_RIOT_CHIEF "Chief Riot Control"
 
 #define RIOT_JOB_LIST list(JOB_RIOT, JOB_RIOT_CHIEF)
-//-------- UAAC --------//
-#define JOB_TIS_IO "UAAC-TIS Intelligence Officer"
-#define JOB_TIS_SA "UAAC-TIS Special Agent"
+//-------- CIA --------//
+#define JOB_CIA "Intelligence Analyst"
+#define JOB_CIA_LIAISON "Intelligence Liaison Officer"
 
 #define TIS_JOB_LIST list(JOB_TIS_SA, JOB_TIS_IO)
+//-------- UACG -------//
+#define JOB_UACG_RIFLE "Colonial Militiaman"
+#define JOB_UACG_TECH "Colonial Militiaman Technician"
+#define JOB_UACG_MEDIC "Colonial Militiaman Medic"
+#define JOB_UACG_LEAD "Colonial Militiaman Unit Leader"
+#define JOB_UACG_OFFICER "Colonial Militiaman Officer"
+
+#define UACG_JOB_LIST list(JOB_UACG_RIFLE, JOB_UACG_TECH, JOB_UACG_MEDIC, JOB_UACG_LEAD, JOB_UACG_OFFICER)
 //-------- DUTCH'S DOZEN --------//
 #define JOB_DUTCH_ARNOLD "Dutch's Dozen - Dutch"
 #define JOB_DUTCH_RIFLEMAN "Dutch's Dozen - Rifleman"

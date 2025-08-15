@@ -17,12 +17,14 @@
 #define MINIMAP_FLAG_XENO_RENEGADE (1<<15)
 #define MINIMAP_FLAG_ALL (1<<16) - 1
 
-///Converts the overworld x and y to minimap x and y values
+///The minimap zoom scale
 #define MINIMAP_SCALE 2
 #define MINIMAP_PIXEL_FROM_WORLD(val) (val * MINIMAP_SCALE - 3)
 
-//actual size of a users screen in pixels
+//The actual size of a users screen in pixels
 #define SCREEN_PIXEL_SIZE 480
+///The actual size of the minimap in pixels
+#define MINIMAP_PIXEL_SIZE 512
 
 GLOBAL_LIST_INIT(all_minimap_flags, bitfield2list(MINIMAP_FLAG_ALL))
 
@@ -30,6 +32,7 @@ GLOBAL_LIST_INIT(all_minimap_flags, bitfield2list(MINIMAP_FLAG_ALL))
 #define MINIMAP_SOLID "#ebe5e5ee"
 #define MINIMAP_DOOR "#451e5eb8"
 #define MINIMAP_FENCE "#8d2294ad"
+#define MINIMAP_ROAD "#a1a1a1"
 #define MINIMAP_LAVA "#db4206ad"
 #define MINIMAP_DIRT "#9c906dc2"
 #define MINIMAP_SNOW "#c4e3e9c7"
@@ -64,6 +67,7 @@ GLOBAL_LIST_INIT(all_minimap_flags, bitfield2list(MINIMAP_FLAG_ALL))
 #define MINIMAP_SQUAD_SOF "#400000"
 #define MINIMAP_SQUAD_INTEL "#053818"
 #define MINIMAP_SQUAD_UPP "#B22222"
+#define MINIMAP_SQUAD_PMC "#ccffe9"
 
 #define MINIMAP_ICON_BACKGROUND_CIVILIAN "#7D4820"
 #define MINIMAP_ICON_BACKGROUND_CIC "#3f3f3f"
