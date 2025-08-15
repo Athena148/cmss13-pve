@@ -25,11 +25,16 @@
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
-"aT" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
+"bc" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 10;
+	color = "#8B0000";
+	light_color = "#8B0000";
+	name = "red"
 	},
-/turf/open/floor/almayer_hull/blackfull,
+/turf/open/floor/almayer/plating_striped/west,
 /area/space)
 "bk" = (
 /obj/structure/machinery/alarm/almayer{
@@ -39,21 +44,14 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
-"bv" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/turf/open/floor/almayer/black{
-	dir = 9
-	},
-/area/space)
 "bw" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 8;
 	pixel_x = -4;
 	pixel_y = 0;
 	color = "#8B0000";
-	light_color = "#8B0000"
+	light_color = "#8B0000";
+	name = "red"
 	},
 /obj/structure/pipes/vents/pump,
 /obj/effect/decal/warning_stripes/asteroid{
@@ -70,13 +68,20 @@
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
+"cz" = (
+/obj/structure/window/framed/almayer,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
 "cH" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 8;
 	pixel_x = -4;
 	pixel_y = -17;
 	color = "#8B0000";
-	light_color = "#8B0000"
+	light_color = "#8B0000";
+	name = "red"
 	},
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "W"
@@ -129,25 +134,11 @@
 	},
 /turf/open/floor/almayer/edge/smooth/east,
 /area/space)
-"dw" = (
-/obj/structure/bed/chair{
-	dir = 4;
-	pixel_y = 15;
-	pixel_x = 6
+"dI" = (
+/obj/structure/pipes/vents/scrubber{
+	dir = 8
 	},
-/turf/open/floor/almayer/plate{
-	color = "#A9A9A9"
-	},
-/area/space)
-"dF" = (
-/obj/structure/machinery/light/double/blue{
-	dir = 1;
-	light_color = "#dae2ff";
-	light_power = 0.7;
-	pixel_x = 0;
-	pixel_y = 20
-	},
-/turf/open/floor/almayer/plating,
+/turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "dT" = (
 /obj/structure/machinery/door_control{
@@ -171,14 +162,14 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
-"ev" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
+"ed" = (
+/obj/structure/machinery/light_switch{
+	pixel_x = -22;
+	pixel_y = 6
 	},
-/obj/structure/pipes/standard/simple/hidden/scrubbers{
-	dir = 4
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
 	},
-/turf/open/floor/almayer/plating,
 /area/space)
 "eG" = (
 /obj/effect/decal/warning_stripes/asteroid{
@@ -208,18 +199,6 @@
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/space)
-"fv" = (
-/obj/structure/bedsheetbin{
-	pixel_y = -1;
-	pixel_x = -6
-	},
-/obj/structure/bedsheetbin{
-	pixel_y = 12;
-	pixel_x = -6
-	},
-/obj/structure/machinery/light,
-/turf/open/floor/almayer_hull/blackfull,
-/area/space)
 "fw" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "SW-out"
@@ -229,6 +208,16 @@
 	pixel_y = 15
 	},
 /turf/open/floor/almayer_hull/blackfull,
+/area/space)
+"fC" = (
+/obj/structure/bed/chair{
+	dir = 4;
+	pixel_y = 15;
+	pixel_x = 6
+	},
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
 /area/space)
 "fL" = (
 /obj/structure/reagent_dispensers/water_cooler/stacks{
@@ -252,12 +241,26 @@
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
-"ga" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
+"gb" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	layer = 1.9
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
+"gd" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	dir = 4;
+	name = "Vessel Access Lockdown";
+	id = "outer-1"
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
@@ -301,7 +304,8 @@
 	pixel_x = 0;
 	pixel_y = 10;
 	color = "#8B0000";
-	light_color = "#8B0000"
+	light_color = "#8B0000";
+	name = "red"
 	},
 /obj/structure/sign/safety/cryo{
 	name = "hypersleep semiotic";
@@ -409,6 +413,11 @@
 	},
 /turf/open/floor/almayer/plating_striped,
 /area/space)
+"hH" = (
+/turf/open/floor/almayer/blackcorner/west{
+	dir = 2
+	},
+/area/space)
 "ii" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
@@ -442,18 +451,6 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
-"iB" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/machinery/door/firedoor/border_only/almayer{
-	layer = 1.9
-	},
-/turf/open/floor/almayer/plating,
-/area/space)
 "iT" = (
 /obj/structure/platform/strata/metal,
 /obj/structure/platform/strata/metal{
@@ -476,14 +473,6 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 1
-	},
-/turf/open/floor/almayer/plate{
-	color = "#A9A9A9"
-	},
-/area/space)
-"jm" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
 	},
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
@@ -513,6 +502,25 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
+/area/space)
+"ju" = (
+/obj/structure/machinery/light/double/blue{
+	dir = 1;
+	light_color = "#dae2ff";
+	light_power = 0.7;
+	pixel_x = 0;
+	pixel_y = 20
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
+"jw" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "jC" = (
 /obj/structure/closet{
@@ -605,52 +613,20 @@
 /turf/open/floor/almayer/plating,
 /area/space)
 "kd" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
 /turf/open/floor/almayer/plating_striped/east,
 /area/space)
-"kj" = (
-/obj/structure/bed{
-	icon_state = "psychbed";
-	name = "soft bed";
-	desc = "It actually feels like a bed... What a wonder."
+"ke" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	layer = 1.9
 	},
-/obj/structure/bed{
-	icon_state = "psychbed";
-	name = "soft bed";
-	desc = "It actually feels like a bed... What a wonder.";
-	pixel_x = 0;
-	pixel_y = 13;
-	layer = 4
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
 	},
-/obj/structure/barricade/handrail/type_b{
-	dir = 8;
-	layer = 5;
-	pixel_x = -3;
-	pixel_y = 1
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
 	},
-/obj/item/bedsheet/yellow{
-	layer = 3
-	},
-/obj/item/bedsheet/yellow{
-	pixel_x = 0;
-	pixel_y = 12
-	},
-/obj/structure/curtain/red{
-	pixel_x = 0;
-	pixel_y = 2
-	},
-/turf/open/floor/almayer/plating,
-/area/space)
-"kk" = (
-/obj/structure/closet/secure_closet{
-	pixel_x = 7;
-	pixel_y = -3
-	},
-/obj/structure/closet/secure_closet{
-	pixel_x = -8;
-	pixel_y = -3
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
@@ -690,27 +666,38 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
-"lg" = (
-/obj/structure/pipes/vents/pump,
-/turf/open/floor/almayer_hull/blackfull,
-/area/space)
-"lp" = (
-/obj/structure/machinery/door/airlock/almayer/secure/glass{
-	req_access = null;
-	dir = 1;
-	name = "Dormitories"
+"lb" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
 	},
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
-/obj/structure/machinery/door/firedoor/border_only/almayer,
-/turf/open/floor/almayer/plate{
-	color = "#A9A9A9"
+/obj/structure/machinery/light/double/blue{
+	light_color = "#dae2ff";
+	dir = 4;
+	light_power = 0.3;
+	pixel_x = 5;
+	pixel_y = 0
 	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "lx" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "NE-out"
 	},
 /turf/open/floor/almayer_hull/blackfull,
+/area/space)
+"lN" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow";
+	color = "#E10600";
+	dir = 4
+	},
+/obj/structure/machinery/light/double/blue{
+	color = "#8B0000";
+	light_color = "#8B0000";
+	name = "red"
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "lT" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer{
@@ -757,8 +744,37 @@
 	dir = 5
 	},
 /area/space)
+"mD" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/machinery/power/apc/almayer/north,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
 "mI" = (
 /turf/open/floor/almayer/black/west,
+/area/space)
+"ng" = (
+/obj/structure/machinery/door_control{
+	name = "Inner Podlock";
+	id = "inner-1";
+	pixel_x = 0;
+	pixel_y = 23;
+	needs_power = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow";
+	dir = 1
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "nm" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
@@ -893,37 +909,46 @@
 	color = "#A9A9A9"
 	},
 /area/space)
+"oy" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	layer = 1.9
+	},
+/obj/structure/machinery/light/double/blue{
+	light_color = "#dae2ff";
+	light_power = 0.3
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
 "oK" = (
 /turf/open/floor/almayer/black{
 	dir = 5
 	},
 /area/space)
-"oQ" = (
-/obj/structure/machinery/disposal{
-	pixel_x = -6;
-	pixel_y = -3
+"oS" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 5
 	},
-/obj/item/trash/uscm_mre{
-	pixel_y = 14;
-	pixel_x = 9
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
 	},
-/obj/item/trash/crushed_cup{
-	pixel_y = 18;
-	pixel_x = -13
-	},
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/machinery/light{
-	dir = 8
+/obj/structure/cable/heavyduty{
+	icon_state = "1-4"
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
-"pa" = (
-/turf/open/floor/almayer/blackcorner/west,
+"pm" = (
+/obj/structure/machinery/door/airlock/almayer/secure/glass{
+	req_access = null;
+	dir = 1;
+	name = "Dormitories"
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
 /area/space)
 "pt" = (
 /obj/structure/machinery/light/double/blue{
@@ -948,50 +973,6 @@
 	dir = 9
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
-"pG" = (
-/obj/structure/surface/table/reinforced/almayer_B{
-	pixel_x = 0;
-	pixel_y = 0
-	},
-/obj/item/ashtray/plastic{
-	icon_state = "ashtray_full_bl";
-	pixel_x = 7;
-	pixel_y = 1
-	},
-/obj/item/ashtray/plastic{
-	pixel_x = -7;
-	pixel_y = -5
-	},
-/obj/item/trash/cigbutt{
-	pixel_y = 15;
-	pixel_x = -3
-	},
-/obj/item/trash/cigbutt,
-/obj/item/clothing/mask/cigarette{
-	pixel_x = -9;
-	pixel_y = 9
-	},
-/obj/item/clothing/mask/cigarette{
-	pixel_x = 9;
-	pixel_y = 15
-	},
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/almayer/plating,
-/area/space)
-"pH" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/machinery/power/apc/almayer/north,
-/turf/open/floor/almayer/plate{
-	color = "#A9A9A9"
-	},
 /area/space)
 "pJ" = (
 /obj/structure/machinery/shower{
@@ -1024,20 +1005,14 @@
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
-"qc" = (
-/obj/structure/machinery/light/double/blue{
-	light_color = "#dae2ff";
-	light_power = 0.3
-	},
-/turf/open/floor/almayer/plating,
-/area/space)
 "qy" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 8;
 	pixel_x = -4;
 	pixel_y = -3;
 	color = "#8B0000";
-	light_color = "#8B0000"
+	light_color = "#8B0000";
+	name = "red"
 	},
 /obj/structure/machinery/door_control{
 	name = "Hypersleep Access Release";
@@ -1046,6 +1021,18 @@
 	pixel_y = 12
 	},
 /turf/open/floor/almayer/plating_striped,
+/area/space)
+"qz" = (
+/obj/structure/bedsheetbin{
+	pixel_y = -1;
+	pixel_x = -6
+	},
+/obj/structure/bedsheetbin{
+	pixel_y = 12;
+	pixel_x = -6
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "qE" = (
 /obj/structure/machinery/vending/snack/packaged{
@@ -1066,16 +1053,6 @@
 	},
 /turf/open/floor/almayer/black,
 /area/space)
-"qL" = (
-/obj/structure/machinery/light/double/blue{
-	light_color = "#dae2ff";
-	light_power = 0.3
-	},
-/obj/structure/machinery/door/firedoor/border_only/almayer{
-	layer = 1.9
-	},
-/turf/open/floor/almayer/plating,
-/area/space)
 "qW" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "0-2"
@@ -1090,12 +1067,11 @@
 "rj" = (
 /turf/open/floor/almayer/plating_striped,
 /area/space)
-"rk" = (
-/obj/structure/machinery/door/firedoor/border_only/almayer{
-	layer = 1.9
-	},
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
+"rr" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	dir = 4;
+	name = "Vessel Access Lockdown";
+	id = "inner-1"
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
@@ -1112,27 +1088,16 @@
 	},
 /turf/open/floor/almayer/edge/smooth,
 /area/space)
-"ry" = (
-/obj/structure/bed/chair{
+"rB" = (
+/obj/structure/machinery/door/airlock/almayer/secure/glass{
+	req_access = null;
 	dir = 1;
-	pixel_x = 8;
-	pixel_y = 0
+	name = "Dormitories"
 	},
+/obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
-"rI" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/open/floor/almayer/plating,
 /area/space)
 "rQ" = (
 /obj/structure/machinery/firealarm{
@@ -1149,34 +1114,18 @@
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer/edge/smooth,
 /area/space)
-"sB" = (
-/obj/structure/machinery/light_switch{
-	pixel_x = -22;
-	pixel_y = 6
+"sV" = (
+/obj/structure/closet/secure_closet{
+	pixel_x = -7;
+	pixel_y = 14
+	},
+/obj/structure/closet/secure_closet{
+	pixel_x = 8;
+	pixel_y = 14
 	},
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
-"sD" = (
-/obj/structure/pipes/standard/simple/hidden/scrubbers{
-	dir = 5
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/almayer/plating,
-/area/space)
-"ti" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/machinery/alarm/almayer{
-	dir = 1;
-	pixel_x = 0;
-	pixel_y = 21
-	},
-/turf/open/floor/almayer/plating,
 /area/space)
 "tq" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
@@ -1193,19 +1142,6 @@
 	},
 /turf/open/floor/almayer/edge/smooth{
 	dir = 9
-	},
-/area/space)
-"tH" = (
-/obj/structure/machinery/alarm/almayer{
-	dir = 1;
-	pixel_x = 0;
-	pixel_y = 21
-	},
-/obj/structure/machinery/light{
-	dir = 4
-	},
-/turf/open/floor/almayer/plate{
-	color = "#A9A9A9"
 	},
 /area/space)
 "tV" = (
@@ -1265,6 +1201,14 @@
 	color = "#A9A9A9"
 	},
 /area/space)
+"uO" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/almayer/black{
+	dir = 5
+	},
+/area/space)
 "vp" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
@@ -1280,6 +1224,15 @@
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
+"vO" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/turf/open/floor/almayer/blackcorner/west{
+	dir = 1
+	},
+/area/space)
 "vS" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1;
@@ -1291,16 +1244,45 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
-"wt" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
+"wj" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer/plating,
+/area/space)
+"wx" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
 	},
-/obj/structure/machinery/light,
-/turf/open/floor/almayer_hull/blackfull,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
 /area/space)
 "wJ" = (
 /obj/structure/machinery/chem_dispenser/canteen,
 /turf/open/floor/almayer,
+/area/space)
+"wL" = (
+/obj/structure/bed/chair{
+	dir = 1;
+	pixel_x = 8;
+	pixel_y = 0
+	},
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
+"wO" = (
+/obj/structure/closet/secure_closet{
+	pixel_x = 8;
+	pixel_y = 14
+	},
+/obj/structure/closet/secure_closet{
+	pixel_x = -7;
+	pixel_y = 14
+	},
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
 /area/space)
 "wU" = (
 /obj/structure/toilet,
@@ -1330,32 +1312,14 @@
 	color = "#A9A9A9"
 	},
 /area/space)
-"xa" = (
-/obj/structure/pipes/standard/simple/hidden/scrubbers,
-/turf/open/floor/almayer/plating,
-/area/space)
-"xb" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/almayer/plate{
-	color = "#A9A9A9"
-	},
-/area/space)
-"xf" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/almayer/blackcorner/west{
-	dir = 4
-	},
-/area/space)
 "xv" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 8;
 	pixel_x = -4;
 	pixel_y = -17;
 	color = "#8B0000";
-	light_color = "#8B0000"
+	light_color = "#8B0000";
+	name = "red"
 	},
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "W"
@@ -1381,10 +1345,39 @@
 	dir = 8
 	},
 /area/space)
-"xY" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 5
+"xK" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 1
 	},
+/obj/effect/landmark/observer_start,
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 9
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
+"xP" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/machinery/alarm/almayer{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 21
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
+"xT" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	layer = 1.9
+	},
+/obj/structure/machinery/light/double/blue,
 /turf/open/floor/almayer/plating,
 /area/space)
 "yy" = (
@@ -1420,22 +1413,16 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
-"zf" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
+"yW" = (
+/obj/structure/prop/ice_colony/tiger_rug{
+	pixel_x = -16;
+	pixel_y = -10;
+	desc = "Accorfing to some this is an actual Tiger rug! You have your doubts, though. Especially considering the smell..."
 	},
-/obj/item/storage/beer_pack{
-	pixel_x = -5;
-	pixel_y = 12
+/obj/structure/cable/heavyduty{
+	icon_state = "1-4"
 	},
-/obj/structure/machinery/light{
-	dir = 8
-	},
-/obj/structure/machinery/firealarm{
-	pixel_y = 28;
-	pixel_x = 1
-	},
-/turf/open/floor/almayer/plate{
+/turf/open/floor/kutjevo/colors/red/tile{
 	color = "#A9A9A9"
 	},
 /area/space)
@@ -1445,7 +1432,8 @@
 	pixel_x = 4;
 	pixel_y = -17;
 	color = "#8B0000";
-	light_color = "#8B0000"
+	light_color = "#8B0000";
+	name = "red"
 	},
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "E"
@@ -1482,6 +1470,9 @@
 /obj/structure/pipes/vents/scrubber,
 /turf/open/floor/almayer/plating,
 /area/space)
+"zK" = (
+/turf/open/floor/almayer/blackcorner/west,
+/area/space)
 "zM" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = 9;
@@ -1496,6 +1487,18 @@
 /obj/item/device/radio/headset/almayer/sof,
 /turf/open/floor/almayer/edge/smooth/east,
 /area/space)
+"zU" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
 "zW" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -1508,22 +1511,19 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
-"Ak" = (
-/turf/closed/wall/almayer/outer,
-/area/space)
-"As" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/obj/structure/pipes/standard/simple/hidden/scrubbers{
-	dir = 1
+"Af" = (
+/obj/structure/closet/secure_closet{
+	pixel_x = 7;
+	pixel_y = -3
 	},
-/obj/effect/landmark/observer_start,
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 9
-	},
-/obj/structure/pipes/standard/simple/hidden/scrubbers{
-	dir = 9
+/obj/structure/closet/secure_closet{
+	pixel_x = -8;
+	pixel_y = -3
 	},
 /turf/open/floor/almayer/plating,
+/area/space)
+"Ak" = (
+/turf/closed/wall/almayer/outer,
 /area/space)
 "Bc" = (
 /turf/open/floor/almayer/black/east,
@@ -1543,15 +1543,20 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
-"Bp" = (
-/obj/structure/machinery/door/firedoor/border_only/almayer{
-	layer = 1.9
+"Br" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2-4-8"
 	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/scrubbers{
-	dir = 4
+/turf/open/floor/almayer/plating,
+/area/space)
+"BG" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/machinery/light/double/blue{
+	dir = 8;
+	light_color = "#dae2ff";
+	light_power = 0.3;
+	pixel_x = -10;
+	pixel_y = -1
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
@@ -1561,6 +1566,14 @@
 	light_power = 0.3
 	},
 /turf/open/floor/almayer/dark_sterile,
+/area/space)
+"BM" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow";
+	color = "#E10600";
+	dir = 4
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "BO" = (
 /obj/structure/cable/heavyduty{
@@ -1606,12 +1619,6 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
-"Ct" = (
-/obj/structure/pipes/standard/simple/hidden/scrubbers,
-/turf/open/floor/almayer/blackcorner/west{
-	dir = 1
-	},
-/area/space)
 "Cx" = (
 /turf/open/floor/almayer/plating,
 /area/space)
@@ -1625,6 +1632,15 @@
 /obj/effect/landmark/start/marine/spec/marsoc,
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
+"CE" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
 "CS" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "W"
@@ -1633,6 +1649,13 @@
 /obj/effect/landmark/late_join/alpha,
 /obj/effect/landmark/start/marine/marsoc,
 /obj/effect/landmark/start/marine/smartgunner/marsoc,
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
+"CU" = (
+/obj/structure/pipes/vents/pump,
+/obj/structure/cable/heavyduty{
+	icon_state = "2-8"
+	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "Di" = (
@@ -1664,14 +1687,6 @@
 "DK" = (
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer,
-/area/space)
-"DO" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/turf/open/floor/almayer/black{
-	dir = 5
-	},
 /area/space)
 "Ea" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -1754,28 +1769,13 @@
 	dir = 1
 	},
 /area/space)
-"Fq" = (
-/obj/structure/prop/ice_colony/tiger_rug{
-	pixel_x = -16;
-	pixel_y = -10;
-	desc = "Accorfing to some this is an actual Tiger rug! You have your doubts, though. Especially considering the smell..."
+"FS" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
-/turf/open/floor/kutjevo/colors/red/tile{
-	color = "#A9A9A9"
-	},
-/area/space)
-"Ge" = (
-/obj/structure/window/framed/almayer,
-/obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
-"GP" = (
-/obj/structure/pipes/vents/scrubber{
-	dir = 8
-	},
-/turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "Hj" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -1808,7 +1808,8 @@
 	pixel_x = 4;
 	pixel_y = 0;
 	color = "#8B0000";
-	light_color = "#8B0000"
+	light_color = "#8B0000";
+	name = "red"
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/warning_stripes/asteroid{
@@ -1834,12 +1835,58 @@
 	dir = 6
 	},
 /area/space)
+"HJ" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	layer = 1.9
+	},
+/obj/structure/machinery/light/double/blue{
+	dir = 1;
+	light_color = "#dae2ff";
+	light_power = 0.7;
+	pixel_x = 0;
+	pixel_y = 20
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
+"HM" = (
+/obj/structure/machinery/disposal{
+	pixel_x = -6;
+	pixel_y = -3
+	},
+/obj/item/trash/uscm_mre{
+	pixel_y = 14;
+	pixel_x = 9
+	},
+/obj/item/trash/crushed_cup{
+	pixel_y = 18;
+	pixel_x = -13
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
 "If" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
 	name = "Hypersleep Bay Preparations"
 	},
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
+	},
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
+"Io" = (
+/obj/structure/bed/chair/comfy/black{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
@@ -1856,6 +1903,19 @@
 "IB" = (
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
+"IN" = (
+/obj/structure/machinery/alarm/almayer{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 21
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
 "IQ" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "E"
@@ -1864,13 +1924,20 @@
 	dir = 8
 	},
 /area/space)
+"IY" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/almayer/plating_striped/east,
+/area/space)
 "Jc" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 4;
 	pixel_x = 4;
 	pixel_y = -17;
 	color = "#8B0000";
-	light_color = "#8B0000"
+	light_color = "#8B0000";
+	name = "red"
 	},
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "E"
@@ -1884,6 +1951,39 @@
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
+"Jg" = (
+/obj/structure/bed{
+	icon_state = "psychbed";
+	name = "soft bed";
+	desc = "It actually feels like a bed... What a wonder."
+	},
+/obj/structure/bed{
+	icon_state = "psychbed";
+	name = "soft bed";
+	desc = "It actually feels like a bed... What a wonder.";
+	pixel_x = 0;
+	pixel_y = 13;
+	layer = 4
+	},
+/obj/structure/barricade/handrail/type_b{
+	dir = 8;
+	layer = 5;
+	pixel_x = -3;
+	pixel_y = 1
+	},
+/obj/item/bedsheet/yellow{
+	layer = 3
+	},
+/obj/item/bedsheet/yellow{
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/obj/structure/curtain/red{
+	pixel_x = 0;
+	pixel_y = 2
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
 "Jv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/double/blue{
@@ -1891,7 +1991,8 @@
 	pixel_x = -10;
 	pixel_y = -3;
 	color = "#8B0000";
-	light_color = "#8B0000"
+	light_color = "#8B0000";
+	name = "red"
 	},
 /turf/open/floor/almayer/plating_striped,
 /area/space)
@@ -1902,13 +2003,9 @@
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
-"JI" = (
-/obj/structure/machinery/light/double/blue{
-	dir = 8;
-	light_color = "#dae2ff";
-	light_power = 0.3;
-	pixel_x = -10;
-	pixel_y = -1
+"JD" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
@@ -1921,6 +2018,15 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
+"JV" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "0-2"
+	},
+/obj/structure/cable{
+	layer = 2.36
+	},
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
 "JZ" = (
 /obj/structure/platform/strata/metal{
 	pixel_x = 5;
@@ -1928,6 +2034,62 @@
 	layer = 3.1
 	},
 /turf/open/floor/almayer/plating_striped/west,
+/area/space)
+"Kk" = (
+/obj/structure/bed{
+	icon_state = "psychbed";
+	name = "soft bed";
+	desc = "It actually feels like a bed... What a wonder."
+	},
+/obj/structure/bed{
+	icon_state = "psychbed";
+	name = "soft bed";
+	desc = "It actually feels like a bed... What a wonder.";
+	pixel_x = 0;
+	pixel_y = 13;
+	layer = 4
+	},
+/obj/structure/barricade/handrail/type_b{
+	dir = 4;
+	layer = 5;
+	pixel_x = 3;
+	pixel_y = 1
+	},
+/obj/structure/machinery/light/small{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 11
+	},
+/obj/item/bedsheet/blue{
+	layer = 3
+	},
+/obj/item/bedsheet/blue{
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/obj/structure/curtain/red{
+	pixel_x = 0;
+	pixel_y = 2
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
+"Kv" = (
+/obj/structure/closet/secure_closet{
+	pixel_x = -8;
+	pixel_y = -3
+	},
+/obj/structure/closet/secure_closet{
+	pixel_x = 7;
+	pixel_y = -3
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
+"Kz" = (
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "KH" = (
 /obj/structure/bed/chair/comfy/bench/south,
@@ -1964,6 +2126,15 @@
 	dir = 6
 	},
 /area/space)
+"Lh" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
 "Lo" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -1986,6 +2157,44 @@
 	dir = 2
 	},
 /turf/open/floor/almayer/dark_sterile,
+/area/space)
+"Mr" = (
+/obj/structure/bed{
+	icon_state = "psychbed";
+	name = "soft bed";
+	desc = "It actually feels like a bed... What a wonder."
+	},
+/obj/structure/bed{
+	icon_state = "psychbed";
+	name = "soft bed";
+	desc = "It actually feels like a bed... What a wonder.";
+	pixel_x = 0;
+	pixel_y = 13;
+	layer = 4
+	},
+/obj/structure/barricade/handrail/type_b{
+	dir = 8;
+	layer = 5;
+	pixel_x = -3;
+	pixel_y = 1
+	},
+/obj/structure/machinery/light/small{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 11
+	},
+/obj/item/bedsheet/purple{
+	layer = 3
+	},
+/obj/item/bedsheet/purple{
+	pixel_x = 0;
+	pixel_y = 13
+	},
+/obj/structure/curtain/red{
+	pixel_x = 0;
+	pixel_y = 2
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "MK" = (
 /obj/structure/machinery/light/double/blue{
@@ -2076,6 +2285,18 @@
 	dir = 9
 	},
 /area/space)
+"Nv" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
 "NE" = (
 /obj/structure/toilet,
 /obj/structure/machinery/light/small/blue{
@@ -2103,6 +2324,39 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/almayer_hull/blackfull,
+/area/space)
+"Oz" = (
+/obj/structure/bed{
+	icon_state = "psychbed";
+	name = "soft bed";
+	desc = "It actually feels like a bed... What a wonder."
+	},
+/obj/structure/bed{
+	icon_state = "psychbed";
+	name = "soft bed";
+	desc = "It actually feels like a bed... What a wonder.";
+	pixel_x = 0;
+	pixel_y = 13;
+	layer = 4
+	},
+/obj/structure/barricade/handrail/type_b{
+	dir = 4;
+	layer = 5;
+	pixel_x = 3;
+	pixel_y = 1
+	},
+/obj/item/bedsheet/red{
+	pixel_x = 0;
+	pixel_y = 13
+	},
+/obj/item/bedsheet/red{
+	layer = 3
+	},
+/obj/structure/curtain/red{
+	pixel_x = 0;
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "OA" = (
 /obj/structure/closet/secure_closet/marine_personal{
@@ -2141,47 +2395,27 @@
 	dir = 10
 	},
 /area/space)
-"Pl" = (
-/obj/structure/closet/secure_closet{
-	pixel_x = -8;
-	pixel_y = -3
+"Pr" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
-/obj/structure/closet/secure_closet{
-	pixel_x = 7;
-	pixel_y = -3
-	},
-/turf/open/floor/almayer/plating,
-/area/space)
-"PN" = (
-/obj/structure/closet/secure_closet{
-	pixel_x = -7;
-	pixel_y = 14
-	},
-/obj/structure/closet/secure_closet{
-	pixel_x = 8;
-	pixel_y = 14
-	},
-/turf/open/floor/almayer/plate{
-	color = "#A9A9A9"
-	},
-/area/space)
-"PR" = (
-/obj/structure/machinery/door/airlock/almayer/secure/glass{
-	req_access = null;
-	dir = 1;
-	name = "Dormitories"
-	},
-/obj/structure/pipes/standard/simple/hidden/supply,
-/obj/structure/machinery/door/firedoor/border_only/almayer,
-/turf/open/floor/almayer/plate{
-	color = "#A9A9A9"
-	},
+/turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "PZ" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
 	},
 /obj/structure/pipes/vents/pump,
+/turf/open/floor/almayer/plating,
+/area/space)
+"Qb" = (
+/obj/structure/machinery/light/double/blue,
+/turf/open/floor/almayer/plating,
+/area/space)
+"Qk" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 5
+	},
 /turf/open/floor/almayer/plating,
 /area/space)
 "Qo" = (
@@ -2191,6 +2425,15 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
+/area/space)
+"QB" = (
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	layer = 1.9
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "QE" = (
 /obj/structure/surface/table/reinforced/almayer_B,
@@ -2301,7 +2544,8 @@
 	pixel_x = 4;
 	pixel_y = -3;
 	color = "#8B0000";
-	light_color = "#8B0000"
+	light_color = "#8B0000";
+	name = "red"
 	},
 /turf/open/floor/almayer/plating_striped,
 /area/space)
@@ -2343,6 +2587,13 @@
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/space)
+"SS" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/machinery/light,
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
 "SV" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-4"
@@ -2363,37 +2614,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/mono,
 /area/space)
-"TK" = (
-/obj/structure/bed{
-	icon_state = "psychbed";
-	name = "soft bed";
-	desc = "It actually feels like a bed... What a wonder."
+"Tq" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
 	},
-/obj/structure/bed{
-	icon_state = "psychbed";
-	name = "soft bed";
-	desc = "It actually feels like a bed... What a wonder.";
-	pixel_x = 0;
-	pixel_y = 13;
-	layer = 4
-	},
-/obj/structure/barricade/handrail/type_b{
-	dir = 4;
-	layer = 5;
-	pixel_x = 3;
-	pixel_y = 1
-	},
-/obj/item/bedsheet/red{
-	pixel_x = 0;
-	pixel_y = 13
-	},
-/obj/item/bedsheet/red{
-	layer = 3
-	},
-/obj/structure/curtain/red{
-	pixel_x = 0;
-	pixel_y = 1
-	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
 /turf/open/floor/almayer/plating,
 /area/space)
 "TM" = (
@@ -2459,6 +2684,40 @@
 	dir = 8
 	},
 /area/space)
+"UY" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer/blackcorner/west{
+	dir = 4
+	},
+/area/space)
+"Vh" = (
+/obj/structure/machinery/door_control{
+	name = "Outer Podlock";
+	id = "outer-1";
+	pixel_x = 0;
+	pixel_y = -21;
+	needs_power = 0
+	},
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow"
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
+"Vk" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
 "Vn" = (
 /obj/structure/mirror{
 	pixel_x = -27
@@ -2478,18 +2737,16 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
-"VG" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/almayer/plating,
-/area/space)
 "VJ" = (
 /turf/open/floor/almayer/plating_striped/west,
 /area/space)
-"VW" = (
+"We" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
-/turf/open/floor/almayer/plating,
+/turf/open/floor/almayer/black{
+	dir = 9
+	},
 /area/space)
 "Ws" = (
 /turf/open/floor/almayer/black{
@@ -2542,80 +2799,30 @@
 	},
 /turf/open/floor/almayer/mono,
 /area/space)
-"WK" = (
-/obj/structure/bed{
-	icon_state = "psychbed";
-	name = "soft bed";
-	desc = "It actually feels like a bed... What a wonder."
-	},
-/obj/structure/bed{
-	icon_state = "psychbed";
-	name = "soft bed";
-	desc = "It actually feels like a bed... What a wonder.";
-	pixel_x = 0;
-	pixel_y = 13;
-	layer = 4
-	},
-/obj/structure/barricade/handrail/type_b{
-	dir = 4;
-	layer = 5;
-	pixel_x = 3;
-	pixel_y = 1
-	},
-/obj/structure/machinery/light/small{
-	dir = 1;
-	pixel_x = 0;
-	pixel_y = 11
-	},
-/obj/item/bedsheet/blue{
-	layer = 3
-	},
-/obj/item/bedsheet/blue{
-	pixel_x = 0;
-	pixel_y = 12
-	},
-/obj/structure/curtain/red{
-	pixel_x = 0;
-	pixel_y = 2
-	},
-/turf/open/floor/almayer/plating,
-/area/space)
-"Xb" = (
-/obj/structure/bed/chair/comfy/black{
-	dir = 4
-	},
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/turf/open/floor/almayer_hull/blackfull,
-/area/space)
 "Xi" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "NW-out"
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
-"XJ" = (
-/obj/structure/closet/secure_closet{
-	pixel_x = 8;
-	pixel_y = 14
+"Xu" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
-/obj/structure/closet/secure_closet{
-	pixel_x = -7;
-	pixel_y = 14
+/obj/item/storage/beer_pack{
+	pixel_x = -5;
+	pixel_y = 12
+	},
+/obj/structure/machinery/light{
+	dir = 8
+	},
+/obj/structure/machinery/firealarm{
+	pixel_y = 28;
+	pixel_x = 1
 	},
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
-"XO" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/turf/open/floor/almayer/plating,
 /area/space)
 "Ya" = (
 /obj/structure/closet/secure_closet/marine_personal{
@@ -2630,15 +2837,6 @@
 /obj/item/device/radio/headset/almayer/sof,
 /turf/open/floor/almayer/edge/smooth/east,
 /area/space)
-"Yg" = (
-/obj/structure/pipes/standard/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/pipes/standard/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/open/floor/almayer_hull/blackfull,
-/area/space)
 "Yj" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "NW-out"
@@ -2648,10 +2846,37 @@
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
-"YD" = (
-/turf/open/floor/almayer/blackcorner/west{
-	dir = 2
+"Yv" = (
+/obj/structure/surface/table/reinforced/almayer_B{
+	pixel_x = 0;
+	pixel_y = 0
 	},
+/obj/item/ashtray/plastic{
+	icon_state = "ashtray_full_bl";
+	pixel_x = 7;
+	pixel_y = 1
+	},
+/obj/item/ashtray/plastic{
+	pixel_x = -7;
+	pixel_y = -5
+	},
+/obj/item/trash/cigbutt{
+	pixel_y = 15;
+	pixel_x = -3
+	},
+/obj/item/trash/cigbutt,
+/obj/item/clothing/mask/cigarette{
+	pixel_x = -9;
+	pixel_y = 9
+	},
+/obj/item/clothing/mask/cigarette{
+	pixel_x = 9;
+	pixel_y = 15
+	},
+/obj/structure/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "YH" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
@@ -2702,44 +2927,6 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
-"Zh" = (
-/obj/structure/bed{
-	icon_state = "psychbed";
-	name = "soft bed";
-	desc = "It actually feels like a bed... What a wonder."
-	},
-/obj/structure/bed{
-	icon_state = "psychbed";
-	name = "soft bed";
-	desc = "It actually feels like a bed... What a wonder.";
-	pixel_x = 0;
-	pixel_y = 13;
-	layer = 4
-	},
-/obj/structure/barricade/handrail/type_b{
-	dir = 8;
-	layer = 5;
-	pixel_x = -3;
-	pixel_y = 1
-	},
-/obj/structure/machinery/light/small{
-	dir = 1;
-	pixel_x = 0;
-	pixel_y = 11
-	},
-/obj/item/bedsheet/purple{
-	layer = 3
-	},
-/obj/item/bedsheet/purple{
-	pixel_x = 0;
-	pixel_y = 13
-	},
-/obj/structure/curtain/red{
-	pixel_x = 0;
-	pixel_y = 2
-	},
-/turf/open/floor/almayer/plating,
 /area/space)
 "ZK" = (
 /turf/open/floor/almayer/black{
@@ -5545,9 +5732,9 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
+gd
+gd
+gd
 Ak
 Ak
 Ak
@@ -5645,11 +5832,11 @@ Ak
 Ak
 Ak
 Ak
+Vh
 Ak
-Ak
-Ak
-Ak
-Ak
+VJ
+VJ
+VJ
 Ak
 Ak
 Ak
@@ -5749,9 +5936,9 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
+BM
+Cx
+lN
 Ak
 Ak
 Ak
@@ -5851,11 +6038,11 @@ Ak
 Ak
 Ak
 Ak
+kd
+kd
+kd
 Ak
-Ak
-Ak
-Ak
-Ak
+ng
 Ak
 Ak
 Ak
@@ -5940,6 +6127,8 @@ Ak
 Ak
 Ak
 Ak
+Xu
+Kv
 Ak
 Ak
 Ak
@@ -5947,15 +6136,13 @@ Ak
 Ak
 Ak
 Ak
-zf
-Pl
 Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
+rr
+rr
+rr
 Ak
 Ak
 Ak
@@ -6041,23 +6228,23 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Zh
+Mr
 IB
 QO
-oQ
+HM
 Ak
 Ak
 Ak
 Ak
 Ak
 Ak
+Ak
+Ak
+Ak
+Ak
+bc
+VJ
+VJ
 Ak
 Ak
 Ak
@@ -6143,22 +6330,22 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-TK
+Oz
 IB
 QO
-jm
-sB
-fv
+FS
+ed
+qz
+Ak
+Ak
+Ak
+Ak
+Ak
+Ak
+Ak
 Ak
 Cx
-JI
+Cx
 Cx
 Ak
 Ak
@@ -6246,23 +6433,23 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-PN
-YD
-GP
-xf
-xb
-PR
-VG
-xY
+sV
+hH
+dI
+UY
+Lh
+rB
+wj
+wj
+BG
+wj
+wj
+wj
+wj
+wj
+Qk
 Cx
-Cx
+Ak
 Ak
 Ak
 Ak
@@ -6348,23 +6535,23 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-pH
-IB
-Fq
+mD
+JV
+yW
 IB
 QO
-Ge
-Cx
-XO
+cz
 Cx
 Cx
+Cx
+Cx
+Cx
+Cx
+Cx
+Cx
+jw
+Cx
+Ak
 Ak
 Ak
 Ak
@@ -6450,23 +6637,23 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-XJ
-pa
-lg
-Ct
-Ef
-lp
-xa
-sD
+wO
+zK
+CU
+vO
+wx
+pm
+Tq
+Tq
+Tq
+Tq
+Tq
+lb
+Kz
+Kz
+oS
 Cx
-Cx
+Ak
 Ak
 Ak
 Ak
@@ -6551,23 +6738,23 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-kj
+Jg
 IB
 QO
-dw
-ry
-wt
+fC
+wL
+SS
+Ak
+Ak
+Ak
+Ak
+Ak
+Ak
+Ak
 Ak
 Bn
-iB
-qL
+gb
+oy
 Ak
 Ak
 Ak
@@ -6653,22 +6840,22 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-WK
-aT
+Kk
+Pr
 QO
-pG
+Yv
+Ak
+Ak
+Ak
+Ak
+Ak
+Ak
+Ak
 Ak
 Ak
 Ak
 Cx
-ev
+zU
 Cx
 Ak
 Ak
@@ -6756,6 +6943,8 @@ Ak
 Ak
 Ak
 Ak
+IN
+Af
 Ak
 Ak
 Ak
@@ -6763,14 +6952,12 @@ Ak
 Ak
 Ak
 Ak
-tH
-kk
 Ak
 Ak
 Ak
 Ak
 Cx
-ev
+zU
 Cx
 Ak
 Ak
@@ -6871,8 +7058,8 @@ Ak
 Ak
 Ak
 Ak
-ti
-ev
+xP
+zU
 Cx
 Ak
 Ak
@@ -6973,9 +7160,9 @@ Ak
 Ak
 Ak
 Ak
-Cx
-rI
-VW
+ju
+Vk
+JD
 Ak
 Ak
 Ak
@@ -7076,7 +7263,7 @@ pJ
 pJ
 Ak
 Cx
-ev
+zU
 Cx
 Ak
 Ak
@@ -7177,12 +7364,12 @@ DJ
 YH
 dc
 Ak
-dF
-rI
+Cx
+Vk
 Cx
 Ak
 Nq
-bv
+We
 gC
 jC
 Ak
@@ -7280,7 +7467,7 @@ SV
 rU
 Ak
 rQ
-ev
+zU
 IB
 Ak
 nQ
@@ -7382,7 +7569,7 @@ dv
 uo
 Ak
 Cx
-Yg
+Nv
 Cx
 Ak
 MP
@@ -7484,8 +7671,8 @@ Wu
 Ak
 Ak
 Bn
-Bp
-Bn
+ke
+xT
 Ak
 Ak
 pt
@@ -7495,7 +7682,7 @@ QO
 QO
 MK
 QO
-jm
+FS
 Ak
 Ak
 Ak
@@ -7586,10 +7773,10 @@ kz
 Jv
 If
 jL
-rI
+Vk
 Cx
 js
-VW
+JD
 xy
 zI
 iT
@@ -7688,7 +7875,7 @@ kz
 rj
 vp
 jL
-ev
+zU
 Cx
 Qo
 Cx
@@ -7697,7 +7884,7 @@ jQ
 Di
 IB
 jg
-Xb
+Io
 jg
 jg
 QO
@@ -7790,12 +7977,12 @@ Ex
 gQ
 cp
 gw
-As
+xK
 cT
 jh
 cT
 yH
-ga
+CE
 Di
 UE
 Ea
@@ -7892,7 +8079,7 @@ zW
 hz
 Ca
 Se
-kZ
+Br
 kZ
 ov
 kZ
@@ -7905,7 +8092,7 @@ EH
 EH
 EH
 Lo
-jm
+FS
 Ak
 Ak
 Ak
@@ -8095,15 +8282,15 @@ Bn
 lT
 Ak
 Ak
+HJ
 Bn
-Bn
-rk
+QB
 Ak
 Ak
 fL
-kd
+IY
 hk
-jm
+FS
 QO
 Zb
 QO
@@ -8403,10 +8590,10 @@ rw
 Ak
 bk
 Cx
-qc
+Cx
 Ak
 HC
-DO
+uO
 KU
 HG
 Ak
@@ -8503,9 +8690,9 @@ Ya
 zH
 OA
 Ak
-VW
+JD
 Cx
-Cx
+Qb
 Ak
 Ak
 Ak
