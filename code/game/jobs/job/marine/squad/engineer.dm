@@ -6,9 +6,6 @@
 /datum/job/marine/engineer/set_spawn_positions(count)
 	spawn_positions = engi_slot_formula(count)
 
-/datum/job/marine/engineer/set_spawn_positions(count)
-	spawn_positions = engi_slot_formula(count)
-
 /datum/job/marine/engineer/get_total_positions(latejoin = 0)
 	var/positions = spawn_positions
 	if(latejoin)

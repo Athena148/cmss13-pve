@@ -144,13 +144,13 @@
 	squad = SQUAD_LRRP
 	job = /datum/job/marine/medic/ai/forecon
 
-#undef SGT_VARIANT
-#undef JSGT_VARIANT
 /obj/effect/landmark/start/marine/medic/marsoc
 	name = JOB_SQUAD_SARC_MARSOC
 	squad = SQUAD_MRR
-	job = /datum/equipment_preset/uscm/medic/marsoc
+	job = /datum/job/marine/medic/ai/marsoc
 
+#undef SGT_VARIANT
+#undef JSGT_VARIANT
 #undef CPL_VARIANT
 #undef LCPL_VARIANT
 #undef PFC_VARIANT

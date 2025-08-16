@@ -49,7 +49,7 @@
 
 #define JOB_SQUAD_ELEMENT_LEADER_MARSOC "MARSOC Element Lead"
 #define JOB_SQUAD_ASSISTANT_ELEMENT_LEAD_MARSOC "MARSOC Assistant Element Lead"
-#define JOB_SQUAD_SARC_MARSOC "MARSOC Special Amphibious Reconnaissance Corpsman"
+#define JOB_SQUAD_SARC_MARSOC "MARSOC Amphibious Reconnaissance Corpsman"
 #define JOB_SQUAD_HEAVY_WEAPONS_OPERATOR_MARSOC "MARSOC Heavy Weapons Operator"
 #define JOB_SQUAD_SPECIAL_WEAPONS_OPERATOR_MARSOC "MARSOC Special Weapons Operator"
 #define JOB_SQUAD_SAPPER_MARSOC "MARSOC Sapper"

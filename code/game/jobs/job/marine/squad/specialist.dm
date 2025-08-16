@@ -6,9 +6,6 @@
 /datum/job/marine/specialist/set_spawn_positions(count)
 	spawn_positions = spec_slot_formula(count)
 
-/datum/job/marine/specialist/set_spawn_positions(count)
-	spawn_positions = spec_slot_formula(count)
-
 /datum/job/marine/specialist/get_total_positions(latejoin = 0)
 	var/positions = spawn_positions
 	if(latejoin)

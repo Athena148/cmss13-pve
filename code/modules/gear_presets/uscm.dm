@@ -352,6 +352,19 @@
 	name = parent_type::name + " (E2 Rank)"
 	paygrades = list(PAY_SHORT_ME4 = JOB_PLAYTIME_TIER_0)
 
+/datum/equipment_preset/uscm/medic/marsoc
+	name = "MARSOC SARC"
+	flags = EQUIPMENT_PRESET_START_OF_ROUND|EQUIPMENT_PRESET_MARINE
+
+	access = list(ACCESS_MARINE_PREP, ACCESS_MARINE_MEDPREP, ACCESS_MARINE_MEDBAY)
+	languages = list(LANGUAGE_ENGLISH, LANGUAGE_TSL)
+	assignment = "SARC"
+	rank = JOB_SQUAD_MEDIC
+	paygrades = list(PAY_SHORT_ME5 = JOB_PLAYTIME_TIER_0)
+	role_comm_title = "SARC"
+	skills = /datum/skills/marsoc/medic
+	minimap_icon = "medic"
+
 //*****************************************************************************************************/
 
 /datum/equipment_preset/uscm/tl
@@ -436,6 +449,19 @@
 /datum/equipment_preset/uscm/engineer/pfc
 	name = parent_type::name + " (E2 Rank)"
 	paygrades = list(PAY_SHORT_ME2 = JOB_PLAYTIME_TIER_0)
+
+/datum/equipment_preset/uscm/engineer/marsoc
+	name = "MARSOC Sapper"
+	flags = EQUIPMENT_PRESET_EXTRA|EQUIPMENT_PRESET_MARINE
+
+	access = list(ACCESS_MARINE_PREP, ACCESS_MARINE_ENGPREP, ACCESS_CIVILIAN_ENGINEERING)
+	assignment = "Sapper"
+	rank = JOB_SQUAD_ENGI
+	paygrades = list(PAY_SHORT_ME5 = JOB_PLAYTIME_TIER_0)
+	role_comm_title = "SPR"
+	skills = /datum/skills/marsoc/engineer
+
+	minimap_icon = "engi"
 
 /datum/equipment_preset/uscm/engineer/marsoc
 	name = "MARSOC Sapper"

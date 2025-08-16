@@ -165,4 +165,3 @@ GLOBAL_LIST_INIT(personal_weapons_list, list("Ithaca 37 shotgun-stakeout" = /obj
 			for(var/obj/effect/landmark/personal_weapon/PW in GLOB.personal_weapon)
 				qdel(PW)
 	temporary_list = null
-
