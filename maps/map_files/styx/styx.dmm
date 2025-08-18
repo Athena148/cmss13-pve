@@ -1,4 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ap" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "cargo_arrow";
+	dir = 1
+	},
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
 "at" = (
 /obj/structure/machinery/power/apc/almayer/north,
 /obj/structure/cable{
@@ -71,6 +81,16 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
+"bQ" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "S"
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/obj/structure/pipes/standard/simple/hidden/supply,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
 "bS" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -84,6 +104,9 @@
 	foldabletype = null;
 	desc = "A black gym mat, useful if you don't want to use the cold hard floor for exercise.";
 	pixel_x = -14
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "2-4"
 	},
 /turf/open/floor/plating,
 /area/space)
@@ -215,6 +238,11 @@
 	pixel_y = 35;
 	pixel_x = -16
 	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "NE-out";
+	pixel_x = 0;
+	pixel_y = 1
+	},
 /turf/open/floor/almayer/plating,
 /area/space)
 "ec" = (
@@ -251,11 +279,25 @@
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "eS" = (
+/obj/structure/machinery/power/apc/power/south,
+/obj/structure/cable{
+	layer = 2.36
+	},
 /turf/open/floor/almayer/edge/smooth,
 /area/space)
 "fb" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 8
+	},
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
+"fh" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	name = "Hangar Access Lockdown";
+	id = "Hangar"
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
@@ -341,7 +383,10 @@
 /area/space)
 "gl" = (
 /obj/structure/ladder{
-	id = "armory1"
+	id = "mission1"
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
@@ -356,12 +401,19 @@
 	color = "#A9A9A9"
 	},
 /area/space)
+"gt" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "cargo_arrow";
+	dir = 2
+	},
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
 "gw" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 1
 	},
-/turf/open/floor/almayer/plating_striped/north,
+/turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "gx" = (
 /obj/effect/decal/cleanable/dirt,
@@ -381,6 +433,11 @@
 /obj/structure/machinery/firealarm{
 	pixel_y = 34;
 	pixel_x = 5
+	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "NW-out";
+	pixel_x = -1;
+	pixel_y = 1
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
@@ -495,6 +552,24 @@
 	dir = 2
 	},
 /area/space)
+"hS" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "SE-out"
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
+"if" = (
+/obj/structure/machinery/door_control/brbutton{
+	name = "Mission Preparation Control";
+	id = "Mission Preparation";
+	pixel_x = 8;
+	pixel_y = -6
+	},
+/turf/closed/wall/almayer/outer,
+/area/space)
 "ii" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
@@ -555,6 +630,17 @@
 	pixel_y = 0
 	},
 /turf/open/floor/almayer/sterile,
+/area/space)
+"iP" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	dir = 4;
+	name = "Vessel Access Lockdown";
+	id = "inner-1"
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "iT" = (
 /obj/structure/platform/strata/metal,
@@ -659,9 +745,6 @@
 	},
 /area/space)
 "jC" = (
-/obj/effect/decal/cleanable/dirt{
-	layer = 2.52
-	},
 /obj/structure/bed/bedroll{
 	pixel_y = -4;
 	color = "#333333";
@@ -670,6 +753,12 @@
 	can_buckle = 0;
 	foldabletype = null;
 	desc = "A black gym mat, useful if you don't want to use the cold hard floor for exercise."
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
 /turf/open/floor/almayer/mono,
 /area/space)
@@ -874,12 +963,28 @@
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
+"mj" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/turf/open/floor/almayer,
+/area/space)
 "mq" = (
 /obj/structure/machinery/power/apc/power/north,
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
 /turf/open/floor/almayer/sterile,
+/area/space)
+"mt" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2-8"
+	},
+/obj/structure/pipes/standard/manifold/fourway/hidden/scrubbers,
+/obj/structure/pipes/standard/manifold/fourway/hidden/supply,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
 /area/space)
 "mz" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -1118,6 +1223,15 @@
 	pixel_x = 5;
 	pixel_y = 0
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 10
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 9
+	},
 /turf/open/floor/almayer/plating,
 /area/space)
 "pt" = (
@@ -1282,7 +1396,7 @@
 /area/space)
 "rB" = (
 /obj/structure/ladder{
-	id = "armory3"
+	id = "mission3"
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
@@ -1306,6 +1420,22 @@
 	},
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer/edge/smooth,
+/area/space)
+"so" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer/plating_striped/east,
+/area/space)
+"sy" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "cargo_arrow";
+	dir = 4
+	},
+/turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "sN" = (
 /obj/structure/cable/heavyduty{
@@ -1404,7 +1534,10 @@
 /area/space)
 "tI" = (
 /obj/structure/ladder{
-	id = "armory2"
+	id = "mission2"
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
@@ -1547,6 +1680,20 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
+"wh" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
 "wj" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer/plating,
@@ -1569,6 +1716,12 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
+/area/space)
+"wz" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "2-4"
+	},
+/turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "wJ" = (
 /obj/structure/machinery/chem_dispenser/canteen,
@@ -1596,6 +1749,12 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
+/area/space)
+"wP" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
+/turf/open/floor/almayer/mono,
 /area/space)
 "wU" = (
 /obj/structure/toilet,
@@ -1696,6 +1855,25 @@
 	},
 /turf/open/floor/almayer/mono,
 /area/space)
+"xV" = (
+/obj/structure/machinery/door_control/brbutton/alt{
+	id = "Hangar";
+	name = "Hangar Access Control";
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/turf/closed/wall/almayer/outer,
+/area/space)
+"yl" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
 "yy" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/poddoor/almayer/blended{
@@ -1729,6 +1907,12 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
+"yP" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating,
+/area/space)
 "yS" = (
 /turf/open/floor/almayer/edge/smooth/corner{
 	dir = 4
@@ -1760,6 +1944,18 @@
 	icon_state = "E"
 	},
 /turf/open/floor/almayer_hull/blackfull,
+/area/space)
+"zs" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "N";
+	pixel_x = 0;
+	pixel_y = 1
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
 /area/space)
 "zu" = (
 /obj/structure/closet/secure_closet/marine_personal{
@@ -1817,6 +2013,9 @@
 "zU" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
 	},
 /turf/open/floor/almayer/plating_striped/west,
 /area/space)
@@ -1927,6 +2126,23 @@
 	dir = 9
 	},
 /area/space)
+"BJ" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
 "BK" = (
 /obj/structure/machinery/light/double/blue{
 	light_color = "#dae2ff";
@@ -1980,6 +2196,20 @@
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
+"Cb" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	name = "Hangar Access Lockdown";
+	id = "Hangar"
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
 "Cc" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 10
@@ -1993,6 +2223,9 @@
 "Cn" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
 	},
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
@@ -2084,6 +2317,17 @@
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer,
 /area/space)
+"DW" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	dir = 4;
+	name = "Vessel Access Lockdown";
+	id = "outer-1"
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
 "Ea" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /turf/open/floor/almayer_hull/blackfull,
@@ -2109,6 +2353,16 @@
 	layer = 2.52
 	},
 /turf/open/floor/almayer/plating,
+/area/space)
+"Eq" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "S"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
 /area/space)
 "Ex" = (
 /obj/structure/closet{
@@ -2194,6 +2448,9 @@
 /obj/structure/pipes/vents/scrubber{
 	dir = 8
 	},
+/obj/structure/cable/heavyduty{
+	icon_state = "1-8"
+	},
 /turf/open/floor/almayer/plating,
 /area/space)
 "FS" = (
@@ -2203,6 +2460,17 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
+/area/space)
+"FV" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "N";
+	pixel_x = 0;
+	pixel_y = 1
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "Ga" = (
 /obj/structure/cable/heavyduty{
@@ -2237,6 +2505,10 @@
 /obj/structure/sign/safety/galley{
 	pixel_x = 0;
 	pixel_y = -25
+	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "cargo_arrow";
+	dir = 4
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
@@ -2316,6 +2588,9 @@
 	pixel_x = 0;
 	pixel_y = -3
 	},
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2"
+	},
 /turf/open/floor/almayer/plating,
 /area/space)
 "HM" = (
@@ -2360,6 +2635,28 @@
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
+"Ip" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	name = "Mission Preparation Access Lockdown";
+	id = "Mission Preparation"
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
+"Ix" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "N";
+	pixel_x = 0;
+	pixel_y = 1
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
 "Iz" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "E"
@@ -2382,6 +2679,11 @@
 	light_color = "#8B0000";
 	name = "red"
 	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
@@ -2406,6 +2708,24 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 8
 	},
+/area/space)
+"IT" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "cargo_arrow";
+	dir = 2;
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
+"IU" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer/plating,
 /area/space)
 "IY" = (
 /obj/effect/decal/cleanable/dirt{
@@ -2516,6 +2836,14 @@
 "JD" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
+	},
+/turf/open/floor/almayer/plating,
+/area/space)
+"JH" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "NE-out";
+	pixel_x = 0;
+	pixel_y = 1
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
@@ -2699,6 +3027,29 @@
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
+"LI" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "N";
+	pixel_x = 0;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "cargo_arrow";
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = -6
+	},
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
+"LT" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "1-8"
+	},
+/turf/open/floor/almayer,
+/area/space)
 "Mj" = (
 /obj/structure/machinery/light/small/red{
 	dir = 4;
@@ -2840,6 +3191,9 @@
 /area/space)
 "Ni" = (
 /obj/structure/pipes/standard/manifold/hidden/supply,
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "Nm" = (
@@ -2871,7 +3225,7 @@
 	},
 /obj/structure/machinery/reagentgrinder{
 	pixel_x = 0;
-	pixel_y = 5
+	pixel_y = 1
 	},
 /turf/open/floor/almayer/edge/smooth{
 	dir = 9
@@ -2915,12 +3269,28 @@
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/cable/heavyduty{
-	icon_state = "1-4"
-	},
 /obj/structure/pipes/standard/manifold/hidden/scrubbers{
 	dir = 8
 	},
+/obj/structure/cable/heavyduty{
+	icon_state = "1-2-4-8"
+	},
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
+"NR" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "S"
+	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "cargo_arrow";
+	dir = 2;
+	pixel_x = 0;
+	pixel_y = 6
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/pipes/vents/scrubber,
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "NX" = (
@@ -2931,6 +3301,10 @@
 /area/space)
 "Oq" = (
 /obj/structure/machinery/light/double/blue,
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "cargo_arrow";
+	dir = 4
+	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "Oz" = (
@@ -3075,6 +3449,16 @@
 	dir = 10
 	},
 /area/space)
+"Qf" = (
+/obj/structure/machinery/door/poddoor/almayer/blended{
+	name = "Mission Preparation Access Lockdown";
+	id = "Mission Preparation"
+	},
+/obj/structure/machinery/door/firedoor/border_only/almayer{
+	dir = 2
+	},
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
 "Qk" = (
 /turf/open/floor/almayer/sterile,
 /area/space)
@@ -3217,13 +3601,22 @@
 /area/space)
 "RJ" = (
 /obj/structure/ladder{
-	id = "armory4"
+	id = "mission4"
+	},
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
 "RO" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2-4-8"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
 	},
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
@@ -3255,6 +3648,26 @@
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/space)
+"SJ" = (
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "N";
+	pixel_x = 0;
+	pixel_y = 1
+	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "cargo_arrow";
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = -6
+	},
+/obj/structure/machinery/firealarm{
+	dir = 4;
+	pixel_x = 25;
+	pixel_y = 0
+	},
+/obj/structure/pipes/vents/pump,
+/turf/open/floor/almayer_hull/blackfull,
+/area/space)
 "SS" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -3267,6 +3680,9 @@
 	layer = 2.52
 	},
 /obj/structure/pipes/vents/pump,
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
 /turf/open/floor/almayer/plating,
 /area/space)
 "Tc" = (
@@ -3291,6 +3707,15 @@
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/space)
+"Ug" = (
+/obj/structure/machinery/door_control/brbutton{
+	id = "Hangar";
+	name = "Hangar Access Control";
+	pixel_x = 9;
+	pixel_y = -6
+	},
+/turf/closed/wall/almayer/outer,
+/area/space)
 "Ui" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	dir = 1;
@@ -3314,6 +3739,10 @@
 	light_power = 0.7;
 	pixel_x = 0;
 	pixel_y = 20
+	},
+/obj/effect/decal/warning_stripes/asteroid{
+	icon_state = "cargo_arrow";
+	dir = 4
 	},
 /turf/open/floor/almayer_hull/blackfull,
 /area/space)
@@ -3402,6 +3831,32 @@
 	},
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer_hull/blackfull,
+/area/space)
+"Vt" = (
+/obj/effect/decal/cleanable/dirt{
+	layer = 2.52
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
+"VA" = (
+/obj/structure/machinery/door_control/brbutton/alt{
+	name = "Mission Preparation Control";
+	id = "Mission Preparation";
+	pixel_x = 9;
+	pixel_y = -6
+	},
+/turf/closed/wall/almayer/outer,
 /area/space)
 "VJ" = (
 /turf/open/floor/almayer/plating_striped/west,
@@ -3500,6 +3955,13 @@
 	color = "#A9A9A9"
 	},
 /area/space)
+"Xx" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/pipes/standard/simple/hidden/scrubbers,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/space)
 "XL" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
 	name = "Canteen"
@@ -3574,6 +4036,12 @@
 	},
 /turf/open/floor/almayer/plating,
 /area/space)
+"YB" = (
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/turf/open/floor/almayer/plating_striped/west,
+/area/space)
 "YH" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -3627,6 +4095,15 @@
 "Zf" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	layer = 1.9
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
 	},
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
@@ -6442,7 +6919,7 @@ Ak
 Ak
 Ak
 gd
-gd
+DW
 gd
 Ak
 Ak
@@ -6544,7 +7021,7 @@ Ak
 Vh
 Ak
 VJ
-VJ
+YB
 VJ
 Ak
 ng
@@ -6646,7 +7123,7 @@ Ak
 Ak
 Ak
 BM
-Cx
+IU
 lN
 Ak
 Ak
@@ -6748,7 +7225,7 @@ Ak
 Ak
 Ak
 kd
-kd
+so
 kd
 Ak
 Ak
@@ -6850,7 +7327,7 @@ Lj
 Ak
 Ak
 rr
-rr
+iP
 rr
 Ak
 Ak
@@ -7162,7 +7639,7 @@ OA
 ln
 jw
 bS
-Se
+LT
 yS
 lb
 Ak
@@ -7259,11 +7736,11 @@ IB
 Qo
 IB
 Cn
-IB
+wz
 HJ
-jw
-xK
-QB
+mj
+wP
+yP
 Mt
 Wy
 uU
@@ -8687,7 +9164,7 @@ gQ
 cp
 gw
 gZ
-cT
+gw
 jh
 cT
 yH
@@ -8890,7 +9367,7 @@ zW
 rj
 vp
 QO
-QO
+wh
 QO
 Qo
 Cx
@@ -9094,7 +9571,7 @@ Hr
 kA
 Ak
 Cx
-QO
+wh
 Cx
 Ak
 HC
@@ -9196,7 +9673,7 @@ ok
 BO
 Ak
 Cx
-QO
+wh
 Cx
 Ak
 wJ
@@ -9298,7 +9775,7 @@ YQ
 rw
 Ak
 bk
-QO
+Vt
 Cx
 Ak
 HC
@@ -9399,8 +9876,8 @@ Ya
 Pl
 tX
 Ak
-Pr
-QO
+sy
+Vt
 Oq
 Ak
 Ak
@@ -9502,7 +9979,7 @@ Ak
 Ak
 Ak
 Cx
-QO
+wh
 Cx
 Ak
 Ak
@@ -9604,8 +10081,8 @@ Ak
 Ak
 Ak
 Cx
-QO
-Cx
+wh
+JD
 Ak
 Ak
 Ak
@@ -9703,13 +10180,13 @@ Ak
 Ak
 Ak
 gl
-Ak
-Ak
-Cx
-QO
-Cx
-Ak
-Ak
+VA
+if
+JH
+BJ
+hS
+xV
+Ug
 Ak
 Ak
 Ak
@@ -9804,21 +10281,21 @@ Ak
 Ak
 Ak
 tI
+JD
+ap
+Qf
+LI
+BJ
+IT
+fh
+FV
+JD
 Cx
+gt
 Cx
-Cx
-IB
-QO
-IB
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+JD
+JD
+gt
 Ak
 Ak
 Ak
@@ -9907,20 +10384,20 @@ Ak
 Ak
 Ak
 IM
+Eq
+Ip
+zs
+mt
+bQ
+Cb
+zs
+yl
+yl
+Xx
+Xx
+yl
+yl
 QO
-QO
-QO
-QO
-Cx
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
 Ak
 Ak
 Ak
@@ -10009,20 +10486,20 @@ Ak
 Ak
 rB
 Cx
-Cx
-Cx
-IB
+ap
+Qf
+SJ
 pm
-IB
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+NR
+fh
+Ix
+Cx
+Cx
+gt
+Cx
+Cx
+Cx
+gt
 Ak
 Ak
 Ak
