@@ -8,7 +8,9 @@
 	dir = 1
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "at" = (
 /obj/structure/machinery/power/apc/almayer/north,
 /obj/structure/cable{
@@ -17,7 +19,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "aK" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -33,7 +37,9 @@
 	pixel_x = 6
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "aQ" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "cargo_arrow";
@@ -50,14 +56,18 @@
 	desc = "Semiotic Standard denoting the nearby presence of a hypersleep bay."
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "bc" = (
 /obj/structure/largecrate/random/case/double{
 	pixel_x = -3;
 	pixel_y = 6
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "bk" = (
 /obj/structure/machinery/alarm/almayer{
 	dir = 1;
@@ -65,7 +75,9 @@
 	pixel_y = 21
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "bw" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 8;
@@ -80,7 +92,9 @@
 	icon_state = "S"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "bQ" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "S"
@@ -90,7 +104,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "bS" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -109,7 +125,9 @@
 	icon_state = "2-4"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "cp" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -118,13 +136,17 @@
 	},
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "cz" = (
 /obj/structure/window/framed/almayer,
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "cH" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 8;
@@ -138,14 +160,18 @@
 	icon_state = "W"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "cT" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 1
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "db" = (
 /obj/structure/pipes/vents/scrubber{
 	pixel_y = 15
@@ -153,14 +179,18 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "dc" = (
 /obj/structure/pipes/vents/scrubber,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/edge/smooth{
 	dir = 10
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "dd" = (
 /obj/structure/sign/safety/cryo{
 	name = "hypersleep semiotic";
@@ -169,7 +199,9 @@
 	desc = "Semiotic Standard denoting the nearby presence of a hypersleep bay."
 	},
 /turf/open/floor/almayer/plating_striped/north,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "dv" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -184,7 +216,9 @@
 	dir = 4
 	},
 /turf/open/floor/almayer/edge/smooth/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "dB" = (
 /obj/structure/machinery/washing_machine,
 /obj/structure/machinery/washing_machine{
@@ -200,13 +234,17 @@
 	pixel_y = 11
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "dI" = (
 /obj/structure/pipes/vents/scrubber{
 	dir = 8
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "dJ" = (
 /obj/structure/machinery/washing_machine,
 /obj/structure/machinery/washing_machine{
@@ -217,7 +255,9 @@
 	layer = 2.52
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "dT" = (
 /obj/structure/machinery/door_control{
 	name = "Hypersleep Access Release";
@@ -244,14 +284,18 @@
 	pixel_y = 1
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ec" = (
 /obj/structure/sign/safety/refridgeration{
 	pixel_x = -2;
 	pixel_y = 7
 	},
 /turf/closed/wall/almayer/outer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ed" = (
 /obj/structure/machinery/light_switch{
 	pixel_x = -22;
@@ -260,7 +304,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "eG" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "cargo_arrow";
@@ -277,20 +323,26 @@
 	pixel_y = 0
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "eS" = (
 /obj/structure/machinery/power/apc/power/south,
 /obj/structure/cable{
 	layer = 2.36
 	},
 /turf/open/floor/almayer/edge/smooth,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "fb" = (
 /obj/structure/pipes/standard/manifold/hidden/supply{
 	dir = 8
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "fh" = (
 /obj/structure/machinery/door/poddoor/almayer/blended{
 	name = "Hangar Access Lockdown";
@@ -300,7 +352,9 @@
 	dir = 2
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "fk" = (
 /obj/structure/pipes/vents/pump{
 	pixel_x = 0;
@@ -311,7 +365,9 @@
 	pixel_y = 11
 	},
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "fw" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "SW-out"
@@ -321,7 +377,9 @@
 	pixel_y = 15
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "fC" = (
 /obj/structure/bed/chair{
 	dir = 4;
@@ -331,7 +389,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "fL" = (
 /obj/structure/reagent_dispensers/water_cooler/stacks{
 	density = 0;
@@ -346,18 +406,24 @@
 	pixel_y = 20
 	},
 /turf/open/floor/almayer/plating_striped/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "fS" = (
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9;
 	pixel_y = -1
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gb" = (
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gd" = (
 /obj/structure/machinery/door/poddoor/almayer/blended{
 	dir = 4;
@@ -365,7 +431,9 @@
 	id = "outer-1"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ge" = (
 /obj/structure/machinery/door/airlock/almayer/secure{
 	req_access = null;
@@ -380,7 +448,9 @@
 	dir = 2
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gl" = (
 /obj/structure/ladder{
 	id = "mission1"
@@ -389,7 +459,9 @@
 	layer = 2.52
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gq" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -400,21 +472,27 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gt" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "cargo_arrow";
 	dir = 2
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gw" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 1
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/double/blue{
@@ -440,12 +518,16 @@
 	pixel_y = 1
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gC" = (
 /turf/open/floor/almayer/black{
 	dir = 8
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gF" = (
 /obj/structure/bed/chair/comfy/bench/north,
 /obj/effect/decal/cleanable/dirt,
@@ -457,7 +539,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 9
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gP" = (
 /obj/structure/stairs/perspective{
 	color = "#A9A9A9"
@@ -468,7 +552,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gQ" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-4"
@@ -478,7 +564,9 @@
 	dir = 1
 	},
 /turf/open/floor/almayer/plating_striped,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gS" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -486,7 +574,9 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/mono,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "gZ" = (
 /obj/effect/landmark/observer_start,
 /obj/structure/cable/heavyduty{
@@ -497,7 +587,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "hh" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 10
@@ -511,7 +603,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "hk" = (
 /obj/structure/platform/strata/metal{
 	pixel_x = -5;
@@ -526,7 +620,9 @@
 	pixel_y = 1
 	},
 /turf/open/floor/almayer/plating_striped/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "hx" = (
 /obj/structure/pipes/vents/scrubber,
 /obj/structure/machinery/light/double/blue{
@@ -539,19 +635,25 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 9
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "hz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/heavyduty{
 	icon_state = "2-8"
 	},
 /turf/open/floor/almayer/plating_striped,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "hH" = (
 /turf/open/floor/almayer/blackcorner/west{
 	dir = 2
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "hS" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "SE-out"
@@ -560,7 +662,9 @@
 	layer = 2.52
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "if" = (
 /obj/structure/machinery/door_control/brbutton{
 	name = "Mission Preparation Control";
@@ -569,12 +673,16 @@
 	pixel_y = -6
 	},
 /turf/closed/wall/almayer/outer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ii" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "im" = (
 /obj/structure/closet/coffin/woodencrate,
 /obj/item/clothing/shoes/marine,
@@ -584,7 +692,9 @@
 /obj/item/clothing/shoes/marine,
 /obj/item/clothing/shoes/marine,
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "io" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 9
@@ -600,7 +710,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ir" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "cargo_arrow";
@@ -612,7 +724,9 @@
 	},
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "iJ" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -630,7 +744,9 @@
 	pixel_y = 0
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "iP" = (
 /obj/structure/machinery/door/poddoor/almayer/blended{
 	dir = 4;
@@ -641,7 +757,9 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "iT" = (
 /obj/structure/platform/strata/metal,
 /obj/structure/platform/strata/metal{
@@ -652,13 +770,17 @@
 	pixel_y = 7
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "jg" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 4
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "jh" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -668,7 +790,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ji" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -685,11 +809,15 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "jo" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "jp" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "E"
@@ -699,7 +827,9 @@
 /obj/effect/landmark/start/marine/marsoc,
 /obj/effect/landmark/start/marine/smartgunner/marsoc,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "js" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -713,7 +843,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ju" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 1;
@@ -723,10 +855,14 @@
 	pixel_y = 20
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "jw" = (
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "jy" = (
 /obj/structure/machinery/door/airlock/almayer/secure/glass{
 	req_access = null;
@@ -743,7 +879,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "jC" = (
 /obj/structure/bed/bedroll{
 	pixel_y = -4;
@@ -761,7 +899,9 @@
 	icon_state = "0-2"
 	},
 /turf/open/floor/almayer/mono,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "jF" = (
 /obj/structure/closet{
 	desc = "It's a fancy storage unit for long-life foodstuffs.";
@@ -808,17 +948,23 @@
 	light_power = 0.3
 	},
 /turf/open/floor/almayer/black,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "jL" = (
 /turf/open/floor/almayer/plating_striped/north,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "jQ" = (
 /obj/structure/platform_decoration/strata/metal{
 	pixel_x = -33;
 	pixel_y = 1
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "jX" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -827,10 +973,14 @@
 	dir = 10
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "kd" = (
 /turf/open/floor/almayer/plating_striped/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ke" = (
 /obj/structure/surface/table/almayer,
 /obj/item/tool/wet_sign{
@@ -846,7 +996,9 @@
 	pixel_y = -8
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "kz" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -858,7 +1010,9 @@
 	dir = 4
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "kA" = (
 /obj/structure/machinery/power/apc/almayer/west,
 /obj/structure/cable{
@@ -867,7 +1021,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/mono,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "kH" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "E"
@@ -876,33 +1032,43 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 8
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "kZ" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "lb" = (
 /obj/structure/largecrate/random/case/double{
 	pixel_x = -4;
 	pixel_y = -2
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ln" = (
 /obj/structure/largecrate/random/case/small{
 	pixel_x = 0;
 	pixel_y = 18
 	},
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "lx" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "NE-out"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "lE" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
 	name = "Canteen"
@@ -913,7 +1079,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "lN" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow";
@@ -926,7 +1094,9 @@
 	name = "red"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "lT" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer{
 	dir = 1;
@@ -945,7 +1115,9 @@
 	layer = 1.9
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "md" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "cargo_arrow";
@@ -962,20 +1134,26 @@
 	desc = "Semiotic Standard denoting the nearby presence of a hypersleep bay."
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "mj" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
 	},
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "mq" = (
 /obj/structure/machinery/power/apc/power/north,
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "mt" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2-8"
@@ -985,7 +1163,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "mz" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
@@ -994,7 +1174,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 5
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "mD" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1009,10 +1191,14 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "mI" = (
 /turf/open/floor/almayer/black/west,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "nb" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -1026,7 +1212,9 @@
 	pixel_y = 0
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ng" = (
 /obj/structure/machinery/door_control{
 	name = "Inner Podlock";
@@ -1040,13 +1228,17 @@
 	dir = 1
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "nm" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 8
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "nq" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1059,7 +1251,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 8
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "nB" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/tool/kitchen/rollingpin{
@@ -1081,14 +1275,18 @@
 	pixel_y = 5
 	},
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "nD" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "SE-out"
 	},
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "nQ" = (
 /obj/structure/vehicle_locker/cabinet/cups{
 	pixel_y = 27;
@@ -1135,11 +1333,15 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 1
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "nW" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer/mono,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "oe" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "E"
@@ -1148,7 +1350,9 @@
 /obj/effect/landmark/late_join/alpha,
 /obj/effect/landmark/start/marine/medic/marsoc,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ok" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -1157,7 +1361,9 @@
 	dir = 9
 	},
 /turf/open/floor/almayer/mono,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ot" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = 9;
@@ -1172,7 +1378,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 5
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ov" = (
 /obj/structure/pipes/standard/manifold/hidden/scrubbers{
 	dir = 8
@@ -1180,7 +1388,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 8
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "oy" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	layer = 1.9
@@ -1190,23 +1400,31 @@
 	light_power = 0.3
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "oz" = (
 /obj/structure/janitorialcart/brown,
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "oK" = (
 /turf/open/floor/almayer/black{
 	dir = 5
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "oS" = (
 /obj/structure/sign/safety/west,
 /turf/closed/wall/almayer/outer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "pl" = (
 /obj/structure/reagent_dispensers/water_cooler/stacks{
 	pixel_y = 18;
@@ -1214,7 +1432,9 @@
 	density = 0
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "pm" = (
 /obj/structure/machinery/light/double/blue{
 	light_color = "#dae2ff";
@@ -1233,7 +1453,9 @@
 	dir = 9
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "pt" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 1;
@@ -1248,7 +1470,9 @@
 	pixel_y = 17
 	},
 /turf/open/floor/almayer/plating_striped/west,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "pD" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "NE-out"
@@ -1257,7 +1481,9 @@
 	dir = 9
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "pJ" = (
 /obj/structure/machinery/shower{
 	dir = 4
@@ -1266,7 +1492,9 @@
 	icon_state = "E"
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "pK" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = 9;
@@ -1280,7 +1508,9 @@
 /obj/item/clothing/shoes/marine,
 /obj/item/device/radio/headset/almayer/sof,
 /turf/open/floor/almayer/edge/smooth/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "pR" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
@@ -1288,7 +1518,9 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "qy" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 8;
@@ -1305,7 +1537,9 @@
 	pixel_y = 12
 	},
 /turf/open/floor/almayer/plating_striped,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "qz" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1322,7 +1556,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "qE" = (
 /obj/structure/machinery/vending/snack/packaged{
 	pixel_x = -22;
@@ -1341,14 +1577,18 @@
 	light_power = 0.3
 	},
 /turf/open/floor/almayer/black,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "qJ" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "qW" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "0-2"
@@ -1359,10 +1599,14 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "rj" = (
 /turf/open/floor/almayer/plating_striped,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "rr" = (
 /obj/structure/machinery/door/poddoor/almayer/blended{
 	dir = 4;
@@ -1370,7 +1614,9 @@
 	id = "inner-1"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "rv" = (
 /obj/structure/pipes/vents/pump,
 /obj/effect/decal/cleanable/dirt{
@@ -1380,7 +1626,9 @@
 	dir = 8
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "rw" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-8"
@@ -1393,26 +1641,34 @@
 	icon_state = "E"
 	},
 /turf/open/floor/almayer/edge/smooth,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "rB" = (
 /obj/structure/ladder{
 	id = "mission3"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "rO" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "rQ" = (
 /obj/structure/machinery/firealarm{
 	pixel_y = 28;
 	pixel_x = 1
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "rU" = (
 /obj/structure/machinery/light/double/blue{
 	light_color = "#dae2ff";
@@ -1420,13 +1676,17 @@
 	},
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer/edge/smooth,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "so" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
 	},
 /turf/open/floor/almayer/plating_striped/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "sy" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1436,7 +1696,9 @@
 	dir = 4
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "sN" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -1448,7 +1710,9 @@
 	dir = 4
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "sS" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1467,7 +1731,9 @@
 	pixel_y = 21
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "sT" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1482,7 +1748,9 @@
 	desc = "A black gym mat, useful if you don't want to use the cold hard floor for exercise."
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "sV" = (
 /obj/structure/closet/secure_closet{
 	pixel_x = -7;
@@ -1495,7 +1763,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "tb" = (
 /obj/structure/machinery/light/small/blue,
 /obj/item/tool/mop{
@@ -1514,7 +1784,9 @@
 	dir = 8
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "tq" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 6
@@ -1531,7 +1803,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 9
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "tI" = (
 /obj/structure/ladder{
 	id = "mission2"
@@ -1540,7 +1814,9 @@
 	layer = 2.52
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "tV" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "W"
@@ -1550,7 +1826,9 @@
 /obj/effect/landmark/start/marine/leader/marsoc,
 /obj/effect/landmark/start/marine/tl/marsoc,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "tX" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = 9;
@@ -1566,7 +1844,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 6
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ud" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -1575,14 +1855,18 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ui" = (
 /obj/structure/sign/safety/food_storage{
 	pixel_x = 18;
 	pixel_y = 9
 	},
 /turf/closed/wall/almayer/outer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "uo" = (
 /obj/structure/surface/table,
 /obj/effect/decal/warning_stripes/asteroid{
@@ -1610,7 +1894,9 @@
 	pixel_y = 4
 	},
 /turf/open/floor/almayer/edge/smooth/southeast,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ut" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 8;
@@ -1620,7 +1906,9 @@
 	pixel_y = -3
 	},
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "uC" = (
 /obj/structure/machinery/power/apc/almayer/south,
 /obj/structure/cable{
@@ -1629,7 +1917,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "uO" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1637,20 +1927,26 @@
 /turf/open/floor/almayer/black{
 	dir = 5
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "uU" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
 /obj/structure/machinery/light/small/red,
 /turf/open/floor/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "vp" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "vN" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "SE-out"
@@ -1659,7 +1955,9 @@
 	pixel_y = 15
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "vO" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/cable/heavyduty{
@@ -1668,7 +1966,9 @@
 /turf/open/floor/almayer/blackcorner/west{
 	dir = 1
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "vS" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1;
@@ -1679,7 +1979,9 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "wh" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -1693,11 +1995,15 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "wj" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ws" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/cable/heavyduty{
@@ -1707,7 +2013,9 @@
 	dir = 2
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "wx" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/cable/heavyduty{
@@ -1716,17 +2024,23 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "wz" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "2-4"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "wJ" = (
 /obj/structure/machinery/chem_dispenser/canteen,
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "wL" = (
 /obj/structure/bed/chair{
 	dir = 1;
@@ -1736,7 +2050,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "wO" = (
 /obj/structure/closet/secure_closet{
 	pixel_x = 8;
@@ -1749,13 +2065,17 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "wP" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
 	},
 /turf/open/floor/almayer/mono,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "wU" = (
 /obj/structure/toilet,
 /obj/structure/machinery/light/small/blue{
@@ -1766,7 +2086,9 @@
 	pixel_y = 0
 	},
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "wV" = (
 /obj/structure/machinery/light/small/blue{
 	dir = 1;
@@ -1774,7 +2096,9 @@
 	light_power = 0.5
 	},
 /turf/closed/wall/almayer/outer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "wY" = (
 /obj/structure/machinery/light/double/blue,
 /obj/structure/cable/heavyduty{
@@ -1783,7 +2107,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "xv" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 8;
@@ -1803,20 +2129,26 @@
 	},
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "xy" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 6
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "xA" = (
 /obj/structure/bed/chair/comfy/bench/mid,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/edge/smooth{
 	dir = 8
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "xG" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "0-4"
@@ -1828,10 +2160,14 @@
 	dir = 6
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "xK" = (
 /turf/open/floor/almayer/mono,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "xP" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -1842,7 +2178,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "xT" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-4"
@@ -1854,7 +2192,9 @@
 	dir = 8
 	},
 /turf/open/floor/almayer/mono,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "xV" = (
 /obj/structure/machinery/door_control/brbutton/alt{
 	id = "Hangar";
@@ -1863,7 +2203,9 @@
 	pixel_y = 7
 	},
 /turf/closed/wall/almayer/outer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "yl" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -1873,7 +2215,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "yy" = (
 /obj/structure/window/framed/almayer,
 /obj/structure/machinery/door/poddoor/almayer/blended{
@@ -1889,7 +2233,9 @@
 	dir = 2
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "yz" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
@@ -1897,7 +2243,9 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/almayer/plating_striped,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "yH" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 5
@@ -1906,18 +2254,24 @@
 	dir = 9
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "yP" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "yS" = (
 /turf/open/floor/almayer/edge/smooth/corner{
 	dir = 4
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "yW" = (
 /obj/structure/prop/ice_colony/tiger_rug{
 	pixel_x = -16;
@@ -1930,7 +2284,9 @@
 /turf/open/floor/kutjevo/colors/red/tile{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "zj" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 4;
@@ -1944,7 +2300,9 @@
 	icon_state = "E"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "zs" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "N";
@@ -1956,7 +2314,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "zu" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = 9;
@@ -1969,7 +2329,9 @@
 /obj/item/clothing/shoes/marine,
 /obj/item/device/radio/headset/almayer/sof,
 /turf/open/floor/almayer/edge/smooth/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "zH" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -1978,15 +2340,21 @@
 	dir = 4
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "zI" = (
 /obj/structure/platform_decoration/strata/metal,
 /obj/structure/pipes/vents/scrubber,
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "zK" = (
 /turf/open/floor/almayer/blackcorner/west,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "zM" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = 9;
@@ -2000,7 +2368,9 @@
 /obj/item/clothing/shoes/marine,
 /obj/item/device/radio/headset/almayer/sof,
 /turf/open/floor/almayer/edge/smooth/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "zS" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2-8"
@@ -2009,7 +2379,9 @@
 	dir = 4
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "zU" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -2018,7 +2390,9 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/almayer/plating_striped/west,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "zW" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -2030,7 +2404,9 @@
 	dir = 8
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "zY" = (
 /obj/structure/machinery/power/apc/almayer/east,
 /obj/structure/cable{
@@ -2068,7 +2444,9 @@
 	name = "towel"
 	},
 /turf/open/floor/almayer/mono,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Af" = (
 /obj/structure/closet/secure_closet{
 	pixel_x = 7;
@@ -2079,7 +2457,9 @@
 	pixel_y = -3
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ak" = (
 /turf/closed/wall/almayer/outer,
 /area/space)
@@ -2088,10 +2468,14 @@
 	dir = 8
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Bc" = (
 /turf/open/floor/almayer/black/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Bd" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "W"
@@ -2100,13 +2484,17 @@
 /obj/effect/landmark/late_join/alpha,
 /obj/effect/landmark/start/marine/medic/marsoc,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Bn" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	layer = 1.9
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Br" = (
 /obj/item/storage/bag/trash{
 	pixel_x = -14;
@@ -2117,7 +2505,9 @@
 	layer = 2.52
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "BG" = (
 /obj/structure/machinery/light/small/red{
 	dir = 1
@@ -2125,7 +2515,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 9
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "BJ" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -2142,14 +2534,18 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "BK" = (
 /obj/structure/machinery/light/double/blue{
 	light_color = "#dae2ff";
 	light_power = 0.3
 	},
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "BM" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "cargo_arrow";
@@ -2157,7 +2553,9 @@
 	dir = 4
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "BO" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "0-4"
@@ -2167,7 +2565,9 @@
 	layer = 2.36
 	},
 /turf/open/floor/almayer/edge/smooth,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "BR" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
@@ -2177,13 +2577,17 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "BX" = (
 /obj/structure/machinery/light/double/blue,
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ca" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
 	name = "Hypersleep Bay Preparations"
@@ -2195,7 +2599,9 @@
 	dir = 2
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Cb" = (
 /obj/structure/machinery/door/poddoor/almayer/blended{
 	name = "Hangar Access Lockdown";
@@ -2209,17 +2615,23 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Cc" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 10
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Cj" = (
 /obj/structure/machinery/light,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Cn" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 8
@@ -2230,7 +2642,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Cp" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -2242,10 +2656,14 @@
 	dir = 4
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Cx" = (
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Cz" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "W"
@@ -2255,7 +2673,9 @@
 /obj/effect/landmark/start/marine/engineer/marsoc,
 /obj/effect/landmark/start/marine/spec/marsoc,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "CE" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -2264,7 +2684,9 @@
 	layer = 2.52
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "CS" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "W"
@@ -2274,14 +2696,18 @@
 /obj/effect/landmark/start/marine/marsoc,
 /obj/effect/landmark/start/marine/smartgunner/marsoc,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "CU" = (
 /obj/structure/pipes/vents/pump,
 /obj/structure/cable/heavyduty{
 	icon_state = "2-8"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Di" = (
 /obj/structure/stairs/perspective{
 	color = "#A9A9A9"
@@ -2289,7 +2715,14 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
+"Dq" = (
+/turf/closed/wall/almayer/outer,
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Dy" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "E"
@@ -2299,12 +2732,16 @@
 /obj/effect/landmark/start/marine/engineer/marsoc,
 /obj/effect/landmark/start/marine/spec/marsoc,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "DF" = (
 /turf/open/floor/almayer/edge/smooth{
 	dir = 4
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "DJ" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 1
@@ -2312,11 +2749,15 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 8
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "DK" = (
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "DW" = (
 /obj/structure/machinery/door/poddoor/almayer/blended{
 	dir = 4;
@@ -2327,23 +2768,31 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ea" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ef" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Eh" = (
 /obj/structure/machinery/light/small/red{
 	dir = 1
 	},
 /turf/open/floor/almayer/plating_striped/west,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Eo" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -2353,7 +2802,9 @@
 	layer = 2.52
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Eq" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "S"
@@ -2363,7 +2814,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ex" = (
 /obj/structure/closet{
 	desc = "It's a fancy storage unit for long-life foodstuffs.";
@@ -2400,7 +2853,9 @@
 /turf/open/floor/almayer/black{
 	dir = 10
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "EA" = (
 /obj/structure/machinery/light/double/blue{
 	light_color = "#dae2ff";
@@ -2413,13 +2868,17 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 4
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "EH" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 8
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ES" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 1;
@@ -2432,7 +2891,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 1
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "FP" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -2443,7 +2904,9 @@
 	pixel_y = 21
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "FR" = (
 /obj/structure/pipes/vents/scrubber{
 	dir = 8
@@ -2452,7 +2915,9 @@
 	icon_state = "1-8"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "FS" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -2460,7 +2925,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "FV" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "N";
@@ -2471,7 +2938,9 @@
 	layer = 2.52
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ga" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -2483,7 +2952,9 @@
 	dir = 5
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Gv" = (
 /obj/structure/machinery/door/airlock/almayer/maint,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -2494,7 +2965,9 @@
 	},
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "GM" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	layer = 1.9
@@ -2511,12 +2984,16 @@
 	dir = 4
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Hj" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Hk" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "2-8"
@@ -2524,7 +3001,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Hr" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -2536,7 +3015,9 @@
 	dir = 9
 	},
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Hy" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 4;
@@ -2557,11 +3038,15 @@
 	pixel_y = 21
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "HC" = (
 /obj/structure/machinery/cm_vending/sorted/marine_food,
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "HG" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -2569,7 +3054,9 @@
 /turf/open/floor/almayer/black{
 	dir = 6
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "HJ" = (
 /obj/structure/machinery/door/airlock/almayer/secure/glass{
 	req_access = null;
@@ -2592,7 +3079,9 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "HM" = (
 /obj/structure/machinery/disposal{
 	pixel_x = -6;
@@ -2616,7 +3105,9 @@
 	dir = 8
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "If" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
 	name = "Hypersleep Bay Preparations"
@@ -2625,7 +3116,9 @@
 	dir = 2
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Io" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 4
@@ -2634,7 +3127,9 @@
 	layer = 2.52
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ip" = (
 /obj/structure/machinery/door/poddoor/almayer/blended{
 	name = "Mission Preparation Access Lockdown";
@@ -2648,7 +3143,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ix" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "N";
@@ -2656,7 +3153,9 @@
 	pixel_y = 1
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Iz" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "E"
@@ -2666,10 +3165,14 @@
 /obj/effect/landmark/start/marine/leader/marsoc,
 /obj/effect/landmark/start/marine/tl/marsoc,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "IB" = (
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "IM" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 1;
@@ -2687,7 +3190,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "IN" = (
 /obj/structure/machinery/alarm/almayer{
 	dir = 1;
@@ -2700,7 +3205,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "IQ" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "E"
@@ -2708,7 +3215,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 8
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "IT" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "S"
@@ -2720,19 +3229,25 @@
 	pixel_y = 6
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "IU" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "IY" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
 /turf/open/floor/almayer/plating_striped/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Jc" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 4;
@@ -2753,7 +3268,9 @@
 	},
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Jf" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -2765,7 +3282,9 @@
 	dir = 4
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Jg" = (
 /obj/structure/bed{
 	icon_state = "psychbed";
@@ -2798,7 +3317,9 @@
 	pixel_y = 2
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Jl" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
@@ -2813,7 +3334,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Jv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/machinery/light/double/blue{
@@ -2825,20 +3348,26 @@
 	name = "red"
 	},
 /turf/open/floor/almayer/plating_striped,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "JA" = (
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -9;
 	pixel_y = -1
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "JD" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "JH" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "NE-out";
@@ -2846,7 +3375,9 @@
 	pixel_y = 1
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "JQ" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -2855,7 +3386,9 @@
 	dir = 8
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "JV" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "0-2"
@@ -2864,7 +3397,9 @@
 	layer = 2.36
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "JZ" = (
 /obj/structure/platform/strata/metal{
 	pixel_x = 5;
@@ -2872,7 +3407,9 @@
 	layer = 3.1
 	},
 /turf/open/floor/almayer/plating_striped/west,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Kk" = (
 /obj/structure/bed{
 	icon_state = "psychbed";
@@ -2910,7 +3447,9 @@
 	pixel_y = 2
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Kv" = (
 /obj/structure/closet/secure_closet{
 	pixel_x = -8;
@@ -2921,7 +3460,9 @@
 	pixel_y = -3
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Kz" = (
 /obj/structure/machinery/door/airlock/almayer/secure/glass{
 	req_access = null;
@@ -2935,14 +3476,18 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "KH" = (
 /obj/structure/bed/chair/comfy/bench/south,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/edge/smooth{
 	dir = 8
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "KU" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	layer = 1.9
@@ -2953,7 +3498,9 @@
 	pixel_y = -24
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "La" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/effect/decal/cleanable/dirt{
@@ -2969,7 +3516,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Lg" = (
 /obj/structure/platform_decoration/strata/metal{
 	pixel_x = 5;
@@ -2985,7 +3534,9 @@
 /turf/open/floor/almayer/black{
 	dir = 6
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Lh" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -2994,7 +3545,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Lj" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -3004,7 +3557,9 @@
 	pixel_y = -1
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Lo" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
@@ -3012,21 +3567,27 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Lr" = (
 /obj/structure/machinery/light/small/red,
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
 /turf/open/floor/almayer/plating_striped/west,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Lw" = (
 /obj/structure/machinery/cryopod/big/flipped{
 	pixel_x = -9;
 	pixel_y = 15
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "LI" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "N";
@@ -3040,7 +3601,9 @@
 	pixel_y = -6
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "LT" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -3049,7 +3612,9 @@
 	icon_state = "1-8"
 	},
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Mj" = (
 /obj/structure/machinery/light/small/red{
 	dir = 4;
@@ -3059,7 +3624,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 6
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ml" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	id = "Delta_1";
@@ -3067,7 +3634,9 @@
 	dir = 2
 	},
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Mr" = (
 /obj/structure/bed{
 	icon_state = "psychbed";
@@ -3105,7 +3674,9 @@
 	pixel_y = 2
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Mt" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -3129,7 +3700,9 @@
 /obj/item/clothing/gloves/boxing/green,
 /obj/item/clothing/gloves/boxing/blue,
 /turf/open/floor/almayer/mono,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "MK" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 8;
@@ -3141,7 +3714,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "MP" = (
 /obj/structure/vehicle_locker/cabinet/utensils/flip{
 	pixel_x = 8;
@@ -3182,25 +3757,33 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 1
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ng" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-4"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ni" = (
 /obj/structure/pipes/standard/manifold/hidden/supply,
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Nm" = (
 /turf/open/floor/almayer/edge/smooth/corner{
 	dir = 8
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "No" = (
 /obj/structure/platform/strata/metal{
 	pixel_x = 0;
@@ -3215,7 +3798,9 @@
 	pixel_y = 7
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Nq" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/structure/machinery/microwave{
@@ -3230,7 +3815,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 9
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Nv" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -3242,7 +3829,9 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "NE" = (
 /obj/structure/toilet,
 /obj/structure/machinery/light/small/blue{
@@ -3253,7 +3842,9 @@
 	pixel_y = 0
 	},
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "NG" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "0-2"
@@ -3264,7 +3855,9 @@
 	},
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "NH" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -3276,7 +3869,9 @@
 	icon_state = "1-2-4-8"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "NR" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "S"
@@ -3292,13 +3887,17 @@
 	},
 /obj/structure/pipes/vents/scrubber,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "NX" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Oq" = (
 /obj/structure/machinery/light/double/blue,
 /obj/effect/decal/warning_stripes/asteroid{
@@ -3306,7 +3905,9 @@
 	dir = 4
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Oz" = (
 /obj/structure/bed{
 	icon_state = "psychbed";
@@ -3339,11 +3940,15 @@
 	pixel_y = 1
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "OA" = (
 /obj/structure/window/framed/almayer,
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "OB" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
@@ -3351,7 +3956,9 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/almayer/plating_striped/north,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "OG" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1;
@@ -3365,10 +3972,14 @@
 /turf/open/floor/almayer/black{
 	dir = 10
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "OW" = (
 /turf/open/floor/almayer/edge/smooth/corner,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Pl" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = 9;
@@ -3381,13 +3992,17 @@
 /obj/item/clothing/shoes/marine,
 /obj/item/device/radio/headset/almayer/sof,
 /turf/open/floor/almayer/edge/smooth/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Pr" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ps" = (
 /obj/structure/surface/table/almayer,
 /obj/item/tool/soap,
@@ -3404,7 +4019,9 @@
 	pixel_x = 21
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Pt" = (
 /obj/structure/machinery/door/airlock/almayer/secure/glass{
 	req_access = null;
@@ -3422,21 +4039,27 @@
 	},
 /obj/structure/machinery/door/firedoor/border_only/almayer,
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "PL" = (
 /obj/structure/largecrate/random/case/small,
 /obj/structure/largecrate/random/mini/small_case{
 	pixel_y = 11
 	},
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "PZ" = (
 /obj/structure/platform_decoration/strata/metal{
 	dir = 1
 	},
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Qb" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -3448,7 +4071,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 10
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Qf" = (
 /obj/structure/machinery/door/poddoor/almayer/blended{
 	name = "Mission Preparation Access Lockdown";
@@ -3458,10 +4083,14 @@
 	dir = 2
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Qk" = (
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Qo" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	dir = 2
@@ -3469,10 +4098,14 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "QB" = (
 /turf/open/floor/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "QE" = (
 /obj/structure/surface/table/reinforced/almayer_B,
 /obj/item/tool/kitchen/tray{
@@ -3539,12 +4172,16 @@
 	pixel_y = -1
 	},
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "QO" = (
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "QS" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = 9;
@@ -3564,7 +4201,9 @@
 /obj/item/clothing/shoes/marine,
 /obj/item/device/radio/headset/almayer/sof,
 /turf/open/floor/almayer/edge/smooth/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "QT" = (
 /obj/structure/mirror{
 	pixel_x = -27
@@ -3575,7 +4214,9 @@
 	pixel_y = 0
 	},
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "QU" = (
 /obj/structure/machinery/light/double/blue{
 	dir = 4;
@@ -3586,19 +4227,25 @@
 	name = "red"
 	},
 /turf/open/floor/almayer/plating_striped,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Rb" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Rz" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "E"
 	},
 /turf/open/floor/almayer/edge/smooth/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "RJ" = (
 /obj/structure/ladder{
 	id = "mission4"
@@ -3607,7 +4254,9 @@
 	layer = 2.52
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "RO" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2-4-8"
@@ -3618,23 +4267,30 @@
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/machinery/cm_vending/sorted/uniform_supply/squad_prep/marsoc,
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "RS" = (
 /obj/structure/machinery/cryopod/big{
 	pixel_x = -9;
 	pixel_y = 15
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Se" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
 /turf/open/floor/almayer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Sz" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 10
@@ -3647,7 +4303,9 @@
 	pixel_x = 21
 	},
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "SJ" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "N";
@@ -3667,14 +4325,18 @@
 	},
 /obj/structure/pipes/vents/pump,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "SS" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
 /obj/structure/machinery/light,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "SV" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -3684,21 +4346,27 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Tc" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "E"
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/mono,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Tq" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
 	},
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "TM" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	id = "Delta_1";
@@ -3706,7 +4374,9 @@
 	dir = 1
 	},
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ug" = (
 /obj/structure/machinery/door_control/brbutton{
 	id = "Hangar";
@@ -3715,7 +4385,9 @@
 	pixel_y = -6
 	},
 /turf/closed/wall/almayer/outer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ui" = (
 /obj/structure/machinery/door/airlock/almayer/generic{
 	dir = 1;
@@ -3728,7 +4400,9 @@
 	dir = 2
 	},
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Uq" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	layer = 1.9
@@ -3745,7 +4419,9 @@
 	dir = 4
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "UB" = (
 /obj/structure/bed/chair/comfy/black{
 	dir = 1
@@ -3757,7 +4433,9 @@
 	icon_state = "0-2"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "UE" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2"
@@ -3765,7 +4443,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "UL" = (
 /obj/structure/bed/chair/comfy/bench/mid,
 /obj/structure/machinery/firealarm{
@@ -3776,13 +4456,17 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 8
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "UY" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer/blackcorner/west{
 	dir = 4
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Vh" = (
 /obj/structure/machinery/door_control{
 	name = "Outer Podlock";
@@ -3795,7 +4479,9 @@
 	icon_state = "cargo_arrow"
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Vk" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	layer = 1.9
@@ -3812,7 +4498,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Vn" = (
 /obj/structure/mirror{
 	pixel_x = -27
@@ -3824,14 +4512,18 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/almayer/dark_sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Vo" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "SW-out"
 	},
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Vt" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -3848,7 +4540,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "VA" = (
 /obj/structure/machinery/door_control/brbutton/alt{
 	name = "Mission Preparation Control";
@@ -3857,10 +4551,14 @@
 	pixel_y = -6
 	},
 /turf/closed/wall/almayer/outer,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "VJ" = (
 /turf/open/floor/almayer/plating_striped/west,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "We" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -3868,7 +4566,9 @@
 /turf/open/floor/almayer/black{
 	dir = 9
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Wn" = (
 /obj/structure/machinery/alarm/almayer{
 	dir = 1;
@@ -3876,12 +4576,16 @@
 	pixel_y = 21
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ws" = (
 /turf/open/floor/almayer/black{
 	dir = 9
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Wt" = (
 /obj/structure/pipes/vents/pump{
 	pixel_x = 0;
@@ -3890,7 +4594,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Wu" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer{
 	dir = 1;
@@ -3910,13 +4616,17 @@
 	layer = 1.9
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Wy" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
 	},
 /turf/open/floor/almayer/mono,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Xa" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "1-2-4-8"
@@ -3925,17 +4635,23 @@
 /obj/structure/pipes/standard/manifold/fourway/hidden/supply,
 /obj/structure/pipes/standard/manifold/fourway/visible/scrubbers,
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Xf" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Xi" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "NW-out"
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Xu" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -3954,14 +4670,18 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Xx" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "XL" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/almayer/glass{
 	name = "Canteen"
@@ -3975,7 +4695,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Ya" = (
 /obj/structure/closet/secure_closet/marine_personal{
 	pixel_x = 9;
@@ -3988,7 +4710,26 @@
 /obj/item/clothing/shoes/marine,
 /obj/item/device/radio/headset/almayer/sof,
 /turf/open/floor/almayer/edge/smooth/east,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
+"Yb" = (
+/obj/structure/pipes/standard/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/pipes/standard/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/heavyduty{
+	icon_state = "4-8"
+	},
+/obj/structure/machinery/cm_vending/sorted/cargo_guns/squad/marsoc,
+/turf/open/floor/almayer/plate{
+	color = "#A9A9A9"
+	},
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Yj" = (
 /obj/effect/decal/warning_stripes/asteroid{
 	icon_state = "NW-out"
@@ -3997,13 +4738,17 @@
 	dir = 5
 	},
 /turf/open/floor/almayer_hull/blackfull,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Yt" = (
 /obj/structure/machinery/light/small/red{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Yv" = (
 /obj/structure/surface/table/reinforced/almayer_B{
 	pixel_x = 0;
@@ -4035,13 +4780,17 @@
 	dir = 4
 	},
 /turf/open/floor/almayer/plating,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "YB" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "4-8"
 	},
 /turf/open/floor/almayer/plating_striped/west,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "YH" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -4052,7 +4801,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "YQ" = (
 /obj/structure/cable/heavyduty{
 	icon_state = "2-8"
@@ -4063,7 +4814,9 @@
 /turf/open/floor/almayer/edge/smooth{
 	dir = 8
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "YU" = (
 /obj/structure/machinery/shower{
 	dir = 4
@@ -4079,7 +4832,9 @@
 	pixel_y = -15
 	},
 /turf/open/floor/plating/plating_catwalk,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Zb" = (
 /obj/structure/machinery/light/double/blue{
 	light_color = "#dae2ff";
@@ -4091,7 +4846,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "Zf" = (
 /obj/structure/machinery/door/firedoor/border_only/almayer{
 	layer = 1.9
@@ -4108,7 +4865,9 @@
 /turf/open/floor/almayer/plate{
 	color = "#A9A9A9"
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ZI" = (
 /obj/structure/machinery/light/double/blue{
 	light_color = "#dae2ff";
@@ -4124,12 +4883,16 @@
 /turf/open/floor/almayer/black{
 	dir = 4
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ZK" = (
 /turf/open/floor/almayer/black{
 	dir = 1
 	},
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 "ZY" = (
 /obj/effect/decal/cleanable/dirt{
 	layer = 2.52
@@ -4138,7 +4901,9 @@
 	dir = 8
 	},
 /turf/open/floor/almayer/sterile,
-/area/space)
+/area/golden_arrow{
+	unlimited_power = 1
+	})
 
 (1,1,1) = {"
 Ak
@@ -6695,44 +7460,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -6797,44 +7562,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -6899,44 +7664,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 gd
 DW
 gd
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -7001,44 +7766,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Vh
-Ak
+Dq
 VJ
 YB
 VJ
-Ak
+Dq
 ng
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -7103,44 +7868,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 sS
 ZY
 im
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
 BM
 IU
 lN
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -7205,44 +7970,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 mq
 xG
 gb
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
 kd
 so
 kd
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -7307,44 +8072,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Xu
 Kv
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
 dB
 Qk
 zH
 rO
 Lj
-Ak
-Ak
+Dq
+Dq
 rr
 iP
 rr
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -7409,44 +8174,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
 Mr
 IB
 QO
 HM
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
 dJ
 AC
 Ga
 Qk
 iJ
-Ak
+Dq
 oS
 Eh
 zU
 Lr
 oS
-Ak
+Dq
 bc
 QB
 nq
 Qb
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -7511,44 +8276,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
 Oz
 IB
 QO
 FS
 ed
 Cj
-Ak
-Ak
+Dq
+Dq
 OA
 Pt
 OA
 OA
-Ak
-Ak
+Dq
+Dq
 JD
 SV
 Cx
-Ak
+Dq
 BG
 jw
 Wy
 jC
 eS
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -7613,12 +8378,12 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 sV
 hH
 dI
@@ -7642,15 +8407,15 @@ bS
 LT
 yS
 lb
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -7715,12 +8480,12 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 mD
 JV
 yW
@@ -7744,15 +8509,15 @@ yP
 Mt
 Wy
 uU
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -7817,12 +8582,12 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 wO
 zK
 CU
@@ -7846,15 +8611,15 @@ PL
 Se
 Nm
 sT
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -7919,44 +8684,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
 Jg
 IB
 QO
 fC
 wL
 SS
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
 OA
 Gv
-Ak
-Ak
+Dq
+Dq
 Bn
 ji
 oy
-Ak
+Dq
 Yt
 aK
 Wy
 xK
 QB
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -8021,21 +8786,21 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
 Kk
 Pr
 QO
 Yv
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Br
 rv
 oz
@@ -8043,22 +8808,22 @@ OA
 Cx
 js
 Cx
-Ak
-Ak
+Dq
+Dq
 pl
 DF
 Mj
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -8123,21 +8888,21 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 IN
 Af
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Wn
 jX
 tb
@@ -8145,22 +8910,22 @@ OA
 Cx
 Jf
 Cx
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -8225,44 +8990,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 ke
 Ps
-Ak
-Ak
+Dq
+Dq
 FP
 js
 IB
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -8327,44 +9092,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 ju
 qz
 JD
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -8429,44 +9194,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 NE
 Ml
 ut
 QT
 Vn
-Ak
+Dq
 pJ
 pJ
 YU
 pJ
 pJ
 pJ
-Ak
+Dq
 Cx
 js
 Cx
-Ak
-Ak
+Dq
+Dq
 nB
 QE
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -8531,44 +9296,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 wV
 jo
 fk
 BK
-Ak
+Dq
 tq
 DJ
 DJ
 DJ
 ov
 dc
-Ak
+Dq
 Cx
 qz
 Cx
-Ak
+Dq
 Nq
 We
 gC
 Ex
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -8633,12 +9398,12 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 wU
 TM
 jo
@@ -8651,26 +9416,26 @@ NG
 gS
 xT
 rU
-Ak
+Dq
 rQ
 js
 IB
-Ak
+Dq
 nQ
 ZK
 IB
 jF
 ui
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -8735,44 +9500,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 zY
 Rz
 dv
 uo
-Ak
+Dq
 Cx
 Nv
 Cx
-Ak
+Dq
 MP
 oK
 Bc
 Lg
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -8837,29 +9602,29 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
 RS
 JA
-Ak
-Ak
+Dq
+Dq
 RS
 JA
-Ak
-Ak
+Dq
+Dq
 RS
 JA
-Ak
-Ak
+Dq
+Dq
 Bn
 Wu
-Ak
-Ak
+Dq
+Dq
 Bn
 Vk
 KU
-Ak
+Dq
 ec
 pt
 VJ
@@ -8869,12 +9634,12 @@ QO
 MK
 QO
 FS
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -8939,21 +9704,21 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
 jp
 oe
-Ak
-Ak
+Dq
+Dq
 oe
 Dy
-Ak
-Ak
+Dq
+Dq
 Iz
 jp
-Ak
-Ak
+Dq
+Dq
 dT
 kz
 Jv
@@ -8972,11 +9737,11 @@ IB
 IB
 QO
 BX
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -9041,8 +9806,8 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
+Dq
+Dq
 bw
 Rb
 Vo
@@ -9061,7 +9826,7 @@ kz
 rj
 vp
 QO
-js
+Yb
 QO
 Qo
 Cx
@@ -9075,10 +9840,10 @@ jg
 jg
 QO
 QO
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -9143,9 +9908,9 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
 at
 qW
 NX
@@ -9177,10 +9942,10 @@ Ea
 Ea
 UB
 uC
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -9245,8 +10010,8 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
+Dq
+Dq
 Hy
 Ef
 nD
@@ -9279,10 +10044,10 @@ EH
 EH
 Lo
 FS
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -9347,21 +10112,21 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
 Cz
 tV
-Ak
-Ak
+Dq
+Dq
 tV
 CS
-Ak
-Ak
+Dq
+Dq
 Bd
 Cz
-Ak
-Ak
+Dq
+Dq
 gx
 zW
 rj
@@ -9380,11 +10145,11 @@ NX
 NX
 gq
 wY
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -9449,30 +10214,30 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
 Lw
 fS
-Ak
-Ak
+Dq
+Dq
 Lw
 fS
-Ak
-Ak
+Dq
+Dq
 Lw
 fS
-Ak
-Ak
+Dq
+Dq
 Bn
 lT
-Ak
-Ak
+Dq
+Dq
 Uq
 Zf
 GM
-Ak
-Ak
+Dq
+Dq
 fL
 IY
 hk
@@ -9481,12 +10246,12 @@ QO
 Zb
 QO
 QO
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -9551,44 +10316,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 hx
 ii
 Hr
 kA
-Ak
+Dq
 Cx
 wh
 Cx
-Ak
+Dq
 HC
 Ws
 mI
 OG
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -9653,16 +10418,16 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 gF
 UL
 xA
@@ -9671,26 +10436,26 @@ DK
 nW
 ok
 BO
-Ak
+Dq
 Cx
 wh
 Cx
-Ak
+Dq
 wJ
 ZK
 IB
 qE
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -9755,16 +10520,16 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 ES
 Tc
 IQ
@@ -9773,26 +10538,26 @@ IQ
 kH
 YQ
 rw
-Ak
+Dq
 bk
 Vt
 Cx
-Ak
+Dq
 HC
 uO
 ZI
 HG
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -9857,16 +10622,16 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 ot
 pK
 zu
@@ -9875,26 +10640,26 @@ QS
 Ya
 Pl
 tX
-Ak
+Dq
 sy
 Vt
 Oq
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -9959,44 +10724,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Cx
 wh
 Cx
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -10061,44 +10826,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Cx
 wh
 JD
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -10163,22 +10928,22 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 gl
 VA
 if
@@ -10187,20 +10952,20 @@ BJ
 hS
 xV
 Ug
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -10265,21 +11030,21 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 tI
 JD
 ap
@@ -10296,13 +11061,13 @@ Cx
 JD
 JD
 gt
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -10367,22 +11132,22 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 IM
 Eq
 Ip
@@ -10398,13 +11163,13 @@ Xx
 yl
 yl
 QO
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -10469,21 +11234,21 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 rB
 Cx
 ap
@@ -10500,13 +11265,13 @@ Cx
 Cx
 Cx
 gt
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -10571,44 +11336,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 RJ
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -10673,44 +11438,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -10775,44 +11540,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -10877,44 +11642,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -10979,44 +11744,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak
@@ -11081,44 +11846,44 @@ Ak
 Ak
 Ak
 Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
-Ak
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
+Dq
 Ak
 Ak
 Ak

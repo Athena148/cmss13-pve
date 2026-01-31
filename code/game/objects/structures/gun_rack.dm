@@ -210,8 +210,8 @@
 	icon_state = "xm46a"
 	max_stored = 5
 	initial_stored = 5
-	allowed_type = /obj/item/weapon/gun/rifle/m46c
-	populate_type = /obj/item/weapon/gun/rifle/m46c
+	allowed_type = /obj/item/weapon/gun/rifle/m46c/unloaded
+	populate_type = /obj/item/weapon/gun/rifle/m46c/unloaded
 
 /obj/structure/gun_rack/xm46a/empty
 	initial_stored = 0
