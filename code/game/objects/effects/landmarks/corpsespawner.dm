@@ -58,10 +58,6 @@
 	name = "Doctor, Scrubs"
 	equip_path = /datum/equipment_preset/corpse/doctor/scrubs
 
-/obj/effect/landmark/corpsespawner/security
-	name = "Corpse - Security Guard, Wey-Yu"
-	equip_path = /datum/equipment_preset/colonist/corpse/security
-
 //FORECON
 /obj/effect/landmark/corpsespawner/forecon_spotter
 	name = "USCM Reconnaissance Spotter"
