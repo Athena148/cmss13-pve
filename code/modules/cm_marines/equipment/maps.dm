@@ -60,6 +60,11 @@
 	desc = "A satellite printout of the Lazarus Landing colony on LV-624."
 	html_link = "images/6/6f/LV624.png"
 
+/obj/item/map/lv624_lazarus_landing_map
+	name = "\improper Lazarus Landing Map"
+	desc = "A satellite printout of the Lazarus Landing colony on LV-624."
+	html_link = "images/6/6f/LV624.png"
+
 /obj/item/map/ice_colony_map
 	name = "\improper Ice Colony map"
 	desc = "A satellite printout of the Ice Colony."
@@ -169,6 +174,29 @@
 	html_link = ""
 	color = "cyan"
 
+/obj/item/map/tyrargo_rift
+	name = "\improper Tyrargo Rift map"
+	desc = "A labeled blueprint of the UA city Tyrargo Rift"
+	html_link = "images/7/79/Tyrargo_Rift.png"
+
+/obj/item/map/white_antre_map
+	name = "\improper White Antre Research Facility map"
+	desc = "An overview of the White Antre facility schematics."
+	html_link = "images/d/da/White_Antre_Research_Facility.png"
+	color = "cyan"
+
+/obj/item/map/cape_river
+	name = "\improper Cape River map"
+	desc = "A labeled blueprint of the Con-Am mining outpost Cape River"
+	html_link = "images/4/46/Cape_River.png"
+	color = "red"
+
+/obj/item/map/galaxy
+	name = "\improper Galaxy map"
+	desc = "A diagrammatic map of the milky way, laid out by sector."
+	html_link = "images/9/9e/Galaxy_Map.png"
+	color = "#005eab"
+
 /obj/item/map/lv_671
 	name = "\improper LV-671 Map"
 	desc = "An orbital scan printout of the LV-671 colony."
@@ -193,6 +221,7 @@ GLOBAL_LIST_INIT_TYPED(map_type_list, /obj/item/map, setup_all_maps())
 	return list(
 		MAP_LV_624 = new /obj/item/map/lazarus_landing_map(),
 		MAP_LV_624_REPAIRED = new /obj/item/map/lazarus_landing_map(),
+		MAP_LV_624_LAZARUS_LANDING = new /obj/item/map/lv624_lazarus_landing_map(),
 		MAP_ICE_COLONY = new /obj/item/map/ice_colony_map(),
 		MAP_ICE_COLONY_V1 = new /obj/item/map/ice_colony_map/v1(),
 		MAP_ICE_COLONY_V2 = new /obj/item/map/ice_colony_map/v2(),
@@ -228,9 +257,6 @@ GLOBAL_LIST_INIT_TYPED(map_type_list, /obj/item/map, setup_all_maps())
 		MAP_TAIPEI = new /obj/item/map/taipei(),
 		MAP_REDEMPTION_VALLEY = new /obj/item/map/lazarus_landing_map(),
 		MAP_BINHAI_SUPPLY_STATION = new /obj/item/map/FOP_map(),
-		MAP_LV_671 = new /obj/item/map/lv_671(),
-		MAP_OIL_DEPOT = new /obj/item/map/oil_depot(),
-		MAP_DERELICT_ALMAYER_INFESTED = new /obj/item/map/almayer/infested()
 	)
 
 //used by marine equipment machines to spawn the correct map.

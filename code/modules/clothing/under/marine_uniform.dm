@@ -132,6 +132,18 @@
 	specialty = "military warden"
 	flags_atom = NO_SNOW_TYPE
 
+/obj/item/clothing/under/marine/army
+	name = "US Army uniform"
+	desc = "Standard-issue Army uniform. They have shards of light Kevlar to help protect against stabbing weapons and bullets."
+	specialty = "US Army"
+	icon_state = "army_uniform"
+	worn_state = "army_uniform"
+	icon = 'icons/obj/items/clothing/uniforms/uniforms_by_faction/UA.dmi'
+	flags_atom = NO_NAME_OVERRIDE
+	item_icons = list(
+		WEAR_BODY = 'icons/mob/humans/onmob/clothing/uniforms/uniforms_by_faction/UA.dmi',
+	)
+
 /obj/item/clothing/under/marine/officer
 	name = "marine officer uniform"
 	desc = "Substantially comfier officer's uniform. Still has the protection of a sheet of paper against actual threats but at least you won't be uncomfortable while bleeding out."
@@ -1448,6 +1460,27 @@
 	item_icons = list(
 		WEAR_BODY = 'icons/mob/humans/onmob/uniform_1.dmi',
 	)
+
+/obj/item/clothing/under/colonist/clf/operative
+	name = "\improper Colonial Liberation Front Combat Clothes"
+	desc = "A stylish Brown-Green mix of Hunting and Sports Clothes - standard issue for Frontier colonists. This version appears to have the symbol of the Colonial Liberation Front emblazoned in select areas."
+	icon_state = "clf_fighter"
+	worn_state = "clf_fighter"
+	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE|UNIFORM_JACKET_REMOVABLE
+
+/obj/item/clothing/under/colonist/clf/medic
+	name = "\improper Colonial Liberation Front Medic Clothes"
+	desc = "A stylish Light Blue-White mix of Hunting and Sports Clothes - standard issue for Frontier colonists. This version appears to have the symbol of the Colonial Liberation Front emblazoned in select areas."
+	icon_state = "clf_medic"
+	worn_state = "clf_medic"
+	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE|UNIFORM_JACKET_REMOVABLE
+
+/obj/item/clothing/under/colonist/clf/leader
+	name = "\improper Colonial Liberation Front Clothes"
+	desc = "A stylish Dark blue mix of Military Clothes - standard issue for Frontier colonists. This version appears to have the symbol of the Colonial Liberation Front emblazoned in select areas, shows the rank of the leaders on the shoulder."
+	icon_state = "clf_leader"
+	worn_state = "clf_leader"
+	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE|UNIFORM_JACKET_REMOVABLE
 //=IASF=\\
 
 /obj/item/clothing/under/marine/veteran/royal_marine_pvp/iasf
