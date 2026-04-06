@@ -304,6 +304,15 @@
 
 	return data
 
+
+/obj/item/hardpoint/holder/tank_turret/wolfpack
+	accepted_hardpoints = list(
+		// primaries
+		/obj/item/hardpoint/primary/cannon/wolfpack,
+		// secondaries
+	)
+	icon = 'icons/obj/vehicles/apc_wolfpack.dmi'
+
 // Rideway turret
 /obj/item/hardpoint/holder/tank_turret/ridgeway
 	name = "\improper M40 Ridgeway Turret"
