@@ -524,7 +524,7 @@ Defined in conflicts.dm of the #defines folder.
 /obj/item/attachable/shotgun_barrel
 	name = "Ithaca barrel"
 	desc = "This isn't supposed to be separated from the gun, how'd this happen?"
-	icon = 'icons/obj/items/weapons/guns/attachments/barrel.dmi'
+	icon = 'icons/obj/items/weapons/guns/attachments/1218_attachies.dmi'
 	icon_state = "m37_barrel_a"
 	attach_icon = "m37_barrel_a"
 	slot = "muzzle"
@@ -536,7 +536,7 @@ Defined in conflicts.dm of the #defines folder.
 /obj/item/attachable/rpg_baffle
 	name = "M5 exhaust baffle"
 	desc = "This isn't supposed to be separated from the gun, how'd this happen?"
-	icon = 'icons/obj/items/weapons/guns/attachments/stock.dmi'
+	icon = 'icons/obj/items/weapons/guns/attachments/1218_attachies.dmi'
 	icon_state = "m5_stock"
 	attach_icon = "m5_stock"
 	slot = "stock"
@@ -1364,7 +1364,7 @@ Defined in conflicts.dm of the #defines folder.
 
 /obj/item/attachable/scope/mini/army
 	desc = "An ARMAT S4 scope, type designation AN/PVQ-45. 2x magnification optic, increases accuracy while scoped, decreases RoF and increased wield speed."
-	zoom_offset = 4
+	zoom_offset = 6
 
 //Mini-scope for the scout rifle
 

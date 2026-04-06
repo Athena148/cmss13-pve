@@ -6,6 +6,7 @@
 	languages = list(LANGUAGE_ENGLISH, LANGUAGE_SPANISH)
 	///Gives the soldiers their radios
 	var/headset_type = /obj/item/device/radio/headset/distress/army
+	var/rankpin_type = /obj/item/clothing/accessory/ranks/army/e2
 	idtype = /obj/item/card/id/dogtag
 
 /datum/equipment_preset/usa/load_name(mob/living/carbon/human/new_human, randomise)
@@ -69,8 +70,9 @@
 	add_army_helmet_eyewear(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
 	add_combat_gloves(new_human)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army/infantry(new_human), WEAR_ACCESSORY)
 
@@ -106,8 +108,9 @@
 	add_army_helmet_eyewear(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
 	add_combat_gloves(new_human)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army/infantry(new_human), WEAR_ACCESSORY)
 
@@ -136,6 +139,7 @@
 	role_comm_title = "DM"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/trooper	//Trooper but with a scoped rifle
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e3
 
 /datum/equipment_preset/usa/marksman/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new headset_type(new_human), WEAR_L_EAR)
@@ -144,8 +148,9 @@
 	add_army_helmet_eyewear(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
 	add_combat_gloves(new_human)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army/infantry(new_human), WEAR_ACCESSORY)
 
@@ -159,15 +164,16 @@
 
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/full/alternate(new_human), WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/magazine/large(new_human), WEAR_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m49a/ap(new_human), WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m49a/ap(new_human), WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m49a/ap(new_human), WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m49a/incendiary(new_human), WEAR_IN_R_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m49a/ext(new_human), WEAR_IN_R_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m49a/ext(new_human), WEAR_IN_R_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m49a/ext(new_human), WEAR_IN_R_STORE)
+	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m49a/heap(new_human), WEAR_IN_R_STORE)
 	spawn_army_mask_items(new_human)
 
 /datum/equipment_preset/usa/marksman/lesser_rank
 	name = parent_type::name + " (Lesser Rank)"
 	paygrades = list(PAY_SHORT_AE2 = JOB_PLAYTIME_TIER_0)
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e2
 
 
 /datum/equipment_preset/usa/gunner
@@ -178,6 +184,7 @@
 	role_comm_title = "L-Gnr"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/trooper	//trooper with a big gun, no fancy skills
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e3
 
 /datum/equipment_preset/usa/gunner/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new headset_type(new_human), WEAR_L_EAR)
@@ -186,8 +193,9 @@
 	add_army_helmet_eyewear(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
 	add_combat_gloves(new_human)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army/infantry(new_human), WEAR_ACCESSORY)
 
@@ -206,6 +214,7 @@
 /datum/equipment_preset/usa/gunner/lesser_rank
 	name = parent_type::name + " (Lesser Rank)"
 	paygrades = list(PAY_SHORT_AE2 = JOB_PLAYTIME_TIER_0)
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e2
 
 
 /datum/equipment_preset/usa/heavygunner
@@ -216,6 +225,7 @@
 	role_comm_title = "H-Gnr"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/heavygunner
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e4e
 
 /datum/equipment_preset/usa/heavygunner/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new headset_type(new_human), WEAR_L_EAR)
@@ -223,6 +233,7 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
 	add_combat_gloves(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army/infantry(new_human), WEAR_ACCESSORY)
 
@@ -241,6 +252,7 @@
 /datum/equipment_preset/usa/heavygunner/lesser_rank
 	name = parent_type::name + " (Lesser Rank)"
 	paygrades = list(PAY_SHORT_AE3 = JOB_PLAYTIME_TIER_0)
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e3
 
 
 /datum/equipment_preset/usa/ATgunner
@@ -251,6 +263,7 @@
 	role_comm_title = "AT-Gnr"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/trooper	//Trooper with a toob, nothing fancy needed
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e4e
 
 /datum/equipment_preset/usa/ATgunner/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new headset_type(new_human), WEAR_L_EAR)
@@ -259,7 +272,8 @@
 	add_army_helmet_eyewear(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
 	add_combat_gloves(new_human)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army/infantry(new_human), WEAR_ACCESSORY)
@@ -285,6 +299,7 @@
 	rank = JOB_ARMY_ATLOAD
 	paygrades = list(PAY_SHORT_AE3 = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "AT-Ldr"
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e3
 
 /datum/equipment_preset/usa/ATgunner/loader/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/full/alternate(new_human), WEAR_L_STORE)
@@ -306,6 +321,7 @@
 	role_comm_title = "CET"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/sapper
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e4e
 
 /datum/equipment_preset/usa/sapper/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new headset_type(new_human), WEAR_L_EAR)
@@ -314,7 +330,8 @@
 	add_army_helmet_eyewear(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine(new_human), WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army/infantry(new_human), WEAR_ACCESSORY)
@@ -347,13 +364,15 @@
 	role_comm_title = "TechEng"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/mainttech
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e5
 
 /datum/equipment_preset/usa/mainttech/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new headset_type(new_human), WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/cmcap(new_human), WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/officer/boiler(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/yellow(new_human), WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/armband/engine(new_human), WEAR_ACCESSORY)
@@ -382,13 +401,15 @@
 	role_comm_title = "LogiSpc"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/cargotech
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e4e
 
 /datum/equipment_preset/usa/cargotech/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new headset_type(new_human), WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/cmcap(new_human), WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/officer/cargo(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/fingerless(new_human), WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/webbing(new_human), WEAR_ACCESSORY)
@@ -411,6 +432,7 @@
 	role_comm_title = "CMT"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/medic
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e4e
 
 /datum/equipment_preset/usa/medic/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new headset_type(new_human), WEAR_L_EAR)
@@ -420,7 +442,8 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
 	add_combat_gloves(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army/infantry(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/armband/medgreen(new_human), WEAR_ACCESSORY)
@@ -451,6 +474,7 @@
 	paygrades = list(PAY_SHORT_AE4E = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "VeCr"
 	skills = /datum/skills/mainttech
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e4e
 
 /datum/equipment_preset/usa/tank/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new headset_type(new_human), WEAR_L_EAR)
@@ -459,7 +483,8 @@
 	add_army_helmet_eyewear(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
 	add_combat_gloves()
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army/armor(new_human), WEAR_ACCESSORY)
@@ -488,6 +513,7 @@
 	role_comm_title = "FTL"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/nco
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e5
 
 /datum/equipment_preset/usa/nco/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new headset_type(new_human), WEAR_L_EAR)
@@ -497,7 +523,8 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
 	add_combat_gloves(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army/infantry(new_human), WEAR_ACCESSORY)
 
@@ -513,7 +540,10 @@
 
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/full/alternate(new_human), WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/shotgun/large/buckshot(new_human), WEAR_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/weapon/twohanded/breacher(new_human), WEAR_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/marine(new_human), WEAR_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/box/flare(new_human), WEAR_IN_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/box/flare/signal(new_human), WEAR_IN_BACK)
+	new_human.equip_to_slot_or_del(new /obj/item/storage/box/packet/high_explosive(new_human), WEAR_IN_BACK)
 	spawn_army_mask_items(new_human)
 
 
@@ -525,6 +555,7 @@
 	role_comm_title = "SL"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/snco
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e7
 
 /datum/equipment_preset/usa/snco/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress/army/command(new_human), WEAR_L_EAR)
@@ -534,7 +565,8 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
 	add_combat_gloves(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army/infantry(new_human), WEAR_ACCESSORY)
 
@@ -559,6 +591,7 @@
 /datum/equipment_preset/usa/snco/lesser_rank
 	name = parent_type::name + " (Lesser Rank)"
 	paygrades = list(PAY_SHORT_AE6 = JOB_PLAYTIME_TIER_0)
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/e6
 
 
 /datum/equipment_preset/usa/lt
@@ -569,12 +602,14 @@
 	role_comm_title = "PltOff"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/lt
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/o2
 
 /datum/equipment_preset/usa/lt/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress/army/command(new_human), WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/cmcap(new_human), WEAR_HEAD)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/standard/army(new_human), WEAR_BODY)
+	add_army_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	add_combat_gloves(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
@@ -596,6 +631,7 @@
 /datum/equipment_preset/usa/lt/lesser_rank
 	name = parent_type::name + " (Lesser Rank)"
 	paygrades = list(PAY_SHORT_AO1 = JOB_PLAYTIME_TIER_0)
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/o1
 
 
 /datum/equipment_preset/usa/intelofficer
@@ -606,13 +642,15 @@
 	role_comm_title = "IntelOff"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/lt
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/o2
 
 /datum/equipment_preset/usa/intelofficer/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress/army/command(new_human), WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/tool/pen/fountain(new_human), WEAR_R_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/cmcap(new_human), WEAR_HEAD)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/officer/boiler(new_human), WEAR_BODY)
+	add_army_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	add_combat_gloves(new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
@@ -636,6 +674,7 @@
 /datum/equipment_preset/usa/intelofficer/lesser_rank
 	name = parent_type::name + " (Lesser Rank)"
 	paygrades = list(PAY_SHORT_AO1 = JOB_PLAYTIME_TIER_0)
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/o1
 
 
 /datum/equipment_preset/usa/researcher
@@ -647,12 +686,14 @@
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/lt
 	idtype = /obj/item/card/id/silver
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/o3
 
 /datum/equipment_preset/usa/researcher/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new /obj/item/device/radio/headset/distress/army/command(new_human), WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/cmcap(new_human), WEAR_HEAD)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/officer/boiler(new_human), WEAR_BODY)
+	add_army_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/latex(new_human), WEAR_HANDS)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
@@ -669,6 +710,7 @@
 /datum/equipment_preset/usa/researcher/lesser_rank
 	name = parent_type::name + " (Lesser Rank)"
 	paygrades = list(PAY_SHORT_AO2 = JOB_PLAYTIME_TIER_0)
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/o2
 
 
 /datum/equipment_preset/usa/cargoofficer
@@ -679,13 +721,15 @@
 	role_comm_title = "LogiOff"
 	flags = EQUIPMENT_PRESET_EXTRA
 	skills = /datum/skills/cargoofficer
+	rankpin_type = /obj/item/clothing/accessory/ranks/army/o2
 
 /datum/equipment_preset/usa/cargoofficer/load_gear(mob/living/carbon/human/new_human)
 	new_human.equip_to_slot_or_del(new headset_type(new_human), WEAR_L_EAR)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/cmcap(new_human), WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/marine/officer/qm_suit(new_human), WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/fingerless(new_human), WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big/orange(new_human), WEAR_EYES)
+	add_army_eyewear(new_human)
+	new_human.equip_to_slot_or_del(new rankpin_type(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/marine/army/knife(new_human), WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/patch/army(new_human), WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/webbing(new_human), WEAR_ACCESSORY)

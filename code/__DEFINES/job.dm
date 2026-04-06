@@ -226,11 +226,16 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 
 //-------- USASF --------//
 #define JOB_NAVY_CREWMAN "USASF Crewman"
+#define JOB_NAVY_MP "USASF Men At Arms"
+#define JOB_NAVY_SF "USASF Security Forces Rifleman"
+#define JOB_NAVY_SFL "USASF Security Forces Team Leader"
 #define JOB_NAVY_MEDIC "USASF Hospital Corpsman"
 #define JOB_NAVY_ENGI "USASF Engineering Technician"
 #define JOB_NAVY_SKITTLE "USASF Flight-Deck Crewman"
 #define JOB_NAVY_JTAC "USASF Orbital Fire-Support Liason Officer"
 #define JOB_NAVY_PARA_TECH "USASF Para-Rescue Support Technician"
+#define JOB_NAVY_PARA_MED "USASF Para-Rescue Medical Technician"
+#define JOB_NAVY_PARA_LEAD "USASF Para-Rescue Team Leader"
 #define JOB_NAVY_SYNTH "USASF Support Synthetic"
 #define JOB_NAVY_PILOT "USASF Pilot"
 #define JOB_NAVY_CHIEF_ENGINEER "USASF Engineering Duty Officer"
