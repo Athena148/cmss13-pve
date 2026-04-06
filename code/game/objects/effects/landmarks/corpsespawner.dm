@@ -16,65 +16,51 @@
 	GLOB.corpse_spawns -= src
 	return ..()
 
+///////////Civilians//////////////////////
+
 /obj/effect/landmark/corpsespawner/bluecollar
-	name = "Corpse - Blue-Collar"
+	name = "Blue-Collar"
 	equip_path = /datum/equipment_preset/corpse/bluecollar
 
+/obj/effect/landmark/corpsespawner/bluecollar/burst
+	name = "Burst Blue-Collar"
+	equip_path = /datum/equipment_preset/corpse/bluecollar/burst
+
 /obj/effect/landmark/corpsespawner/whitecollar
-	name = "Corpse - White-Collar"
+	name = "White-Collar"
 	equip_path = /datum/equipment_preset/corpse/whitecollar
 
-/obj/effect/landmark/corpsespawner/guard
-	name = "Corpse - Security Guard, Prison"
-	equip_path = /datum/equipment_preset/corpse/guard
+/obj/effect/landmark/corpsespawner/whitecollar/burst
+	name = "Burst White-Collar"
+	equip_path = /datum/equipment_preset/corpse/whitecollar/burst
 
-/obj/effect/landmark/corpsespawner/prisoner
-	name = "Corpse - Prisoner"
-	equip_path = /datum/equipment_preset/corpse/prisoner
+/obj/effect/landmark/corpsespawner/researcher
+	name = "Researcher"
+	equip_path = /datum/equipment_preset/corpse/researcher
 
 /obj/effect/landmark/corpsespawner/chef
 	name = "Chef"
 	equip_path = /datum/equipment_preset/corpse/chef
 
-/obj/effect/landmark/corpsespawner/riot
-	name = "Corpse - Security Guard, UA Colonial Guard"
-	equip_path = /datum/equipment_preset/corpse/riot
+/obj/effect/landmark/corpsespawner/researcher/burst
+	name = "Burst Researcher"
+	equip_path = /datum/equipment_preset/corpse/researcher/burst
 
 /obj/effect/landmark/corpsespawner/doctor
-	name = "Corpse - Doctor"
+	name = "Doctor"
 	equip_path = /datum/equipment_preset/corpse/doctor
 
+/obj/effect/landmark/corpsespawner/doctor/burst
+	name = "Burst Doctor"
+	equip_path = /datum/equipment_preset/corpse/doctor/burst
+
 /obj/effect/landmark/corpsespawner/scrubs
-	name = "Corpse - Doctor, Scrubs"
+	name = "Doctor, Scrubs"
 	equip_path = /datum/equipment_preset/corpse/doctor/scrubs
-
-/obj/effect/landmark/corpsespawner/scientist
-	name = "Scientist"
-	equip_path = /datum/equipment_preset/corpse/scientist
-
-/obj/effect/landmark/corpsespawner/engineer
-	name = "Engineer"
-	equip_path = /datum/equipment_preset/corpse/engineer
 
 /obj/effect/landmark/corpsespawner/security
 	name = "Corpse - Security Guard, Wey-Yu"
 	equip_path = /datum/equipment_preset/colonist/corpse/security
-
-/obj/effect/landmark/corpsespawner/security/liaison
-	name = "Corporate Liaison"
-	equip_path = /datum/equipment_preset/corpse/liaison
-
-/obj/effect/landmark/corpsespawner/administrator
-	name = "Colony Administrator"
-	equip_path = /datum/equipment_preset/corpse/administrator
-
-/obj/effect/landmark/corpsespawner/clf
-	name = "Colonial Liberation Front Soldier"
-	equip_path = /datum/equipment_preset/corpse/clf
-
-/obj/effect/landmark/corpsespawner/miner
-	name = "Shaft Miner"
-	equip_path = /datum/equipment_preset/corpse/miner
 
 //FORECON
 /obj/effect/landmark/corpsespawner/forecon_spotter
