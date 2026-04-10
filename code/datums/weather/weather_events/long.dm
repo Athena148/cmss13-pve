@@ -67,12 +67,18 @@
 	turf_overlay_icon_state = "bsnow"
 	lightning_chance = 10
 
-/datum/weather_event/blizzard/infinite/fog
+/datum/weather_event/infinite/fog
 	name = "GM fog"
 	length = INFINITY
 	turf_overlay_icon_state = "fog"
-	ambience = 'sound/ambience/strata/strata_snowstorm.ogg'
 	lightning_chance = 5
+	turf_overlay_alpha = 200
+
+/datum/weather_event/infinite/fog/rain
+	name = "GM fog with rain"
+	length = INFINITY
+	turf_overlay_icon_state = "fog_rain"
+	lightning_chance = 15
 	turf_overlay_alpha = 200
 
 /datum/weather_event/blizzard/infinite/rain
