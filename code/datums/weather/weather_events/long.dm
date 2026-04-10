@@ -79,8 +79,10 @@
 	name = "GM fog with rain"
 	length = INFINITY
 	turf_overlay_icon_state = "fog_rain"
-	lightning_chance = 15
+	lightning_chance = 10
+	ambience = 'sound/ambience/rainforest.ogg'
 	turf_overlay_alpha = 200
+	layer
 
 /datum/weather_event/blizzard/infinite/rain
 	name = "GM smooth rain"
