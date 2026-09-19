@@ -23,6 +23,7 @@
 	w_class = SIZE_MEDIUM
 	pickup_sound = "armorequip"
 	drop_sound = "armorequip"
+	vision_impair =	VISION_IMPAIR_HIGH
 
 /obj/item/clothing/head/helmet/verb/hidehair()
 	set name = "Toggle Hair"

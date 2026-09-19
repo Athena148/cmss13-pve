@@ -21,7 +21,7 @@
 	armor_rad = CLOTHING_ARMOR_NONE
 	armor_internaldamage = CLOTHING_ARMOR_NONE
 	siemens_coefficient = 0.9
-	vision_impair = VISION_IMPAIR_MED // putting them on for their benefits should have a drawback and feel more immersive
+	vision_impair = VISION_IMPAIR_STRONG // putting them on for their benefits should have a drawback and feel more immersive
 	var/vision_impair_on_store = VISION_IMPAIR_NONE
 	var/ignore_zoom_tint_on_store = FALSE
 	var/gas_filter_strength = 1 //For gas mask filters
