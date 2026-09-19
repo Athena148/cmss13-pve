@@ -153,7 +153,9 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/airlock/almayer/command,
+/obj/structure/machinery/door/airlock/almayer/command{
+	req_access = list(106)
+	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/cic)
 "adY" = (
@@ -304,7 +306,8 @@
 	icon_state = "4-8"
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Disposal Access"
+	name = "Disposal Access";
+	req_one_access = list(100)
 	},
 /obj/structure/catwalk,
 /obj/structure/machinery/door/firedoor/border_only,
@@ -599,7 +602,9 @@
 	id_tag = "bridgelock";
 	name = "Bridge Lockdown"
 	},
-/obj/structure/machinery/door/airlock/almayer/command,
+/obj/structure/machinery/door/airlock/almayer/command{
+	req_access = list(106)
+	},
 /turf/open/floor/kutjevo/fake_wood,
 /area/nerva/second/cic)
 "aor" = (
@@ -838,7 +843,8 @@
 	access_modified = 1;
 	dir = 2;
 	name = "Telecommunications";
-	req_access_txt = "6"
+	req_access_txt = "6";
+	req_access = list(106)
 	},
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/nerva/second/engineering)
@@ -1091,7 +1097,8 @@
 "axU" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bodyguard Maintenance";
-	dir = 1
+	dir = 1;
+	req_one_access = list(106)
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/firedoor/border_only,
@@ -1165,7 +1172,8 @@
 /area/nerva/second/medical)
 "azE" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Chapel Maintenance"
+	name = "Chapel Maintenance";
+	req_one_access = list(100)
 	},
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 4
@@ -1257,13 +1265,13 @@
 	icon_state = "1-2"
 	},
 /obj/structure/machinery/door/airlock/almayer/security{
-	dir = 1
+	dir = 1;
+	req_access = list(104)
 	},
 /turf/open/floor/almayer/plating,
 /area/nerva/first/hallway)
 "aBL" = (
 /obj/effect/decal/warning_stripes/asteroid,
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /obj/structure/disposalpipe/segment,
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
@@ -1276,7 +1284,8 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
 	dir = 8;
 	id_tag = "tc01";
-	name = "\improper Treatment Center"
+	name = "\improper Treatment Center";
+	req_one_access = list(105)
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
@@ -1292,7 +1301,8 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/airlock/almayer/secure{
 	dir = 2;
-	name = "Private Quarters"
+	name = "Private Quarters";
+	req_access = list(106)
 	},
 /turf/open/floor/plating/catwalk,
 /area/nerva/third/officerbunkfore)
@@ -1544,7 +1554,8 @@
 "aIc" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Air Supply Maintenance";
-	dir = 2
+	dir = 2;
+	req_one_access = list(102)
 	},
 /obj/structure/pipes/standard/simple/hidden/universal,
 /turf/open/floor/plating,
@@ -1797,7 +1808,9 @@
 	icon_state = "1-2"
 	},
 /obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor{
+	req_one_access = list(102)
+	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/engineering)
 "aOi" = (
@@ -2769,10 +2782,12 @@
 /area/nerva/second/hallway)
 "bdH" = (
 /obj/structure/machinery/door/window/northleft{
-	name = "Security Office"
+	name = "Security Office";
+	req_access = list(104)
 	},
 /obj/structure/machinery/door/window/brigdoor/southright{
-	name = "Security Office"
+	name = "Security Office";
+	req_access = list(104)
 	},
 /obj/structure/surface/table/reinforced,
 /obj/structure/machinery/door/firedoor/border_only,
@@ -3244,7 +3259,8 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/airlock/almayer/secure{
 	dir = 2;
-	name = "Private Quarters"
+	name = "Private Quarters";
+	req_access = list(106)
 	},
 /turf/open/floor/plating/catwalk,
 /area/nerva/third/officerbunkfore)
@@ -3270,7 +3286,7 @@
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
 	dir = 2;
-	req_one_access = null;
+	req_one_access = list(106);
 	req_access = null
 	},
 /turf/open/floor/almayer_hull,
@@ -3305,7 +3321,8 @@
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/almayer/medical/glass{
 	name = "Medical Storage";
-	dir = 1
+	dir = 1;
+	req_one_access = list(105)
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
@@ -3400,7 +3417,8 @@
 "bqb" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "First Deck Substation";
-	dir = 2
+	dir = 2;
+	req_one_access = list(102)
 	},
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -3417,7 +3435,7 @@
 /obj/structure/surface/table,
 /obj/item/storage/firstaid/adv,
 /obj/structure/pipes/vents/scrubber/on,
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /turf/open/floor/almayer/sterile_green_side/west,
 /area/nerva/second/medical)
 "bqF" = (
@@ -3825,7 +3843,8 @@
 	icon_state = "1-2"
 	},
 /obj/structure/machinery/door/airlock/almayer/security{
-	dir = 1
+	dir = 1;
+	req_access = list(104)
 	},
 /turf/open/floor/almayer/redfull,
 /area/nerva/second/sec)
@@ -4045,7 +4064,8 @@
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/engineering/colony{
 	name = "Tech Storage";
-	secured_wires = 1
+	secured_wires = 1;
+	req_one_access = list(102)
 	},
 /turf/open/floor/plating,
 /area/nerva/third/engineerrnr)
@@ -4094,7 +4114,8 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
-	dir = 2
+	dir = 2;
+	req_one_access = list(106)
 	},
 /obj/structure/catwalk,
 /obj/structure/cable/yellow{
@@ -4126,12 +4147,6 @@
 /turf/open/floor/plating,
 /area/nerva/second/hallway)
 "bHH" = (
-/obj/structure/machinery/door/poddoor/almayer/open{
-	dir = 8;
-	icon_state = "pdoor0";
-	id_tag = "bridgelock";
-	name = "Bridge Lockdown"
-	},
 /obj/structure/machinery/status_display{
 	pixel_y = -30
 	},
@@ -4735,13 +4750,7 @@
 	},
 /obj/item/tool/soap,
 /obj/item/storage/firstaid/regular,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
 "bUs" = (
@@ -4798,9 +4807,9 @@
 /turf/open/floor/almayer/plating,
 /area/almayer/squads/req)
 "bUH" = (
-/obj/effect/spawner/random/technology_scanner,
-/turf/open/floor/plating,
-/area/nerva/first/maint)
+/obj/structure/machinery/cm_vending/sorted/medical,
+/turf/open/floor/almayer/dark_sterile,
+/area/nerva/second/medical)
 "bVt" = (
 /obj/item/tool/pen,
 /obj/item/paper_bin{
@@ -4841,7 +4850,8 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Cargo Bay Maintenance"
+	name = "Cargo Bay Maintenance";
+	req_one_access = list(101)
 	},
 /obj/structure/catwalk,
 /obj/structure/machinery/door/firedoor/border_only,
@@ -5129,13 +5139,10 @@
 "cbF" = (
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/surface/table/reinforced/almayer_B,
-/obj/structure/machinery/prop/almayer/CICmap{
-	density = 0;
+/obj/structure/machinery/computer/communications{
 	dir = 8;
-	icon_state = "shuttle";
-	layer = 2.97;
-	name = "Tactical Map Display";
-	pixel_x = 17
+	pixel_x = 9;
+	pixel_y = -1
 	},
 /turf/open/floor/kutjevo/colors/red/tile,
 /area/nerva/first/panic)
@@ -5301,7 +5308,8 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Access"
+	name = "Engineering Access";
+	req_one_access = list(102)
 	},
 /obj/structure/catwalk,
 /turf/open/floor/plating,
@@ -5404,7 +5412,8 @@
 	icon_state = "1-2"
 	},
 /obj/structure/machinery/door/airlock/almayer/security{
-	dir = 1
+	dir = 1;
+	req_access = list(104)
 	},
 /turf/open/floor/almayer/redfull,
 /area/nerva/second/sec)
@@ -5454,7 +5463,8 @@
 /area/nerva/second/hallway)
 "chq" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Bluespace Drive"
+	name = "Shunt Drive";
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
@@ -5847,11 +5857,6 @@
 	},
 /turf/open/floor/grimy,
 /area/almayer/living/pilotbunks)
-"csW" = (
-/obj/structure/surface/rack,
-/obj/effect/spawner/random/technology_scanner,
-/turf/open/floor/plating,
-/area/nerva/second/maint)
 "ctm" = (
 /obj/structure/machinery/light/small,
 /obj/structure/ladder{
@@ -6096,7 +6101,8 @@
 	icon_state = "1-2"
 	},
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/almayer/plating,
 /area/almayer/living/pilotbunks)
@@ -7059,7 +7065,8 @@
 	icon_state = "4-8"
 	},
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Thrusters Access"
+	name = "Thrusters Access";
+	req_one_access = list(102)
 	},
 /turf/open/floor/almayer_hull,
 /area/nerva/third/thruster)
@@ -7131,7 +7138,8 @@
 	icon_state = "1-2"
 	},
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /obj/structure/window/framed/almayer,
 /turf/open/floor/plating/catwalk,
@@ -7396,7 +7404,6 @@
 /area/nerva/second/engineering)
 "cZu" = (
 /obj/structure/surface/rack,
-/obj/item/weapon/gun/launcher/grenade/m81/m79,
 /obj/item/storage/backpack/satchel/norm{
 	pixel_x = 1;
 	pixel_y = 15
@@ -7434,7 +7441,8 @@
 /area/almayer/living/pilotbunks)
 "daY" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Infirmary Maintenance Access"
+	name = "Infirmary Maintenance Access";
+	req_one_access = list(105)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
@@ -7556,7 +7564,6 @@
 /turf/open/floor/plating,
 /area/nerva/second/maint)
 "ddd" = (
-/obj/structure/machinery/sensortower,
 /obj/structure/cable{
 	d2 = 8;
 	icon_state = "0-8"
@@ -7673,7 +7680,6 @@
 "dfX" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/effect/decal/warning_stripes/asteroid,
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/cable{
@@ -7685,7 +7691,8 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
 	dir = 8;
 	id_tag = "tc01";
-	name = "\improper Treatment Center"
+	name = "\improper Treatment Center";
+	req_one_access = list(105)
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
@@ -7821,7 +7828,8 @@
 	},
 /obj/structure/machinery/door/airlock/engineering/colony{
 	name = "Atmospherics Substation";
-	dir = 1
+	dir = 1;
+	req_one_access = list(102)
 	},
 /turf/open/floor/plating,
 /area/nerva/second/maint)
@@ -7847,7 +7855,7 @@
 "dji" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Medbay Maintenance Access";
-	req_one_access = null;
+	req_one_access = list(105);
 	req_access = null
 	},
 /obj/structure/machinery/door/firedoor/border_only,
@@ -8262,7 +8270,8 @@
 "dtl" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
 	name = "Fuel Bay";
-	secured_wires = 1
+	secured_wires = 1;
+	req_one_access = list(102)
 	},
 /obj/structure/pipes/standard/simple/visible/cyan{
 	dir = 4
@@ -8469,15 +8478,6 @@
 	},
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 5
-	},
-/obj/structure/machinery/prop/almayer/CICmap{
-	density = 0;
-	dir = 8;
-	icon_state = "shuttle";
-	layer = 2.97;
-	name = "Tactical Map Display";
-	pixel_x = 17;
-	pixel_y = 14
 	},
 /turf/open/floor/kutjevo/colors/red/tile,
 /area/nerva/first/panic)
@@ -8708,7 +8708,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/machinery/door/airlock/almayer/command,
+/obj/structure/machinery/door/airlock/almayer/command{
+	req_access = list(106)
+	},
 /turf/open/floor/almayer/plating,
 /area/almayer/living/pilotbunks)
 "dCr" = (
@@ -9423,7 +9425,8 @@
 /area/nerva/third/reporter)
 "dUY" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Access"
+	name = "Engineering Access";
+	req_one_access = list(102)
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -9511,7 +9514,8 @@
 /area/nerva/second/medical)
 "dWZ" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Access"
+	name = "Engineering Access";
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/firedoor/border_only{
 	dir = 2
@@ -9786,7 +9790,8 @@
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/machinery/door/airlock/almayer/security{
-	dir = 1
+	dir = 1;
+	req_access = list(104)
 	},
 /turf/open/floor/almayer/red/east,
 /area/nerva/second/sec)
@@ -9876,7 +9881,6 @@
 /area/nerva/second/medical)
 "eeX" = (
 /obj/structure/closet/crate,
-/obj/item/clothing/head/det_hat,
 /obj/item/tool/soap,
 /turf/open/floor/plating,
 /area/nerva/first/maint)
@@ -10182,7 +10186,8 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/airlock/almayer/secure{
-	name = "Private Quarters"
+	name = "Private Quarters";
+	req_access = list(106)
 	},
 /turf/open/floor/almayer/plating,
 /area/nerva/third/officerbunkfore)
@@ -10217,7 +10222,8 @@
 "emN" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Storage Maintenance";
-	dir = 1
+	dir = 1;
+	req_one_access = list(106)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
@@ -10232,7 +10238,8 @@
 /obj/structure/machinery/door/airlock/engineering/colony{
 	name = "Secure Storage";
 	secured_wires = 1;
-	dir = 1
+	dir = 1;
+	req_one_access = list(102)
 	},
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -10674,7 +10681,6 @@
 /area/nerva/second/maint)
 "ewr" = (
 /obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /obj/effect/decal/warning_stripes/asteroid,
 /obj/structure/machinery/door/airlock/almayer/marine/requisitions{
 	dir = 2
@@ -10736,7 +10742,7 @@
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
-	id_tag = "bridgeoutlock";
+	id_tag = "bridgelock";
 	name = "Bridge Outer Lockdown"
 	},
 /obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/reinforced/colony{
@@ -11504,7 +11510,8 @@
 /area/nerva/second/engineering)
 "eNM" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Expedition Prep"
+	name = "Expedition Prep";
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/plating/catwalk,
@@ -11767,7 +11774,7 @@
 "eTp" = (
 /obj/structure/surface/table,
 /obj/item/folder/blue,
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /obj/item/trash/cigbutt,
 /turf/open/floor/plating,
 /area/nerva/first/maint)
@@ -12243,7 +12250,8 @@
 /area/nerva/first/research)
 "fbX" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Atmospherics Substation"
+	name = "Atmospherics Substation";
+	req_one_access = list(102)
 	},
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -12353,7 +12361,7 @@
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
-	id_tag = "bridgeoutlock";
+	id_tag = "bridgelock";
 	name = "Bridge Outer Lockdown"
 	},
 /turf/open/floor/almayer/plating,
@@ -12440,7 +12448,7 @@
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
-	id_tag = "bridgeoutlock";
+	id_tag = "bridgelock";
 	name = "Bridge Outer Lockdown"
 	},
 /turf/open/floor/almayer/plating,
@@ -12548,7 +12556,8 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Cargo Bay Maintenance"
+	name = "Cargo Bay Maintenance";
+	req_one_access = list(101)
 	},
 /obj/structure/catwalk,
 /obj/structure/machinery/door/firedoor/border_only,
@@ -12764,7 +12773,6 @@
 "fnH" = (
 /obj/structure/closet/crate,
 /obj/effect/spawner/random/bomb_supply,
-/obj/effect/spawner/random/technology_scanner,
 /obj/effect/decal/cleanable/cobweb2{
 	icon_state = "cobweb1"
 	},
@@ -13206,7 +13214,6 @@
 /area/nerva/second/hallway)
 "fzF" = (
 /obj/item/reagent_container/food/drinks/cans/waterbottle,
-/obj/item/book/manual/security_space_law,
 /obj/structure/machinery/computer/telecomms/monitor,
 /turf/open/floor/almayer/plating,
 /area/nerva/second/cic)
@@ -13246,7 +13253,8 @@
 	icon_state = "1-2"
 	},
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/cic)
@@ -13347,7 +13355,9 @@
 /area/nerva/second/maint)
 "fCW" = (
 /obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/airlock/almayer/security,
+/obj/structure/machinery/door/airlock/almayer/security{
+	req_access = list(104)
+	},
 /turf/open/floor/almayer/red/north,
 /area/nerva/second/sec)
 "fDw" = (
@@ -13403,12 +13413,6 @@
 /obj/structure/pipes/standard/manifold/visible,
 /turf/open/floor/plating,
 /area/nerva/first/maint)
-"fDY" = (
-/obj/structure/window/framed/bunker,
-/obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/poddoor/shutters/almayer,
-/turf/open/floor/plating,
-/area/almayer/squads/req)
 "fEi" = (
 /obj/structure/machinery/cm_vending/sorted/boozeomat,
 /obj/structure/machinery/alarm{
@@ -14010,7 +14014,8 @@
 /obj/structure/surface/table/reinforced,
 /obj/structure/machinery/door/window/eastleft{
 	dir = 1;
-	name = "Brig Entrance"
+	name = "Brig Entrance";
+	req_access = list(104)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/cable{
@@ -14162,7 +14167,6 @@
 /obj/effect/spawner/random/gun/upp_secondary/highchance,
 /obj/effect/spawner/random/gun/upp_primary/highchance,
 /obj/effect/spawner/random/gun/upp_primary/highchance,
-/obj/effect/spawner/random/technology_scanner,
 /turf/open/floor/plating,
 /area/nerva/fourth/maint)
 "fTF" = (
@@ -14929,7 +14933,6 @@
 /obj/effect/spawner/random/tool,
 /obj/effect/spawner/random/toolbox,
 /obj/effect/spawner/random/tech_supply,
-/obj/effect/spawner/random/technology_scanner,
 /turf/open/floor/plating,
 /area/nerva/fourth/maint)
 "gne" = (
@@ -15306,7 +15309,6 @@
 /area/nerva/second/hallway)
 "gvu" = (
 /obj/structure/surface/rack,
-/obj/item/clothing/head/det_hat,
 /obj/effect/spawner/random/goggles/highchance,
 /turf/open/floor/plating,
 /area/nerva/second/maint)
@@ -15340,7 +15342,9 @@
 	icon_state = "4-8"
 	},
 /obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/airlock/almayer/security,
+/obj/structure/machinery/door/airlock/almayer/security{
+	req_access = list(104)
+	},
 /turf/open/floor/almayer/red/southwest,
 /area/nerva/second/sec)
 "gwH" = (
@@ -16374,7 +16378,8 @@
 /area/nerva/second/medical)
 "gRy" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Access"
+	name = "Engineering Access";
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/cable{
@@ -16460,7 +16465,8 @@
 	opacity = 0
 	},
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Access"
+	name = "Engineering Access";
+	req_one_access = list(102)
 	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/engineering)
@@ -16887,7 +16893,8 @@
 	},
 /obj/structure/catwalk,
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Engineering Maintenance"
+	name = "Engineering Maintenance";
+	req_one_access = list(102)
 	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -16978,7 +16985,6 @@
 /obj/effect/spawner/random/trash,
 /obj/effect/spawner/random/trash,
 /obj/item/storage/box,
-/obj/effect/spawner/random/technology_scanner,
 /obj/effect/spawner/random/gun/upp_primary/highchance,
 /turf/open/floor/plating,
 /area/nerva/fourth/maint)
@@ -17326,7 +17332,6 @@
 /obj/item/storage/firstaid/regular,
 /obj/effect/spawner/random/bomb_supply,
 /obj/effect/spawner/random/bomb_supply,
-/obj/effect/spawner/random/technology_scanner,
 /turf/open/floor/plating,
 /area/nerva/fourth/maint)
 "hjB" = (
@@ -17473,7 +17478,8 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Cargo Bay Maintenance"
+	name = "Cargo Bay Maintenance";
+	req_one_access = list(101)
 	},
 /obj/structure/catwalk,
 /obj/structure/cable{
@@ -17970,9 +17976,6 @@
 	dir = 4
 	},
 /obj/item/storage/firstaid/regular,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
 "hxf" = (
@@ -17995,7 +17998,7 @@
 /obj/item/tool/pen,
 /obj/item/clothing/accessory/stethoscope,
 /obj/item/device/flashlight/pen,
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
 "hye" = (
@@ -18008,7 +18011,7 @@
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
 	dir = 2;
-	req_one_access = null;
+	req_one_access = list(106);
 	req_access = null
 	},
 /obj/structure/machinery/door/firedoor/border_only,
@@ -18163,7 +18166,9 @@
 /area/nerva/first/maint)
 "hBE" = (
 /obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/airlock/almayer/command,
+/obj/structure/machinery/door/airlock/almayer/command{
+	req_access = list(106)
+	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/cic)
 "hBJ" = (
@@ -18283,7 +18288,8 @@
 /area/nerva/first/research)
 "hEc" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Access"
+	name = "Engineering Access";
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/cable{
@@ -18331,7 +18337,8 @@
 "hEQ" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Air Supply Maintenance";
-	dir = 1
+	dir = 1;
+	req_one_access = list(102)
 	},
 /obj/structure/pipes/standard/simple/hidden/universal,
 /turf/open/floor/plating,
@@ -18352,12 +18359,6 @@
 	},
 /turf/open/floor/almayer_hull,
 /area/nerva/first/thrusters)
-"hFj" = (
-/obj/structure/surface/table/reinforced,
-/obj/structure/machinery/door/poddoor/shutters/almayer,
-/obj/structure/machinery/door/firedoor/border_only,
-/turf/open/floor/strata/multi_tiles/southwest,
-/area/nerva/second/bar)
 "hFE" = (
 /obj/structure/window/phoronreinforced/full{
 	not_damageable = 1;
@@ -18707,7 +18708,8 @@
 	icon_state = "4-8"
 	},
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Thrusters Access"
+	name = "Thrusters Access";
+	req_one_access = list(102)
 	},
 /turf/open/floor/almayer_hull,
 /area/nerva/first/thrusters)
@@ -19012,16 +19014,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/almayer/plating,
 /area/nerva/second/hallway)
-"hYG" = (
-/obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Bridge Maintenance";
-	dir = 2;
-	req_one_access = null;
-	req_access = null
-	},
-/obj/structure/machinery/door/firedoor/border_only,
-/turf/open/floor/plating,
-/area/nerva/second/hallway)
 "hYK" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor/research,
@@ -19171,7 +19163,6 @@
 "ibV" = (
 /obj/structure/surface/table/reinforced,
 /obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /obj/effect/decal/warning_stripes/asteroid,
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/almayer/dark_sterile,
@@ -19617,7 +19608,9 @@
 	icon_state = "4-8"
 	},
 /obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/airlock/almayer/security,
+/obj/structure/machinery/door/airlock/almayer/security{
+	req_access = list(104)
+	},
 /turf/open/floor/almayer/redfull,
 /area/nerva/second/sec/armory)
 "ikn" = (
@@ -19946,7 +19939,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor{
+	req_one_access = list(102)
+	},
 /turf/open/floor/plating,
 /area/nerva/second/engineering)
 "iqd" = (
@@ -20097,7 +20092,8 @@
 "isr" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
 	name = "Tech Storage";
-	secured_wires = 1
+	secured_wires = 1;
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -20240,7 +20236,6 @@
 "iuG" = (
 /obj/structure/surface/rack,
 /obj/effect/landmark/costume/random,
-/obj/item/clothing/head/det_hat,
 /obj/item/clothing/mask/gas,
 /turf/open/floor/plating,
 /area/nerva/first/research)
@@ -20333,7 +20328,8 @@
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/almayer/plating,
 /area/almayer/living/tankerbunks)
@@ -20342,7 +20338,8 @@
 	dir = 2
 	},
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Waste Loop Access"
+	name = "Waste Loop Access";
+	req_one_access = list(102)
 	},
 /obj/structure/catwalk,
 /turf/open/floor/plating,
@@ -20585,7 +20582,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/machinery/door/airlock/almayer/command,
+/obj/structure/machinery/door/airlock/almayer/command{
+	req_access = list(106)
+	},
 /turf/open/floor/almayer/redfull,
 /area/nerva/second/sec/armory)
 "iFd" = (
@@ -20789,7 +20788,8 @@
 /area/nerva/second/engineering)
 "iJK" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Access"
+	name = "Engineering Access";
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
@@ -20901,7 +20901,8 @@
 	name = "Bridge Lockdown"
 	},
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/cic)
@@ -21340,7 +21341,8 @@
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor{
-	name = "\improper Engineering Lockers"
+	name = "\improper Engineering Lockers";
+	req_one_access = list(102)
 	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/engineering)
@@ -21728,7 +21730,8 @@
 "jgm" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
-	req_one_access = null
+	req_one_access = null;
+	req_access = list(106)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
@@ -22743,7 +22746,8 @@
 	dir = 2
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Engineering Maintenance"
+	name = "Engineering Maintenance";
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
 	density = 0;
@@ -23939,7 +23943,7 @@
 "jZi" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Medbay Maintenance Access";
-	req_one_access = null;
+	req_one_access = list(105);
 	req_access = null
 	},
 /obj/structure/machinery/door/firedoor/border_only,
@@ -23980,7 +23984,8 @@
 /area/nerva/third/air)
 "jZG" = (
 /obj/structure/machinery/door/window/brigdoor/southright{
-	id = "Cell 3"
+	id = "Cell 3";
+	req_access = list(104)
 	},
 /obj/structure/machinery/door/window/northleft{
 	id = "Cell 3"
@@ -24233,7 +24238,6 @@
 /obj/effect/decal/warning_stripes/asteroid,
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /obj/structure/machinery/door/airlock/almayer/marine/requisitions{
 	dir = 2
 	},
@@ -24339,7 +24343,6 @@
 /obj/effect/spawner/random/tech_supply,
 /obj/effect/spawner/random/toy,
 /obj/item/clothing/accessory/armband,
-/obj/effect/spawner/random/technology_scanner,
 /turf/open/floor/plating,
 /area/nerva/fourth/maint)
 "khB" = (
@@ -24578,12 +24581,13 @@
 /obj/structure/catwalk,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
-	id_tag = "bridgeoutlock";
+	id_tag = "bridgelock";
 	name = "Bridge Outer Lockdown"
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
-	req_one_access = null
+	req_one_access = null;
+	req_access = list(106)
 	},
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 4
@@ -24632,12 +24636,6 @@
 /obj/item/stack/rods,
 /turf/open/floor/almayer/plating,
 /area/nerva/second/engineering)
-"kmw" = (
-/obj/structure/closet,
-/obj/item/clothing/head/det_hat,
-/obj/effect/spawner/random/bomb_supply,
-/turf/open/floor/plating,
-/area/nerva/first/maint)
 "kmQ" = (
 /obj/structure/pipes/standard/simple/visible/cyan{
 	dir = 10
@@ -24951,7 +24949,9 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/airlock/almayer/security,
+/obj/structure/machinery/door/airlock/almayer/security{
+	req_access = list(104)
+	},
 /turf/open/floor/almayer/red,
 /area/nerva/second/sec)
 "ksX" = (
@@ -25005,7 +25005,8 @@
 	},
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/machinery/door/airlock/almayer/security{
-	dir = 1
+	dir = 1;
+	req_access = list(104)
 	},
 /turf/open/floor/almayer/redfull,
 /area/nerva/second/sec)
@@ -25211,7 +25212,8 @@
 /obj/structure/catwalk,
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
-	dir = 2
+	dir = 2;
+	req_one_access = list(106)
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/yellow{
@@ -25893,7 +25895,8 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Access"
+	name = "Engineering Access";
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/poddoor/almayer/planet_side_blastdoor{
 	density = 0;
@@ -26101,15 +26104,8 @@
 	pixel_x = 23
 	},
 /obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
-/obj/item/ammo_magazine/shotgun/buckshot,
 /obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
-/obj/item/weapon/gun/shotgun/pump/dual_tube/cmb,
+/obj/item/ammo_magazine/shotgun/buckshot,
 /turf/open/floor/almayer/redfull,
 /area/nerva/second/sec/armory)
 "kRb" = (
@@ -26915,7 +26911,8 @@
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/almayer/security{
-	dir = 1
+	dir = 1;
+	req_access = list(104)
 	},
 /turf/open/floor/almayer/redfull,
 /area/nerva/second/sec)
@@ -26930,8 +26927,6 @@
 "lid" = (
 /obj/item/storage/toolbox/emergency,
 /obj/structure/closet/firecloset,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
 /obj/item/storage/toolbox/emergency,
 /obj/item/tool/crowbar,
 /turf/open/floor/kutjevo/tan,
@@ -27199,7 +27194,8 @@
 /obj/structure/pipes/standard/simple/visible/universal,
 /obj/item/pipe_meter,
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Air Supply Maintenance"
+	name = "Air Supply Maintenance";
+	req_one_access = list(102)
 	},
 /turf/open/floor/plating,
 /area/nerva/second/maint)
@@ -27654,7 +27650,8 @@
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/almayer/plating,
 /area/almayer/living/pilotbunks)
@@ -27684,7 +27681,8 @@
 "lwY" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Thrusters Access"
+	name = "Thrusters Access";
+	req_one_access = list(102)
 	},
 /turf/open/floor/almayer_hull,
 /area/nerva/first/thrusters)
@@ -27966,7 +27964,8 @@
 "lDg" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Access"
+	name = "Engineering Access";
+	req_one_access = list(102)
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -28182,7 +28181,8 @@
 "lHe" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/almayer/plating,
 /area/almayer/living/tankerbunks)
@@ -28622,7 +28622,8 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/plating/catwalk,
 /area/almayer/living/pilotbunks)
@@ -28645,7 +28646,8 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/kutjevo/fake_wood,
 /area/nerva/second/cic)
@@ -29377,7 +29379,9 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/airlock/almayer/command,
+/obj/structure/machinery/door/airlock/almayer/command{
+	req_access = list(106)
+	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/cic)
 "miX" = (
@@ -29429,7 +29433,8 @@
 "mkt" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor{
-	dir = 1
+	dir = 1;
+	req_one_access = list(102)
 	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/engineering)
@@ -29518,7 +29523,8 @@
 "mmi" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/almayer/security{
-	dir = 1
+	dir = 1;
+	req_access = list(104)
 	},
 /turf/open/floor/almayer/redfull,
 /area/nerva/second/sec)
@@ -30045,7 +30051,8 @@
 "mwz" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Custodial Maintenance";
-	dir = 2
+	dir = 2;
+	req_one_access = list(100)
 	},
 /obj/structure/catwalk,
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -30293,13 +30300,11 @@
 /turf/open/floor/plating,
 /area/nerva/first/maint)
 "mBU" = (
-/obj/structure/machinery/door/firedoor/border_only,
 /obj/effect/decal/warning_stripes{
 	dir = 1;
 	icon_state = "loadingarea"
 	},
-/obj/structure/machinery/door/poddoor/shutters/almayer,
-/turf/open/floor/almayer/dark_sterile,
+/turf/closed/wall/almayer/white,
 /area/nerva/second/medical)
 "mBX" = (
 /obj/structure/cable{
@@ -30361,7 +30366,8 @@
 "mDv" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Fourth Deck Substation";
-	dir = 2
+	dir = 2;
+	req_one_access = list(102)
 	},
 /obj/structure/cable{
 	d1 = 1;
@@ -30726,7 +30732,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/machinery/door/airlock/almayer/command,
+/obj/structure/machinery/door/airlock/almayer/command{
+	req_access = list(106)
+	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/cic)
 "mJs" = (
@@ -30979,7 +30987,9 @@
 /area/nerva/second/medical)
 "mSo" = (
 /obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/airlock/almayer/command,
+/obj/structure/machinery/door/airlock/almayer/command{
+	req_access = list(106)
+	},
 /turf/open/floor/almayer/plating,
 /area/almayer/living/pilotbunks)
 "mSq" = (
@@ -31113,7 +31123,7 @@
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
-	id_tag = "bridgeoutlock";
+	id_tag = "bridgelock";
 	name = "Bridge Outer Lockdown"
 	},
 /obj/structure/disposalpipe/segment{
@@ -31459,11 +31469,11 @@
 "ndK" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/effect/decal/warning_stripes/asteroid,
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/airlock/almayer/medical/glass{
 	name = "Medical Storage";
-	dir = 2
+	dir = 2;
+	req_one_access = list(105)
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
@@ -31852,7 +31862,6 @@
 /turf/open/floor/almayer_hull,
 /area/nerva/fourth/maint)
 "noP" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/surface/table/reinforced,
 /turf/open/floor/strata/multi_tiles/southwest,
@@ -32077,12 +32086,6 @@
 /obj/structure/surface/table/reinforced,
 /turf/open/floor/almayer/plating,
 /area/nerva/second/engineering)
-"ntc" = (
-/obj/structure/window/framed/almayer/white,
-/obj/structure/machinery/door/poddoor/shutters/almayer,
-/obj/structure/machinery/door/firedoor/border_only,
-/turf/open/floor/plating,
-/area/nerva/second/medical)
 "nto" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/cable{
@@ -32350,15 +32353,6 @@
 	},
 /turf/open/floor/almayer,
 /area/nerva/second/bar)
-"nyd" = (
-/obj/structure/machinery/door/poddoor/almayer/open{
-	dir = 8;
-	icon_state = "pdoor0";
-	id_tag = "bridgelock";
-	name = "Bridge Lockdown"
-	},
-/turf/open/floor/almayer/plating,
-/area/nerva/second/cic)
 "nyq" = (
 /obj/item/stool,
 /turf/open/floor/almayer,
@@ -32398,7 +32392,8 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/almayer/security{
-	dir = 1
+	dir = 1;
+	req_access = list(104)
 	},
 /turf/open/floor/almayer/redfull,
 /area/nerva/second/sec)
@@ -32428,7 +32423,8 @@
 "nBi" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Access"
+	name = "Engineering Access";
+	req_one_access = list(102)
 	},
 /turf/open/floor/almayer/plating,
 /area/nerva/third/air)
@@ -32885,7 +32881,6 @@
 "nKI" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/effect/decal/warning_stripes/asteroid,
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
 "nKM" = (
@@ -33278,7 +33273,7 @@
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Security Maintenance";
 	dir = 2;
-	req_one_access = null;
+	req_one_access = list(104);
 	req_access = null
 	},
 /obj/structure/cable{
@@ -33519,7 +33514,7 @@
 	pixel_x = 26
 	},
 /obj/structure/surface/table,
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /obj/item/tool/wrench,
 /turf/open/floor/plating/catwalk,
 /area/nerva/first/research)
@@ -33770,7 +33765,8 @@
 "ogI" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
-	req_one_access = null
+	req_one_access = null;
+	req_access = list(106)
 	},
 /obj/structure/pipes/standard/simple/hidden/scrubbers{
 	dir = 4
@@ -34250,7 +34246,8 @@
 /obj/structure/machinery/door/airlock/almayer/secure/reinforced{
 	access_modified = 1;
 	name = "Telecommunications";
-	req_access_txt = "6"
+	req_access_txt = "6";
+	req_access = list(106)
 	},
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/nerva/second/engineering/tcomms)
@@ -34616,7 +34613,8 @@
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/machinery/door/airlock/almayer/security{
-	dir = 1
+	dir = 1;
+	req_access = list(104)
 	},
 /turf/open/floor/almayer/red/east,
 /area/nerva/second/sec)
@@ -34631,12 +34629,6 @@
 	pixel_x = 26
 	},
 /obj/item/storage/firstaid/regular,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
 /obj/structure/surface/table/reinforced/prison,
 /obj/item/bodybag/cryobag,
 /turf/open/floor/strata/multi_tiles/southwest,
@@ -34721,7 +34713,8 @@
 /area/nerva/second/sec)
 "oAV" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Aft Auxiliary Solar Access"
+	name = "Aft Auxiliary Solar Access";
+	req_one_access = list(102)
 	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -34822,7 +34815,8 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
 	dir = 8;
 	id_tag = "tc01";
-	name = "\improper Treatment Center"
+	name = "\improper Treatment Center";
+	req_one_access = list(105)
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
@@ -35163,7 +35157,8 @@
 /area/nerva/second/engineering/burn)
 "oHH" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Bluespace Drive"
+	name = "Shunt Drive";
+	req_one_access = list(102)
 	},
 /turf/open/floor/plating,
 /area/nerva/fourth/maint)
@@ -35210,7 +35205,8 @@
 "oJY" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Chief Medical Officer Maintenance";
-	dir = 1
+	dir = 1;
+	req_one_access = list(106)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
@@ -35333,7 +35329,8 @@
 	opacity = 0
 	},
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Access"
+	name = "Engineering Access";
+	req_one_access = list(102)
 	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/engineering)
@@ -35409,7 +35406,7 @@
 	dir = 4
 	},
 /obj/item/tool/screwdriver,
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
 "oOs" = (
@@ -35450,8 +35447,9 @@
 "oPl" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
-	dir = 1;
-	req_one_access = null
+	dir = 2;
+	req_one_access = list(106);
+	req_access = null
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
@@ -36004,6 +36002,9 @@
 	icon_state = "1-4"
 	},
 /obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/computer/communications{
+	dir = 8
+	},
 /turf/open/floor/plating/catwalk,
 /area/nerva/second/cic)
 "paA" = (
@@ -36355,7 +36356,8 @@
 /obj/item/pipe_meter,
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Air Supply Maintenance";
-	dir = 1
+	dir = 1;
+	req_one_access = list(102)
 	},
 /turf/open/floor/plating,
 /area/nerva/fourth/maint)
@@ -36538,7 +36540,8 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Access"
+	name = "Engineering Access";
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/light/purple,
@@ -37547,7 +37550,7 @@
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Cargo Bay Maintenance";
 	dir = 1;
-	req_one_access = null;
+	req_one_access = list(101);
 	req_access = null
 	},
 /turf/open/floor/plating,
@@ -37657,7 +37660,9 @@
 /obj/structure/machinery/door/firedoor/border_only{
 	dir = 2
 	},
-/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor,
+/obj/structure/machinery/door/airlock/multi_tile/almayer/engidoor{
+	req_one_access = list(102)
+	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/engineering)
 "pJh" = (
@@ -37962,9 +37967,6 @@
 /turf/open/floor/almayer/plating,
 /area/nerva/second/cic)
 "pRm" = (
-/obj/item/lightstick/red/variant{
-	dir = 8
-	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -37972,6 +37974,10 @@
 	},
 /obj/structure/surface/table/reinforced/black,
 /obj/structure/surface/table/reinforced/black,
+/obj/structure/machinery/door_control/brbutton/alt{
+	id = "bridgelock";
+	name = "Bridge Lockdown"
+	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/cic)
 "pRC" = (
@@ -37993,7 +37999,7 @@
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
 	dir = 2;
-	req_one_access = null;
+	req_one_access = list(106);
 	req_access = null
 	},
 /turf/open/floor/almayer_hull,
@@ -38581,7 +38587,8 @@
 /area/almayer/squads/req)
 "qeQ" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Command Substation"
+	name = "Command Substation";
+	req_one_access = list(102)
 	},
 /obj/structure/cable{
 	d1 = 4;
@@ -38764,7 +38771,6 @@
 /turf/open/floor/plating,
 /area/nerva/second/sec)
 "qiC" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/almayer/plating,
 /area/almayer/living/tankerbunks)
@@ -38775,7 +38781,8 @@
 "qjk" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
-	dir = 2
+	dir = 2;
+	req_one_access = list(106)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
@@ -39061,7 +39068,8 @@
 /area/nerva/third/engineerrnr)
 "qrh" = (
 /obj/structure/machinery/door/window/brigdoor/southright{
-	id = "Cell 2"
+	id = "Cell 2";
+	req_access = list(104)
 	},
 /obj/structure/machinery/door/window/northleft{
 	id = "Cell 2"
@@ -40041,7 +40049,7 @@
 	pixel_x = 3;
 	pixel_y = -3
 	},
-/obj/item/device/healthanalyzer,
+/obj/item/device/healthanalyzer/soul,
 /obj/structure/machinery/firealarm{
 	dir = 8;
 	pixel_x = -24
@@ -40504,7 +40512,6 @@
 "qRQ" = (
 /obj/structure/closet,
 /obj/item/prop/colony/canister,
-/obj/effect/spawner/random/technology_scanner,
 /turf/open/floor/plating,
 /area/nerva/fourth/maint)
 "qRV" = (
@@ -40811,7 +40818,7 @@
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
 	dir = 2;
-	req_one_access = null;
+	req_one_access = list(106);
 	req_access = null
 	},
 /turf/open/floor/almayer_hull,
@@ -41131,7 +41138,8 @@
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/almayer/secure{
 	dir = 2;
-	name = "Private Quarters"
+	name = "Private Quarters";
+	req_access = list(106)
 	},
 /turf/open/floor/kutjevo/fake_wood,
 /area/nerva/third/officerbunkfore)
@@ -41270,7 +41278,8 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Cargo Bay Maintenance"
+	name = "Cargo Bay Maintenance";
+	req_one_access = list(101)
 	},
 /obj/structure/catwalk,
 /obj/structure/machinery/door/firedoor/border_only,
@@ -41840,7 +41849,7 @@
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
 	dir = 2;
-	req_one_access = null;
+	req_one_access = list(106);
 	req_access = null
 	},
 /obj/structure/pipes/standard/simple/hidden/supply,
@@ -42139,7 +42148,6 @@
 	},
 /area/nerva/third/officerbunkmid)
 "rxA" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/almayer/plating,
@@ -42873,7 +42881,8 @@
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/almayer/plating,
 /area/almayer/living/tankerbunks)
@@ -43186,7 +43195,8 @@
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
-	dir = 2
+	dir = 2;
+	req_one_access = list(106)
 	},
 /obj/structure/cable{
 	d1 = 1;
@@ -43417,7 +43427,8 @@
 	icon_state = "4-8"
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Port Gun Bay"
+	name = "Port Gun Bay";
+	req_one_access = list(102)
 	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -43790,7 +43801,8 @@
 "sax" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Infirmary Maintenance Access";
-	dir = 1
+	dir = 1;
+	req_one_access = list(105)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
@@ -44085,7 +44097,8 @@
 "sgN" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Engine Monitoring Maintenance";
-	dir = 2
+	dir = 2;
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/firedoor/border_only{
 	dir = 2
@@ -44324,7 +44337,7 @@
 	autoset_access = 0;
 	name = "Security Maintenance";
 	req_access = null;
-	req_one_access = null
+	req_one_access = list(104)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
@@ -45059,7 +45072,8 @@
 "sBM" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Morgue Maintenance";
-	dir = 2
+	dir = 2;
+	req_one_access = list(105)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
@@ -45429,7 +45443,8 @@
 /area/nerva/first/maint)
 "sIq" = (
 /obj/structure/machinery/door/window/brigdoor/southright{
-	id = "Cell 1"
+	id = "Cell 1";
+	req_access = list(104)
 	},
 /obj/structure/machinery/door/window/northleft{
 	id = "Cell 1"
@@ -46333,7 +46348,8 @@
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Cargo Bay Maintenance";
-	dir = 2
+	dir = 2;
+	req_one_access = list(101)
 	},
 /obj/structure/catwalk,
 /obj/structure/machinery/door/firedoor/border_only,
@@ -46408,7 +46424,8 @@
 /obj/structure/pipes/standard/simple/visible/cyan,
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Engine Maintenance";
-	dir = 2
+	dir = 2;
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/firedoor/border_only{
 	dir = 2
@@ -46566,7 +46583,7 @@
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
-	id_tag = "bridgeoutlock";
+	id_tag = "bridgelock";
 	name = "Bridge Outer Lockdown"
 	},
 /obj/structure/machinery/door/airlock/multi_tile/almayer/comdoor/reinforced/colony{
@@ -46993,7 +47010,8 @@
 "tlK" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
-	req_one_access = null
+	req_one_access = null;
+	req_access = list(106)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
@@ -47327,7 +47345,8 @@
 /area/nerva/fourth/maint)
 "ttF" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Fourth Deck Substation"
+	name = "Fourth Deck Substation";
+	req_one_access = list(102)
 	},
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -47420,7 +47439,6 @@
 /area/nerva/fourth/maint)
 "tvr" = (
 /obj/structure/window/framed/almayer/white,
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/space,
 /area/nerva/second/medical)
@@ -47971,9 +47989,6 @@
 /obj/structure/machinery/door/firedoor/border_only{
 	dir = 2
 	},
-/obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engine Tank Storage"
-	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
 	},
@@ -48011,7 +48026,8 @@
 	icon_state = "1-2"
 	},
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/almayer/plating,
 /area/almayer/living/pilotbunks)
@@ -48022,7 +48038,6 @@
 /area/nerva/fourth/core)
 "tGf" = (
 /obj/effect/decal/warning_stripes/asteroid,
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
@@ -49113,7 +49128,8 @@
 "ucL" = (
 /obj/structure/machinery/door/airlock/engineering/colony{
 	name = "Fuel Bay";
-	secured_wires = 1
+	secured_wires = 1;
+	req_one_access = list(102)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
@@ -49403,7 +49419,8 @@
 "ukV" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Thrusters Access"
+	name = "Thrusters Access";
+	req_one_access = list(102)
 	},
 /turf/open/floor/almayer_hull,
 /area/nerva/third/thruster)
@@ -49453,7 +49470,8 @@
 /area/nerva/fourth/core)
 "umb" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Auxiliary Janitorial Supply Closet"
+	name = "Auxiliary Janitorial Supply Closet";
+	req_one_access = list(100)
 	},
 /turf/open/floor/plating,
 /area/nerva/first/maint)
@@ -50023,7 +50041,8 @@
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/almayer/medical/glass{
 	name = "Chemistry";
-	dir = 2
+	dir = 2;
+	req_one_access = list(105)
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
@@ -50799,12 +50818,13 @@
 /obj/structure/catwalk,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
-	id_tag = "bridgeoutlock";
+	id_tag = "bridgelock";
 	name = "Bridge Outer Lockdown"
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
-	req_one_access = null
+	req_one_access = null;
+	req_access = list(106)
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -51368,7 +51388,8 @@
 /obj/structure/machinery/door/airlock/multi_tile/almayer/medidoor{
 	dir = 2;
 	id_tag = "tc02";
-	name = "\improper Treatment Center"
+	name = "\improper Treatment Center";
+	req_one_access = list(105)
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
@@ -52173,7 +52194,9 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/firedoor/border_only,
-/obj/structure/machinery/door/airlock/almayer/security,
+/obj/structure/machinery/door/airlock/almayer/security{
+	req_access = list(104)
+	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/hallway)
 "vso" = (
@@ -52718,8 +52741,6 @@
 	pixel_y = 24
 	},
 /obj/structure/surface/table,
-/obj/item/device/defibrillator/compact,
-/obj/item/device/defibrillator/compact,
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
 "vEC" = (
@@ -52780,7 +52801,7 @@
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
 	dir = 2;
-	req_one_access = null;
+	req_one_access = list(106);
 	req_access = null
 	},
 /obj/structure/disposalpipe/segment,
@@ -53340,9 +53361,7 @@
 /area/nerva/fourth/maint)
 "vUW" = (
 /obj/structure/surface/table,
-/obj/effect/spawner/random/technology_scanner,
 /obj/item/storage/firstaid/regular,
-/obj/effect/spawner/random/technology_scanner,
 /obj/structure/machinery/light{
 	dir = 1
 	},
@@ -53931,7 +53950,6 @@
 /turf/open/floor/strata/multi_tiles/southwest,
 /area/nerva/first/research)
 "whF" = (
-/obj/item/clothing/head/det_hat,
 /obj/structure/surface/rack,
 /obj/item/toy/plush/random_plushie,
 /turf/open/floor/plating,
@@ -54188,7 +54206,8 @@
 "wmD" = (
 /obj/structure/surface/table/reinforced,
 /obj/structure/machinery/door/window/eastleft{
-	name = "Brig Entrance"
+	name = "Brig Entrance";
+	req_access = list(104)
 	},
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/item/paper_bin,
@@ -54970,7 +54989,8 @@
 "wBr" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Engineering Lockers"
+	name = "Engineering Lockers";
+	req_one_access = list(102)
 	},
 /turf/open/floor/almayer/plating,
 /area/nerva/second/engineering)
@@ -54985,7 +55005,8 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/kutjevo/fake_wood,
 /area/nerva/second/cic)
@@ -55044,7 +55065,8 @@
 /obj/structure/pipes/standard/simple/hidden/scrubbers,
 /obj/structure/machinery/door/airlock/almayer/medical/glass{
 	name = "Medical Lobby";
-	dir = 2
+	dir = 2;
+	req_one_access = list(105)
 	},
 /turf/open/floor/almayer/dark_sterile,
 /area/nerva/second/medical)
@@ -55103,7 +55125,8 @@
 "wDV" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Engineering Storage Maintenance";
-	dir = 1
+	dir = 1;
+	req_one_access = list(102)
 	},
 /obj/structure/cable{
 	d1 = 1;
@@ -56160,12 +56183,13 @@
 /obj/structure/catwalk,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
-	id_tag = "bridgeoutlock";
+	id_tag = "bridgelock";
 	name = "Bridge Outer Lockdown"
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
-	req_one_access = null
+	req_one_access = null;
+	req_access = list(106)
 	},
 /obj/structure/cable{
 	d1 = 4;
@@ -56487,7 +56511,8 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/almayer/plating,
 /area/almayer/living/pilotbunks)
@@ -56788,8 +56813,6 @@
 /obj/structure/closet/crate/medical,
 /obj/item/roller,
 /obj/item/bodybag/cryobag,
-/obj/effect/spawner/random/technology_scanner,
-/obj/effect/spawner/random/technology_scanner,
 /obj/item/storage/firstaid/regular,
 /turf/open/floor/kutjevo/colors/red/tile,
 /area/nerva/first/hanger/port)
@@ -57133,7 +57156,8 @@
 	icon_state = "4-8"
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Port Gun Bay"
+	name = "Port Gun Bay";
+	req_one_access = list(102)
 	},
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
@@ -57205,7 +57229,8 @@
 "xtT" = (
 /obj/structure/machinery/door/firedoor/border_only,
 /obj/structure/machinery/door/airlock/almayer/command{
-	dir = 2
+	dir = 2;
+	req_access = list(106)
 	},
 /turf/open/floor/kutjevo/fake_wood,
 /area/nerva/second/cic)
@@ -57497,7 +57522,8 @@
 /area/nerva/first/hallway)
 "xzh" = (
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
-	name = "Command Substation"
+	name = "Command Substation";
+	req_one_access = list(102)
 	},
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -57659,7 +57685,8 @@
 	dir = 4
 	},
 /obj/structure/machinery/door/airlock/engineering/colony{
-	name = "Abandoned Warehouse"
+	name = "Abandoned Warehouse";
+	req_one_access = list(102)
 	},
 /obj/structure/cable{
 	d1 = 4;
@@ -57814,7 +57841,6 @@
 /turf/open/floor/almayer/plating,
 /area/nerva/second/engineering)
 "xCI" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer,
 /obj/structure/surface/table/reinforced,
 /obj/structure/machinery/door/firedoor/border_only,
 /turf/open/floor/strata/multi_tiles/southwest,
@@ -58049,12 +58075,13 @@
 /obj/structure/catwalk,
 /obj/structure/machinery/door/poddoor/almayer/open{
 	dir = 4;
-	id_tag = "bridgeoutlock";
+	id_tag = "bridgelock";
 	name = "Bridge Outer Lockdown"
 	},
 /obj/structure/machinery/door/airlock/almayer/maint/reinforced{
 	name = "Bridge Maintenance";
-	req_one_access = null
+	req_one_access = null;
+	req_access = list(106)
 	},
 /obj/structure/cable{
 	d1 = 4;
@@ -58763,12 +58790,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/nerva/first/maint)
-"xYR" = (
-/obj/structure/machinery/door/poddoor/shutters/almayer,
-/obj/structure/window/framed/almayer/white,
-/obj/structure/machinery/door/firedoor/border_only,
-/turf/open/floor/plating,
-/area/nerva/second/medical)
 "xZc" = (
 /obj/structure/pipes/valve{
 	dir = 4
@@ -64457,7 +64478,7 @@ fEI
 iyc
 hHN
 ntz
-bUH
+nrG
 nrG
 lEf
 nrG
@@ -69575,7 +69596,7 @@ mZx
 rGX
 mZx
 ijq
-kmw
+apg
 lmd
 hHN
 hHN
@@ -94125,7 +94146,7 @@ eUB
 mGI
 xYC
 hOJ
-csW
+mAM
 eUB
 eUB
 eUB
@@ -95126,7 +95147,7 @@ aUb
 rss
 sOc
 uVA
-ntc
+hAp
 prO
 qcJ
 fau
@@ -95140,7 +95161,7 @@ ssV
 fau
 udo
 fau
-fDY
+tHU
 aiw
 paV
 sJH
@@ -95324,7 +95345,7 @@ uoC
 vcU
 bWZ
 aEW
-ntc
+hAp
 prO
 qcJ
 fau
@@ -95338,7 +95359,7 @@ xBO
 fau
 udo
 fau
-fDY
+tHU
 vdA
 fXS
 vdA
@@ -95715,7 +95736,7 @@ bWZ
 hAp
 svL
 bWZ
-ntc
+hAp
 iIq
 bWZ
 lBy
@@ -95932,7 +95953,7 @@ gFo
 dOZ
 dIM
 jOf
-fDY
+tHU
 vdA
 wsr
 vdA
@@ -96130,7 +96151,7 @@ yjk
 uVi
 lXq
 jHv
-fDY
+tHU
 cYF
 mYf
 vdA
@@ -96309,7 +96330,7 @@ dou
 hAp
 ijf
 dou
-ntc
+hAp
 rpa
 eZq
 kdY
@@ -98094,7 +98115,7 @@ gOI
 gAG
 uml
 bWZ
-bWZ
+bUH
 xkW
 tvr
 jHl
@@ -98294,7 +98315,7 @@ vEz
 bWZ
 bWZ
 qAH
-xYR
+hAp
 ska
 fau
 dYI
@@ -98492,7 +98513,7 @@ hxa
 bWZ
 bWZ
 oNu
-xYR
+hAp
 ska
 lqS
 mjT
@@ -99284,7 +99305,7 @@ jcw
 sVv
 bWZ
 obi
-ntc
+hAp
 rpF
 qzK
 dYI
@@ -99482,7 +99503,7 @@ dHj
 jFK
 bWZ
 ezz
-ntc
+hAp
 ska
 fau
 lIQ
@@ -100873,7 +100894,7 @@ tuW
 fau
 mjT
 mjT
-hFj
+xCI
 mjT
 mjT
 dYI
@@ -106009,7 +106030,7 @@ eUB
 bYH
 nrx
 ahi
-hYG
+oPl
 xMQ
 dLx
 ube
@@ -106623,7 +106644,7 @@ tLj
 anV
 tLj
 pmj
-nyd
+htM
 tLj
 tLj
 saT
