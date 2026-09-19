@@ -1,5 +1,5 @@
 /mob/living/carbon/human/movement_delay()
-	speed = 0.7
+	speed = 0.8
 
 	. = ..()
 
